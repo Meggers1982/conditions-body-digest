@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Mental Health Research Digest</title>
+<title>Conditions &amp; Body Research Digest</title>
 <style>
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -129,7 +129,7 @@
   .badge-gb    { background: #fef3c7; color: #92400e; }
   .badge-media { background: #dcfce7; color: #166534; }
 
-  /* NS Score badge */
+  /* Relevance Score badge */
   .score-badge {
     display: inline-flex;
     align-items: center;
@@ -173,7 +173,7 @@
     margin-bottom: 10px;
   }
 
-  /* ── NS Pitch ── */
+  /* ── Pitch angles ── */
   .pitch-toggle {
     display: flex;
     align-items: center;
@@ -193,16 +193,39 @@
   .pitch-toggle:hover { background: #dbeafe; }
   .pitch-toggle .arrow { transition: transform 0.2s; font-style: normal; }
   .pitch-toggle.open .arrow { transform: rotate(90deg); }
+  .pitch-toggle.open {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
 
   .pitch-body {
     display: none;
-    padding: 16px 24px 20px;
+    padding: 0 24px 20px;
     background: #f0f7ff;
     border-top: 1px solid #dbeafe;
     font-size: 0.88rem;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
   }
   .pitch-body.open { display: block; }
-  .pitch-field { margin-bottom: 12px; }
+
+  .pitch-angle-block {
+    border: 1px solid #dbeafe;
+    border-radius: 8px;
+    padding: 14px 16px;
+    margin-top: 14px;
+    background: white;
+  }
+  .pitch-angle-pub {
+    font-size: 0.72rem;
+    font-family: sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #2563eb;
+    margin-bottom: 8px;
+  }
+  .pitch-field { margin-bottom: 10px; }
   .pitch-field label {
     display: block;
     font-size: 0.72rem;
@@ -210,7 +233,7 @@
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.05em;
-    color: #2563eb;
+    color: #6b7280;
     margin-bottom: 3px;
   }
   .pitch-field p { color: #1e3a6e; margin: 0; line-height: 1.5; }
@@ -295,8 +318,9 @@
 <header>
   <div class="header-row">
     <div>
-      <h1>📰 Mental Health &amp; Brain Science Research Digest</h1>
-      <div class="meta" id="last-updated">Loading…</div>
+      <h1>Conditions &amp; Body Research Digest</h1>
+      <div class="meta">Daily research discovery for women's health and lifestyle journalists</div>
+      <div class="meta" id="last-updated"></div>
     </div>
     <div class="stats-chips" id="stats-chips"></div>
   </div>
@@ -314,6 +338,7 @@
     <option value="Counterintuitive">Counterintuitive</option>
     <option value="Overturns">Overturns prior research</option>
     <option value="First-in-class">First-in-class</option>
+    <option value="Relevant women">Relevant women's health</option>
   </select>
 
   <select id="filter-status" onchange="applyFilters()">
@@ -339,7 +364,7 @@
   </select>
 
   <select id="sort-by" onchange="applyFilters()">
-    <option value="score" selected>Sort: NS score</option>
+    <option value="score" selected>Sort: Relevance score</option>
     <option value="date">Sort: newest first</option>
   </select>
 
@@ -354,7 +379,7 @@
 
 <script>
 let ALL_STUDIES = [];
-const STATUS_KEY = "mh-digest-status";
+const STATUS_KEY = "cb-digest-status";
 
 // ── Load data ──────────────────────────────────────────────────────────────
 async function init() {
@@ -363,11 +388,14 @@ async function init() {
     if (!res.ok) throw new Error("No data yet");
     const data = await res.json();
 
-    document.getElementById("last-updated").textContent =
-      "Last updated: " + new Date(data.last_updated).toLocaleString() +
-      " · " + data.total_studies + " total studies";
+    const lastUpdatedEl = document.getElementById("last-updated");
+    if (data.last_updated) {
+      lastUpdatedEl.textContent =
+        "Last updated: " + new Date(data.last_updated).toLocaleString() +
+        " · " + data.total_studies + " total studies";
+    }
 
-    // Build category list
+    // Build category list dynamically from data
     const cats = [...new Set(data.studies.map(s => s.category))].sort();
     const sel = document.getElementById("filter-category");
     cats.forEach(c => {
@@ -389,8 +417,8 @@ async function init() {
 // ── Stats ──────────────────────────────────────────────────────────────────
 function renderStats(data) {
   const statuses = getStatuses();
-  const newCount = data.studies.filter(s => (statuses[s.pmid] || "new") === "new").length;
-  const savedCount = data.studies.filter(s => (statuses[s.pmid] || "new") === "saved").length;
+  const newCount    = data.studies.filter(s => (statuses[s.pmid] || "new") === "new").length;
+  const savedCount  = data.studies.filter(s => (statuses[s.pmid] || "new") === "saved").length;
   const pitchedCount = data.studies.filter(s => (statuses[s.pmid] || "new") === "pitched").length;
 
   const chips = [
@@ -449,14 +477,16 @@ function applyFilters() {
     if (statusF && status !== statusF) return false;
     if (category && s.category !== category) return false;
     if (gbType && !(s.groundbreaking || "").includes(gbType)) return false;
-    if (minScore > 0 && (s.ns_score || 0) < minScore) return false;
+    if (minScore > 0 && (s.relevance_score || 0) < minScore) return false;
     if (cutoff) {
       const rd = new Date(s.run_date);
       if (rd < cutoff) return false;
     }
     if (query) {
-      const text = [s.headline, s.summary, s.category, s.journal,
-                    s.ns_pitch?.pitch_angle, s.ns_pitch?.hook].join(" ").toLowerCase();
+      const pitchText = (s.pitch_angles || [])
+        .map(p => [p.pitch_angle, p.hook, p.headline, p.publication_type].join(" "))
+        .join(" ");
+      const text = [s.headline, s.summary, s.category, s.journal, pitchText].join(" ").toLowerCase();
       if (!text.includes(query)) return false;
     }
     return true;
@@ -464,7 +494,7 @@ function applyFilters() {
 
   // Sort
   if (sortBy === "score") {
-    filtered.sort((a, b) => (b.ns_score || 0) - (a.ns_score || 0));
+    filtered.sort((a, b) => (b.relevance_score || 0) - (a.relevance_score || 0));
   } else {
     filtered.sort((a, b) => (b.run_date || "").localeCompare(a.run_date || ""));
   }
@@ -490,20 +520,45 @@ function clearFilters() {
 }
 
 function scoreBadge(s) {
-  const score = s.ns_score;
+  const score = s.relevance_score;
   if (!score && score !== 0) return "";
   const cls   = score >= 8 ? "score-high" : score >= 6 ? "score-mid" : "score-low";
   const label = score >= 8 ? "Top pick" : score >= 6 ? "Strong" : "Lower fit";
-  const title = esc(s.ns_score_reason || "");
-  return `<span class="score-badge ${cls}" title="${title}"><span class="score-dot"></span>${score}/10 · ${label}</span>`;
+  const title = esc(s.relevance_score_reason || "");
+  return `<span class="score-badge ${cls}" title="${title}"><span class="score-dot"></span>Relevance ${score}/10 · ${label}</span>`;
+}
+
+// ── Pitch angles section ──────────────────────────────────────────────────
+function renderPitchAngles(s) {
+  const angles = s.pitch_angles;
+  if (!angles || angles.length === 0) return "";
+
+  const blocks = angles.map((p, i) => `
+    <div class="pitch-angle-block">
+      <div class="pitch-angle-pub">${esc(p.publication_type || "")}</div>
+      ${p.headline ? `<div class="pitch-field"><label>Headline</label><p class="pitch-headline">${esc(p.headline)}</p></div>` : ""}
+      ${p.hook ? `<div class="pitch-field"><label>Opening hook</label><p>${esc(p.hook)}</p></div>` : ""}
+      ${p.why_it_fits ? `<div class="pitch-field"><label>Why it fits</label><p>${esc(p.why_it_fits)}</p></div>` : ""}
+      ${p.pitch_angle ? `<div class="pitch-field"><label>Pitch angle</label><p>${esc(p.pitch_angle)}</p></div>` : ""}
+      ${p.caveats_to_flag ? `<div class="pitch-field"><label>Caveats to flag</label><p>${esc(p.caveats_to_flag)}</p></div>` : ""}
+    </div>
+  `).join("");
+
+  const count = angles.length;
+  return `
+    <div class="pitch-toggle" onclick="togglePitch(this)" data-pmid="${s.pmid}">
+      <span class="arrow">▶</span> Pitch angles (${count})
+    </div>
+    <div class="pitch-body" id="pitch-${s.pmid}">
+      ${blocks}
+    </div>
+  `;
 }
 
 // ── Card rendering ────────────────────────────────────────────────────────
 function renderCard(s) {
   const statuses = getStatuses();
   const status = statuses[s.pmid] || "new";
-  const pitch = s.ns_pitch || {};
-  const hasPitch = pitch.headline || pitch.hook || pitch.pitch_angle;
 
   const statusBtns = ["new","saved","pitched","passed"].map(st =>
     `<button class="status-btn${status === st ? ` active-${st}` : ''}"
@@ -514,19 +569,6 @@ function renderCard(s) {
   const factCheckNote = s.fact_check_note
     ? `<div class="fact-check-note">⚠️ <strong>Fact-check note:</strong> ${esc(s.fact_check_note)}</div>`
     : "";
-
-  const pitchSection = hasPitch ? `
-    <div class="pitch-toggle" onclick="togglePitch(this)" data-pmid="${s.pmid}">
-      <span class="arrow">▶</span> 📰 New Scientist Mind pitch
-    </div>
-    <div class="pitch-body" id="pitch-${s.pmid}">
-      ${pitch.headline ? `<div class="pitch-field"><label>Suggested headline</label><p class="pitch-headline">${esc(pitch.headline)}</p></div>` : ""}
-      ${pitch.hook ? `<div class="pitch-field"><label>Opening hook</label><p>${esc(pitch.hook)}</p></div>` : ""}
-      ${pitch.why_it_fits ? `<div class="pitch-field"><label>Why it fits Mind</label><p>${esc(pitch.why_it_fits)}</p></div>` : ""}
-      ${pitch.pitch_angle ? `<div class="pitch-field"><label>Pitch angle</label><p>${esc(pitch.pitch_angle)}</p></div>` : ""}
-      ${pitch.caveats_to_flag ? `<div class="pitch-field"><label>Caveats to flag</label><p>${esc(pitch.caveats_to_flag)}</p></div>` : ""}
-    </div>
-  ` : "";
 
   return `
 <div class="card status-${status}" data-pmid="${s.pmid}">
@@ -548,7 +590,7 @@ function renderCard(s) {
     ${s.caveats && s.caveats !== "None identified" ? `<div class="caveats">⚠ ${esc(s.caveats)}</div>` : ""}
     ${factCheckNote}
   </div>
-  ${pitchSection}
+  ${renderPitchAngles(s)}
   <div class="card-footer">
     <div class="status-selector">${statusBtns}</div>
     <div style="display:flex;align-items:center;gap:10px;">

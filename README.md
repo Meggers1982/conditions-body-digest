@@ -1,6 +1,6 @@
-# Mental Health & Brain Science Research Digest
+# Conditions & Body Research Digest
 
-A GitHub Actions workflow that searches a curated list of mental health and brain science journals on PubMed, filters out widely covered stories, runs two Claude passes (writer + fact-checker/editor), and publishes results to a GitHub Pages dashboard — **https://meggers1982.github.io/new-scientist-story-ideas/**
+A GitHub Actions workflow that searches curated journals in cancer, mental health, dermatology, allergy & immunology, and women's reproductive health on PubMed, filters out widely covered stories, runs a single Claude pass to write and pitch each study, and publishes results to a GitHub Pages dashboard.
 
 ---
 
@@ -10,33 +10,31 @@ A GitHub Actions workflow that searches a curated list of mental health and brai
 2. **Title screening** — Prioritises studies with signals of novelty (first-in-class, counterintuitive, overturns prior research). Excludes animal-only studies.
 3. **SERPAPI media filter** — Checks Google News and skips any study with 3+ news results
 4. **Abstract fetch** — Retrieves full abstracts for shortlisted studies
-5. **Claude pass 1 (writer)** — Writes structured JSON entries: headline, summary, why it matters, caveats
-6. **Claude pass 2 (editor/fact-checker)** — Verifies each entry against the abstract, corrects errors, adds a New Scientist Mind pitch angle
-7. **Artifact upload** — Saves JSON results as a GitHub Actions artifact
-8. **Deploy job** — Downloads all 13 job artifacts, merges and deduplicates by PMID, commits `data/results.json`, serves via GitHub Pages
-9. **Email notification** — Short email with study count and link to dashboard
+5. **Claude pass** — Writes structured JSON entries: headline, summary, why it matters, caveats, fact-check note, and pitch angles per publication type
+6. **Artifact upload** — Saves JSON results as a GitHub Actions artifact
+7. **Deploy job** — Downloads all job artifacts, merges and deduplicates by PMID, commits `data/results.json`, serves via GitHub Pages
+8. **Email notification** — Short email with study count and link to dashboard
 
 ---
 
 ## Dashboard
 
-**URL:** https://meggers1982.github.io/new-scientist-story-ideas/
-
 Features:
 - Card view per study with headline, summary, caveats, fact-check notes
-- Expandable New Scientist Mind pitch section per study
+- Expandable pitch angles section showing one block per target publication type
 - Filter by category, groundbreaking type, status, and date range
 - Search across all study text and pitches
 - Status tracking (New / Saved / Pitched / Passed) saved to localStorage
 - Deduplication across runs — same PMID won't appear twice
+- Relevance score (1–10) tuned for women's lifestyle journalism
 
 ---
 
 ## Schedule
 
-Runs automatically every **morning at 7:00 AM ET**. All 13 jobs run in parallel; the deploy job merges results and publishes the dashboard once all jobs complete.
+Runs automatically every **morning at 7:00 AM ET**. All jobs run in parallel; the deploy job merges results and publishes the dashboard once all jobs complete.
 
-Can also be triggered manually via **Actions → Mental Health Research Digest → Run workflow**.
+Can also be triggered manually via **Actions → Conditions & Body Research Digest → Run workflow**.
 
 ---
 
@@ -44,26 +42,22 @@ Can also be triggered manually via **Actions → Mental Health Research Digest �
 
 | Category | Journals | Jobs |
 |---|---|---|
-| Psychology | 135 | 3 (chunks 1–3) |
-| Psychiatry | 111 | 2 (chunks 1–2) |
-| Behavioral Sciences | 88 | 2 (chunks 1–2) |
-| Brain | 23 | 1 |
-| Neurology | 21 | 1 |
-| Psychophysiology | 22 | 1 |
-| Psychopharmacology | 14 | 1 |
-| Social Sciences | 7 | 1 |
-| Substance-Related Disorders | 4 | 1 |
+| Brain & Mental Health | 422 | 3 (chunks 1–3) |
+| Cancer & Oncology | 164 | 2 (chunks 1–2) |
+| Allergy & Immunology | 135 | 2 (chunks 1–2) |
+| Womens Health & Reproduction | 98 | 1 |
+| Dermatology | 48 | 1 |
 
-Large categories are split into chunks so each job processes ~45 journals, keeping run times under 20 minutes.
+Large categories are split into chunks so each job processes a manageable number of journals, keeping run times under 20 minutes.
 
 ---
 
 ## Manual trigger
 
-Go to **Actions → Mental Health Research Digest → Run workflow**.
+Go to **Actions → Conditions & Body Research Digest → Run workflow**.
 
-- Leave **category** blank to run all 13 jobs
-- Enter an exact category name (e.g. `Brain`) to run just that category
+- Leave **category** blank to run all jobs
+- Enter an exact category name (e.g. `Dermatology`) to run just that category
 
 ---
 
@@ -85,6 +79,7 @@ Add these in **Settings → Secrets and variables → Actions**:
 | `ANTHROPIC_API_KEY` | Anthropic API key (`sk-ant-...`) |
 | `SERPAPI_KEY` | SerpAPI key for Google News filtering |
 | `RESEND_API_KEY` | Resend API key (`re_...`) for email delivery |
+| `DASHBOARD_URL` | Full URL of the GitHub Pages dashboard |
 
 ---
 
@@ -93,14 +88,19 @@ Add these in **Settings → Secrets and variables → Actions**:
 ```
 .github/
   workflows/
-    mh-digest.yml           # GitHub Actions workflow (matrix + deploy)
+    conditions-body-digest.yml   # GitHub Actions workflow (matrix + deploy)
 scripts/
-  mh_digest.py              # Main pipeline: PubMed → Claude → JSON artifact
-  merge_results.py          # Deploy job: merges artifacts → data/results.json
+  conditions_body_digest.py      # Main pipeline: PubMed → Claude → JSON artifact
+  extract_journals.py            # One-time script to extract CSVs from the Excel workbook
+  merge_results.py               # Deploy job: merges artifacts → data/results.json
 data/
-  Mental Health - Brain Mental Health.csv   # Curated journal list with ISSNs
-  results.json              # Auto-generated by deploy job; read by dashboard
-index.html                  # GitHub Pages dashboard
+  Cancer & Oncology.csv
+  Brain & Mental Health.csv
+  Dermatology.csv
+  Allergy & Immunology.csv
+  Womens Health & Reproduction.csv
+  results.json                   # Auto-generated by deploy job; read by dashboard
+index.html                       # GitHub Pages dashboard
 requirements.txt
 ```
 
@@ -112,11 +112,12 @@ Each study card on the dashboard shows:
 
 - **Headline** — plain-language present-tense summary
 - **Category & journal** — source metadata
-- **Groundbreaking type** — Counterintuitive / Overturns prior research / First-in-class
+- **Groundbreaking type** — Counterintuitive / Overturns prior research / First-in-class / Relevant women's health finding
 - **Media coverage** — SERPAPI verification status
+- **Relevance score** — 1–10, tuned for women's lifestyle journalism
 - **The study** — what was done, who participated, key finding
-- **Why it matters** — real-world significance
+- **Why it matters** — real-world significance for women specifically
 - **Caveats** — limitations flagged automatically
-- **⚠ Fact-check note** — corrections made by the editor pass
-- **📰 New Scientist Mind pitch** — suggested headline, opening hook, pitch angle, caveats to flag
+- **Fact-check note** — corrections made during the Claude pass
+- **Pitch angles** — one expandable block per target publication type (Women's Health Magazine, Health, Self, Allure, etc.)
 - **Status** — New / Saved / Pitched / Passed (tracked in your browser)

@@ -3,7 +3,7 @@
 Merge all per-job result artifacts into data/results.json.
 Run by the deploy job after all matrix jobs complete.
 
-Reads from /tmp/artifacts/results-*/results.json
+Reads from /tmp/artifacts/cb-*/results.json
 Writes to data/results.json (appends new studies, deduplicates by PMID)
 """
 
@@ -16,24 +16,21 @@ from pathlib import Path
 RESEND_KEY    = os.environ.get("RESEND_API_KEY", "")
 FROM_EMAIL    = os.environ.get("FROM_EMAIL", "onboarding@resend.dev")
 RECIPIENT     = os.environ.get("RECIPIENT_EMAIL", "REDACTED@example.com")
-DASHBOARD_URL = os.environ.get("DASHBOARD_URL", "https://meggers1982.github.io/new-scientist-story-ideas/")
+DASHBOARD_URL = os.environ.get("DASHBOARD_URL", "")
 
 ARTIFACTS_DIR = Path("/tmp/artifacts")
 OUTPUT_PATH   = Path("data/results.json")
 
 def main():
-    # Load existing results
     if OUTPUT_PATH.exists():
         existing = json.loads(OUTPUT_PATH.read_text())
     else:
         existing = {"last_updated": "", "total_studies": 0, "studies": []}
 
-    # Index existing studies by PMID
     existing_pmids = {s["pmid"]: i for i, s in enumerate(existing["studies"])}
     studies = existing["studies"]
     new_count = 0
 
-    # Find all artifact result files
     artifact_files = sorted(ARTIFACTS_DIR.rglob("results.json"))
     print(f"Found {len(artifact_files)} artifact file(s)")
 
@@ -53,14 +50,12 @@ def main():
             if not pmid:
                 continue
 
-            # Enrich with run metadata
             study["run_date"]  = run_date
             study["category"]  = category
             study["chunk"]     = chunk
-            study.setdefault("status", "new")  # new | pitched | passed | saved
+            study.setdefault("status", "new")
 
             if pmid in existing_pmids:
-                # Update run_date if this is a fresher result, preserve user status
                 idx = existing_pmids[pmid]
                 existing_status = studies[idx].get("status", "new")
                 studies[idx] = study
@@ -70,7 +65,6 @@ def main():
                 existing_pmids[pmid] = len(studies) - 1
                 new_count += 1
 
-    # Sort by run_date desc, then pubdate desc
     studies.sort(key=lambda s: (s.get("run_date", ""), s.get("pubdate", "")), reverse=True)
 
     output = {
@@ -93,11 +87,11 @@ def send_summary_email(new_count: int, total: int, timestamp: str):
         return
 
     run_date = datetime.now().strftime("%b %d, %Y")
-    subject  = f"Research digest ready — {new_count} new {'study' if new_count == 1 else 'studies'} · {run_date}"
+    subject  = f"Conditions & Body Research Digest — {run_date} | {new_count} {'Study' if new_count == 1 else 'Studies'}"
     html = f"""<!DOCTYPE html>
 <html>
 <body style="font-family:Georgia,serif;max-width:500px;margin:auto;padding:24px;color:#222;">
-<h2 style="color:#1a1a2e;">Mental Health Research Digest</h2>
+<h2 style="color:#1a1a2e;">Conditions &amp; Body Research Digest</h2>
 <p>Today's digest is ready. <strong>{new_count} new {'study' if new_count == 1 else 'studies'}</strong> added
 across all categories ({total} total in dashboard).</p>
 <p>
@@ -106,7 +100,7 @@ across all categories ({total} total in dashboard).</p>
   View Dashboard →</a>
 </p>
 <p style="font-size:0.85em;color:#888;margin-top:2em;">
-  Mental Health &amp; Brain Science Research Digest · PubMed + Claude + SERPAPI
+  Conditions &amp; Body Research Digest · PubMed + Claude + SERPAPI
 </p>
 </body>
 </html>"""
