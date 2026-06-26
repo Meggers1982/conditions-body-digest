@@ -1,172 +1,902 @@
 {
-  "last_updated": "2026-06-25T14:10:04.776261+00:00",
-  "total_studies": 27,
-  "new_this_run": 5,
+  "last_updated": "2026-06-26T13:09:40.009379+00:00",
+  "total_studies": 36,
+  "new_this_run": 9,
   "studies": [
     {
+      "pmid": "42340322",
+      "headline": "A three-dose radiosurgery approach offers new hope for brain metastases that stopped responding to treatment",
+      "journal": "Neurosurgery",
+      "pubdate": "2026 Jun 26",
+      "doi": "10.1227/neu.0000000000004142",
+      "groundbreaking": "First-in-class human study / Counterintuitive finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers at Sunnybrook Odette Cancer Centre in Toronto treated 50 patients (89 brain metastases) with a novel three-fraction frameless stereotactic radiosurgery (SRS) regimen \u2014 the first reported use of this adaptive approach as salvage therapy for brain metastases that had already failed a prior course of radiosurgery. The patient population was predominantly breast cancer (34.8%) and lung cancer (41.6%) patients. At 12 months, radiation necrosis \u2014 a serious treatment side effect \u2014 occurred in 12.4% of lesions, and local failure was 28%; notably, tumor volume shrank between fractions in the majority of cases, allowing treatment to adapt in real time.",
+      "why_it_matters": "Breast cancer is the leading cause of brain metastases in women, and treatment options after failed radiosurgery are extremely limited \u2014 this first report of a staged adaptive approach suggests a new salvage strategy may be feasible with a manageable side effect profile.",
+      "caveats": "small sample (N=50 patients), single-center, retrospective institutional database, short median follow-up (9.6 months), no randomized comparison group, observational design",
+      "fact_check_note": "Abstract states breast cancer comprised 34.8% and lung cancer 41.6% of the patient population \u2014 these figures are accurately represented. Radiation necrosis rates at 6, 12, and 18 months are reported from the abstract directly. No sex breakdown of the full cohort is provided beyond cancer type distribution.",
+      "excluded": false,
+      "relevance_score": 6,
+      "relevance_score_reason": "Breast cancer is the largest single patient group and a major women's health concern, and the first-in-class salvage approach is genuinely newsworthy, but the small single-center retrospective design and niche clinical audience limit broad lifestyle appeal.",
+      "pitch_angles": [
+        {
+          "publication_type": "Health / Women's Health Magazine",
+          "headline": "When Brain Tumors Stop Responding to Radiation, a New Three-Step Approach May Buy More Time",
+          "hook": "For the first time, doctors used a pulsed, adaptive radiosurgery approach to successfully retreat brain metastases that had already failed standard radiation \u2014 and breast cancer patients made up the largest group.",
+          "why_it_fits": "Readers facing metastatic breast cancer or those who follow oncology advances want to know about emerging options, even early-stage ones \u2014 and the connection to breast cancer gives this study direct women's health relevance.",
+          "pitch_angle": "When brain metastases stop responding to radiosurgery, options are few and prognosis is grim. A Toronto cancer center is now reporting the first use of a three-pulse adaptive approach \u2014 adjusting each radiation dose based on how the tumor responded to the last \u2014 with promising early results. Breast cancer patients made up the largest share of those treated. While the study is small and early, it points toward a potential new path for a group of patients who currently have very few.",
+          "caveats_to_flag": "Single-center retrospective study of 50 patients with under 10 months median follow-up \u2014 no control group, and long-term outcomes remain unknown. Should not be framed as a proven treatment advance."
+        }
+      ],
+      "run_date": "2026-06-26",
+      "category": "Brain & Mental Health",
+      "chunk": "1/3",
+      "status": "new"
+    },
+    {
       "pmid": "42190397",
-      "headline": "A specific gene mutation combo in bile duct cancer may predict who won't benefit from immunotherapy",
+      "headline": "Two gene mutations together predict that standard immunotherapy may actually make bile duct cancer worse, not better",
       "journal": "European Journal of Cancer",
       "pubdate": "2026 Jun 25",
       "doi": "10.1016/j.ejca.2026.116826",
-      "groundbreaking": "Relevant women's health finding / First-in-class human study",
+      "groundbreaking": "Counterintuitive finding / Relevant women's health finding",
       "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers analyzed genomic and survival data from 1,875 biliary tract cancer (BTC) patients in a Japanese national cancer genomics database to identify mutations linked to worse outcomes on standard chemotherapy versus immunotherapy-chemotherapy combinations. They found that patients whose tumors carried both TP53 and KRAS mutations had the poorest survival outcomes overall, with a median overall survival of 11.8 months on immunotherapy-plus-chemo versus 15.9 months on chemotherapy alone \u2014 suggesting this double-mutant group may not benefit from, and could potentially do worse with, the addition of immunotherapy. The study suggests co-mutation status could serve as a molecular marker to guide treatment decisions in advanced BTC.",
-      "why_it_matters": "Biliary tract cancers, which include gallbladder cancer, affect women at higher rates than men; identifying which patients are unlikely to respond to immunotherapy could help spare them ineffective treatment and guide more personalized care discussions.",
-      "caveats": "observational design, single-center database (Japanese C-CAT), no sex-disaggregated data, industry funding [multiple pharmaceutical companies via author honoraria and research grants], interaction test non-significant (P=0.1655)",
-      "fact_check_note": "Abstract confirms N=1875 with OS data; double-mutant median OS figures (11.8 vs 15.9 months) and HR (1.47, 95% CI 0.99\u20132.18) are accurately reported. Interaction P-value of 0.1655 noted \u2014 the difference between treatment groups in double-mutant patients did not reach statistical significance, which is a key limitation accurately flagged.",
+      "summary": "Researchers analysed genomic and survival data from 1,875 patients with biliary tract cancer (BTC, which includes cholangiocarcinoma and gallbladder cancer) treated with chemotherapy alone or chemotherapy plus an immune checkpoint inhibitor, using Japan's national cancer genomics database (C-CAT). They found that patients whose tumours carried both TP53 and KRAS mutations \u2014 roughly 10% of the cohort \u2014 had the worst survival outcomes of any subgroup, and counterintuitively, this double-mutant group appeared to do numerically worse when immunotherapy was added (median OS 11.8 months with immunotherapy vs. 15.9 months with chemotherapy alone), though the interaction did not reach statistical significance. The findings suggest that standard genomic mutations may help identify patients unlikely to benefit from \u2014 or potentially harmed by \u2014 adding immunotherapy to their treatment.",
+      "why_it_matters": "Biliary tract cancers, particularly gallbladder cancer, are diagnosed in women at higher rates than men, and immunotherapy has become a standard component of first-line treatment \u2014 making evidence that a genetic subgroup may not benefit, and could fare worse, highly relevant to women navigating this diagnosis. However, the interaction finding was not statistically significant and should be interpreted cautiously.",
+      "caveats": "observational design, no sex-disaggregated data, retrospective database analysis, interaction test non-significant (P=0.17), single-country database (Japanese population), multiple industry honoraria disclosures among authors",
+      "fact_check_note": "Abstract confirmed: N=1,875 total BTC patients; TP53/KRAS double-mutant OS on GC+ICI was 11.8 months vs. 15.9 months on GC alone (HR 1.47, 95% CI 0.99\u20132.18), interaction P=0.1655 \u2014 not statistically significant. This is a numerical trend only. No sex-disaggregated results reported. Authors declare multiple honoraria from pharmaceutical companies including immunotherapy manufacturers (BMS, MSD, Ono). Gallbladder cancer female predominance noted in context but not stated in abstract.",
       "excluded": false,
-      "relevance_score": 5,
-      "relevance_score_reason": "Biliary tract cancer disproportionately affects women and the finding has a clear clinical-relevance hook, but low lifestyle journalism appeal, no sex-disaggregated data, and a non-significant key result limit its fit for mainstream women's wellness outlets.",
+      "relevance_score": 6,
+      "relevance_score_reason": "A counterintuitive large-cohort finding about immunotherapy potentially not helping \u2014 and numerically harming \u2014 a genomic subgroup of a cancer more common in women is a meaningful pitch, but the non-significant interaction test, observational design, lack of sex-disaggregated data, and Japanese-only database are substantial limitations that reduce confidence and lifestyle relevance.",
       "pitch_angles": [
         {
-          "publication_type": "Health",
-          "headline": "Your Tumor's DNA May Predict Whether Immunotherapy Will Actually Help \u2014 A Large Study Shows Who Might Be Left Out",
-          "hook": "For people with advanced bile duct cancer, a specific pair of genetic mutations may signal that adding immunotherapy to chemo could do more harm than good.",
-          "why_it_fits": "Health readers skew toward medically engaged audiences who follow cancer treatment advances and personalized medicine stories.",
-          "pitch_angle": "A study of nearly 1,900 bile duct cancer patients found that those whose tumors carried both TP53 and KRAS mutations had worse survival when treated with immunotherapy plus chemotherapy compared to chemotherapy alone \u2014 a counterintuitive finding in an era when immunotherapy is increasingly seen as a universal good. Biliary tract cancers, including gallbladder cancer, are diagnosed in women more often than men, making this a relevant women's health story. Early evidence suggests genomic testing at diagnosis could help flag patients who need a different treatment path entirely.",
-          "caveats_to_flag": "The interaction between mutation status and treatment type did not reach statistical significance; the database is Japanese and may not generalize globally; no breakdown by sex was reported; multiple authors disclosed pharmaceutical industry ties."
+          "publication_type": "Health / General women's wellness",
+          "headline": "For Some Bile Duct Cancer Patients, Adding Immunotherapy May Not Help \u2014 New Genomic Data Points to Why",
+          "hook": "Immunotherapy has transformed cancer treatment \u2014 but a large genomic study suggests that patients with two specific gene mutations in their bile duct tumours may not benefit from it, and could potentially fare worse.",
+          "why_it_fits": "Health readers following oncology news are primed for nuanced stories about precision medicine and 'when more treatment isn't better' \u2014 a counterintuitive angle with real patient implications.",
+          "pitch_angle": "Doctors now routinely add immune checkpoint inhibitors to chemotherapy for biliary tract cancers \u2014 a group that includes bile duct and gallbladder cancers, which are diagnosed in women more often than men. But a new analysis of nearly 1,900 patients from Japan's national cancer genomics database found that those whose tumours carried both a TP53 and KRAS mutation appeared to survive longer on chemotherapy alone than on chemotherapy plus immunotherapy. The finding didn't reach statistical significance, so it's not practice-changing yet \u2014 but it raises urgent questions about whether genomic testing could one day help personalise immunotherapy decisions for this underreported cancer.",
+          "caveats_to_flag": "The key survival difference between treatment groups in the double-mutant subgroup was not statistically significant (P=0.17); this is a retrospective observational study from a single-country database; results cannot be assumed to apply to non-Japanese populations; no sex-disaggregated data were reported; several authors disclosed honoraria from immunotherapy manufacturers."
         }
       ],
-      "run_date": "2026-06-25",
+      "run_date": "2026-06-26",
       "category": "Cancer & Oncology",
       "chunk": "2/2",
       "status": "new"
     },
     {
       "pmid": "42208277",
-      "headline": "A nanoparticle version of a chemo drug shows early promise in platinum-resistant ovarian cancer with fewer side effects",
+      "headline": "A nanoparticle-wrapped chemo drug shows early promise in platinum-resistant ovarian cancer with fewer toxic side effects",
       "journal": "European Journal of Cancer",
       "pubdate": "2026 Jun 25",
       "doi": "10.1016/j.ejca.2026.116821",
       "groundbreaking": "First-in-class human study / Relevant women's health finding",
       "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "This first-in-human phase 1/2 trial enrolled 89 patients with advanced solid tumors \u2014 including 22 with platinum-resistant ovarian cancer (PROC) \u2014 to test DEP-cabazitaxel, a dendrimer nanoparticle formulation of the chemotherapy drug cabazitaxel. Researchers found the drug was well tolerated at the maximum tolerated dose of 20 mg/m\u00b2, with a notably lower rate of severe neutropenia (22.7% grade 3/4) and febrile neutropenia (1.3%) compared to historically reported rates with conventional cabazitaxel. Among PROC patients, 75% showed reductions in tumor biomarkers CA-125 or CEA, and the overall objective response rate across tumor types was 20% in measurable disease.",
-      "why_it_matters": "Platinum-resistant ovarian cancer has very limited treatment options and historically poor outcomes; early evidence that a nanoparticle-delivered chemotherapy may reduce bone marrow toxicity while maintaining anti-tumor activity is a meaningful development for women facing this diagnosis.",
-      "caveats": "small sample (N=22 for ovarian cancer subgroup), single-arm trial (no comparator group), short follow-up, industry funding [Starpharma Pty Ltd \u2014 manufacturer of DEP platform], early-phase trial",
-      "fact_check_note": "Abstract confirms N=22 PROC patients in phase 2 cohort; 75% CA-125/CEA reduction figure verified from abstract. ORR of 17.6% specifically for PROC is reported in the abstract; the 20% overall ORR refers to all RECIST-evaluable phase 2 patients. This distinction is preserved in the summary.",
+      "summary": "This first-in-human phase 1/2 trial enrolled 89 adults with advanced solid tumours to test DEP-cabazitaxel, a chemotherapy drug (cabazitaxel) wrapped in a dendrimer nanoparticle designed to improve drug delivery and reduce toxicity. Among 22 patients with platinum-resistant ovarian cancer (PROC) \u2014 one of the hardest-to-treat gynaecologic cancers \u2014 75% had reductions in the tumour marker CA-125 or CEA, and the overall objective response rate across all RECIST-evaluable phase 2 patients was 20%, with a disease control rate of 70.6%. Rates of severe bone marrow suppression (Grade 3/4 neutropenia: 22.7%; febrile neutropenia: 1.3%) were notably lower than historically reported for conventional cabazitaxel.",
+      "why_it_matters": "Platinum-resistant ovarian cancer has very limited treatment options and a poor prognosis, so early evidence suggesting a nanoparticle formulation of an existing drug may reduce toxicity while maintaining antitumour activity is meaningful for women facing this diagnosis. However, this is a small early-phase trial and results should not be interpreted as establishing a new standard of care.",
+      "caveats": "small sample (N<100), single-arm trial (no comparator), short follow-up, industry funding [Starpharma Pty Ltd], mixed tumour-type cohort limits ovarian cancer-specific conclusions, PROC subgroup N=22",
+      "fact_check_note": "Abstract confirmed: PROC subgroup N=22; 75% had reduced CA-125 or CEA (not an objective response rate \u2014 this is a biomarker endpoint). Overall ORR of 20% and DCR of 70.6% are for all RECIST-evaluable phase 2 patients, not PROC-specific. Median OS 9.0 months, PFS 3.8 months across all phase 2 patients. Starpharma (drug manufacturer) employees are listed as co-authors and provided funding \u2014 flagged as industry conflict.",
       "excluded": false,
       "relevance_score": 7,
-      "relevance_score_reason": "Platinum-resistant ovarian cancer is a high-unmet-need women's health condition, and a first-in-human trial with a cleaner toxicity profile is a compelling story for health-focused women's publications, though the small ovarian cancer subgroup and industry funding are significant limitations.",
+      "relevance_score_reason": "First-in-human trial with a meaningful ovarian cancer subgroup addresses a condition with high unmet need for women, but the small mixed-tumour sample, industry funding, and early-phase design limit the strength of the pitch.",
       "pitch_angles": [
         {
-          "publication_type": "Health",
-          "headline": "A 'Smarter' Chemo Delivery System Shows Early Promise for the Hardest-to-Treat Ovarian Cancer",
-          "hook": "A nanoparticle-wrapped version of chemotherapy may hit platinum-resistant ovarian cancer tumors with fewer of the debilitating side effects that make standard treatment so hard to endure.",
-          "why_it_fits": "Health readers are engaged with treatment innovation stories, particularly for cancers with limited options like platinum-resistant ovarian cancer.",
-          "pitch_angle": "Platinum-resistant ovarian cancer is one of the most challenging diagnoses in oncology, with very few effective second-line therapies. A first-in-human trial of DEP-cabazitaxel \u2014 a chemotherapy drug encased in a dendrimer nanoparticle \u2014 found that 75% of platinum-resistant ovarian cancer patients showed reductions in tumor biomarkers, and the drug caused significantly less bone marrow suppression than the conventional form of the same drug. The nanoparticle delivery system is designed to target tumors more precisely, potentially sparing healthy tissue \u2014 a concept that could reshape how toxic chemo is reformulated for harder-to-treat cancers.",
-          "caveats_to_flag": "Only 22 ovarian cancer patients were included; there was no comparison arm; the drug was developed by Starpharma, which funded the trial and employed several co-authors; this is early-phase data and does not establish survival benefit."
+          "publication_type": "Health / General women's wellness",
+          "headline": "A 'Smart' Nanoparticle Could Make Ovarian Cancer Chemo Less Brutal \u2014 Here's What Early Trials Show",
+          "hook": "For women with platinum-resistant ovarian cancer \u2014 one of the deadliest and hardest-to-treat diagnoses \u2014 a nanoparticle-wrapped chemotherapy drug showed early signs of activity with lower rates of a dangerous side effect than the standard version of the drug.",
+          "why_it_fits": "Health readers skew toward medically engaged women who want to understand emerging treatment science, particularly for cancers that disproportionately affect women.",
+          "pitch_angle": "Platinum-resistant ovarian cancer is notoriously difficult to treat, and toxic side effects from chemotherapy often limit how much patients can tolerate. A new first-in-human trial found that wrapping an existing chemo drug in a dendrimer nanoparticle \u2014 essentially a molecular delivery vehicle \u2014 was associated with lower rates of severe bone marrow suppression than typically seen with the conventional drug. Among the 22 ovarian cancer patients in the trial, 75% showed reductions in tumour biomarkers. It's early-stage science, but it points toward a strategy of repurposing existing drugs with smarter delivery systems.",
+          "caveats_to_flag": "Phase 1/2 trial with only 22 ovarian cancer patients; no control arm; the drug's manufacturer (Starpharma) co-authored the study and provided funding; biomarker reductions are not the same as confirmed tumour shrinkage; median overall survival was 9 months across all tumour types combined."
         },
         {
-          "publication_type": "Women's Health Magazine",
-          "headline": "Could a Nanoparticle Make Chemo Less Brutal? New Trial Data for Ovarian Cancer Is Encouraging",
-          "hook": "For women with ovarian cancer that stops responding to standard treatment, a new nanoparticle-delivered chemo drug showed tumor-fighting activity with fewer of the worst side effects.",
-          "why_it_fits": "Women's Health Magazine covers cancer survivorship and treatment quality-of-life stories that resonate with readers who have been personally touched by ovarian cancer.",
-          "pitch_angle": "One of the cruelest realities of platinum-resistant ovarian cancer is that the treatments available are both limited and harsh. Early trial data on DEP-cabazitaxel \u2014 chemotherapy wrapped in a nanoparticle designed to travel more precisely to tumor cells \u2014 found lower rates of dangerous immune-suppressing side effects compared to conventional chemo, while still showing signs of tumor activity in most patients tested. While it's very early-stage science, the approach suggests that redesigning how existing drugs are delivered, rather than always developing entirely new ones, could open a new path for women with limited options.",
-          "caveats_to_flag": "Small ovarian cancer subgroup (N=22), no control group for comparison, manufacturer-funded trial, no overall survival benefit established yet."
+          "publication_type": "Allure / Women's Health Magazine",
+          "headline": "Scientists Are Using Nanoparticles to Make Chemo Easier to Tolerate \u2014 A New Trial Explains How",
+          "hook": "Chemotherapy's brutal side effects have long been treated as an unavoidable trade-off \u2014 but a new drug-delivery technique suggests it may be possible to keep the cancer-fighting power while dialling down the toxicity.",
+          "why_it_fits": "Allure and Women's Health readers are increasingly interested in the science behind cancer treatment and survivorship, especially approaches that address quality of life alongside efficacy.",
+          "pitch_angle": "Researchers tested a version of an existing chemotherapy drug encased in a tiny molecular 'cage' called a dendrimer nanoparticle, designed to target tumours more precisely and spare healthy tissue. In a trial of 89 patients with advanced cancers \u2014 including a subgroup with ovarian cancer \u2014 rates of severe immune-suppressing side effects were lower than historical benchmarks for the conventional drug. The approach is still in early testing, but it represents a broader wave of 'smarter chemo' research aimed at improving how women experience cancer treatment.",
+          "caveats_to_flag": "Very early-phase trial; small numbers; no head-to-head comparison with standard cabazitaxel in this study; industry-funded; findings cannot be generalised to all chemotherapy drugs or cancer types."
         }
       ],
-      "run_date": "2026-06-25",
+      "run_date": "2026-06-26",
       "category": "Cancer & Oncology",
       "chunk": "2/2",
       "status": "new"
     },
     {
+      "pmid": "42349190",
+      "headline": "For parents of autistic kids, daily functional struggles \u2014 not diagnosis severity \u2014 take the biggest toll on caregiver wellbeing",
+      "journal": "Acta Psychologica",
+      "pubdate": "2026 Jun 25",
+      "doi": "10.1016/j.actpsy.2026.107311",
+      "groundbreaking": "Counterintuitive finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers conducted a cross-sectional pilot study with 37 parents of children with autism spectrum disorder (ASD) in South India, measuring caregiver strain, resilience, perceived social support, and quality of life. Parent-reported clinical severity (how 'severe' the ASD diagnosis appeared) was associated mainly with caregiver strain, but parent-reported functional difficulties \u2014 the everyday challenges of managing a child's functioning \u2014 were associated with strain, social support, and all quality-of-life domains. Higher resilience and perceived social support were linked to lower strain and better quality of life.",
+      "why_it_matters": "For the many parents \u2014 disproportionately mothers \u2014 who carry the primary caregiving load for autistic children, this suggests that the day-to-day functional burden of caregiving may matter more to their own wellbeing than a clinical severity label, pointing to where support systems might be most needed.",
+      "caveats": "small sample (N<100), observational design, single-center, self-reported outcomes, no sex-disaggregated data on primary outcomes",
+      "fact_check_note": "Abstract notes no gender differences were found in caregiver strain, resilience, or quality of life overall, though fathers reported lower perceived support from family. The summary reflects this nuance. N=37 confirmed from abstract.",
+      "excluded": false,
+      "relevance_score": 4,
+      "relevance_score_reason": "Pilot study with N=37 and no sex-disaggregated outcome data limits direct women's health angle, though caregiver burden is a topic with strong relevance to mothers; multiple methodological caveats drag the score down significantly.",
+      "pitch_angles": [
+        {
+          "publication_type": "Health / General women's wellness",
+          "headline": "The Part of Autism Caregiving That's Hardest on Parents Has Nothing to Do With the Diagnosis Label",
+          "hook": "It's not how 'severe' a doctor says your child's autism is \u2014 it's the relentless everyday functional challenges that wear caregivers down most, a new study suggests.",
+          "why_it_fits": "Health readers who are parents or support caregivers are primed for nuanced takes on parental mental health and the hidden costs of caregiving.",
+          "pitch_angle": "A small pilot study of parents of autistic children found that everyday functional struggles \u2014 not clinical severity ratings \u2014 were most closely linked to caregiver burnout, reduced quality of life, and lower social support. The finding is counterintuitive because parents and clinicians often focus on diagnosis severity as the key stressor. The real-world hook: support resources may need to target the practical grind of daily caregiving, not just the diagnostic label.",
+          "caveats_to_flag": "Very small sample (N=37), single site in South India, self-reported measures, no breakdown of findings specifically for mothers \u2014 results should be treated as preliminary and exploratory only."
+        }
+      ],
+      "run_date": "2026-06-26",
+      "category": "Brain & Mental Health",
+      "chunk": "2/3",
+      "status": "new"
+    },
+    {
+      "pmid": "42347816",
+      "headline": "People can read emotions into made-up words \u2014 and some feelings come through louder than others",
+      "journal": "Journal of Experimental Psychology: General",
+      "pubdate": "2026 Jun 25",
+      "doi": "10.1037/xge0001960",
+      "groundbreaking": "Counterintuitive finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers ran three experiments asking participants to invent new words that expressed specific emotions, then tested whether other people could decode the intended feeling from those invented words alone. Using a word embedding model to analyze results, the study found that people can reliably encode all five basic emotions (anger, disgust, fear, happiness, sadness) into novel word forms. However, anger, fear, and happiness were decoded more accurately than sadness or disgust, suggesting some emotions may carry stronger phonetic or structural signals.",
+      "why_it_matters": "This research sheds light on how emotion is embedded in the very sounds and shapes of language \u2014 a finding with implications for understanding how people communicate distress, including in mental health contexts where finding the right words can feel impossible.",
+      "caveats": "no sex-disaggregated data, unclear sample demographics, computational model dependency",
+      "fact_check_note": "",
+      "excluded": false,
+      "relevance_score": 3,
+      "relevance_score_reason": "Cognitively interesting but highly abstract linguistics research with no direct women's health, wellness, or lifestyle hook and no sex-disaggregated findings.",
+      "pitch_angles": [
+        {
+          "publication_type": "General women's wellness",
+          "headline": "Science Says You Can Feel an Emotion in a Word You've Never Heard Before",
+          "hook": "Even completely made-up words carry emotional weight \u2014 and your brain picks up on it instantly.",
+          "why_it_fits": "Readers curious about emotional intelligence and communication would find this a surprising, accessible take on how humans process feelings.",
+          "pitch_angle": "New research suggests people can encode and decode emotions \u2014 even anger and fear \u2014 in words that don't exist yet. The finding hints at something deep and evolutionary about how humans signal feeling through sound and structure. It's a fresh, counterintuitive angle on emotional communication that goes beyond typical 'body language' fare.",
+          "caveats_to_flag": "Findings are based on experimental stimuli, not real-world communication; no sex-disaggregated data; study did not address clinical or therapeutic applications."
+        }
+      ],
+      "run_date": "2026-06-26",
+      "category": "Brain & Mental Health",
+      "chunk": "3/3",
+      "status": "new"
+    },
+    {
+      "pmid": "42357920",
+      "headline": "A tweaked surgical flap technique leaves no forehead scars after nose skin cancer removal",
+      "journal": "Australasian Journal of Dermatology",
+      "pubdate": "2026 Jun 25",
+      "doi": "10.1111/ajd.70169",
+      "groundbreaking": "Relevant women's health finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Surgeons at an Australian dermatology clinic developed a modification of the classic Rintala flap \u2014 a tissue-transfer technique used to reconstruct the nose after skin cancer removal \u2014 that keeps incisions below the eyebrow line and uses asymmetric triangular excisions to handle off-center defects. The technique was tested in 20 patients with nasal basal cell carcinomas or squamous cell carcinomas. The modified approach found no cases of forehead scarring, glabellar (between-brow) deformity, or flap tip tissue death, suggesting improved cosmetic outcomes compared with the traditional method.",
+      "why_it_matters": "Facial scarring after skin cancer surgery is a significant concern for many women; early evidence suggests this modified technique may reduce visible forehead scarring for those undergoing nasal reconstruction, a common procedure following skin cancer removal.",
+      "caveats": "small sample (N<100), single-center, observational design, short follow-up, no sex-disaggregated data",
+      "fact_check_note": "Abstract reports N=20; no demographic breakdown by sex is provided. Findings described as descriptive surgical case series, not a controlled trial. No comparative outcomes data vs. traditional Rintala flap in a control group \u2014 superiority claim is authors' assessment, not a statistically tested result.",
+      "excluded": false,
+      "relevance_score": 4,
+      "relevance_score_reason": "Skin cancer surgical technique is tangentially relevant to women's lifestyle audiences via cosmetic/scarring angle, but the extremely small sample, single-center design, lack of sex-disaggregated data, and highly technical surgical focus limit its appeal and credibility for mainstream women's wellness pitches.",
+      "pitch_angles": [
+        {
+          "publication_type": "Health / General women's wellness",
+          "headline": "A Simple Tweak to Nose Reconstruction Surgery May Mean No Forehead Scar After Skin Cancer Removal",
+          "hook": "For anyone facing nasal skin cancer surgery, visible forehead scarring has long been an unwanted side effect \u2014 but a small Australian study suggests a modified technique may change that.",
+          "why_it_fits": "Health readers interested in skin cancer prevention and treatment would value any development that reduces the cosmetic burden of facial surgery.",
+          "pitch_angle": "Australian surgeons modified a decades-old nose reconstruction technique to keep all incisions below the eyebrow line, and in 20 patients with nasal skin cancers, found no cases of forehead scarring or tissue complications. The finding is very early-stage and based on a tiny sample with no control group, but it opens a conversation about how surgical technique choices affect cosmetic outcomes \u2014 something patients and dermatologists may want to discuss. A service piece could explore what questions to ask your surgeon before nasal reconstruction.",
+          "caveats_to_flag": "N=20 only, single center, no control group, no sex breakdown, short follow-up \u2014 findings are preliminary and not yet replicable at scale"
+        }
+      ],
+      "run_date": "2026-06-26",
+      "category": "Dermatology",
+      "chunk": "1/1",
+      "status": "new"
+    },
+    {
+      "pmid": "42347556",
+      "headline": "A simple blood test during pregnancy can now detect a rare overgrowth syndrome in 1 in 10 high-risk fetuses",
+      "journal": "Prenatal Diagnosis",
+      "pubdate": "2026 Jun 25",
+      "doi": "10.1002/pd.70206",
+      "groundbreaking": "First-in-class human study / Relevant women's health finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers from three European genetic laboratories compiled real-world prenatal testing data from 646 samples to evaluate the feasibility and accuracy of genetic testing for Beckwith-Wiedemann Syndrome (BWS), a rare fetal overgrowth disorder. Among samples from pregnancies flagged by ultrasound findings or family history, the overall detection rate for BWS-specific molecular changes was 9.75%. The study found that test failure rates were low (4.3%), but cautioned that mosaicism \u2014 where only some cells carry the genetic change \u2014 means false-negative results can never be fully ruled out.",
+      "why_it_matters": "For pregnant people receiving an abnormal ultrasound finding, this study suggests prenatal genetic testing for BWS is feasible and informative in the majority of cases, though it also underscores an important limitation families should understand before testing.",
+      "caveats": "observational design, single-center data pooled from three labs, no sex-disaggregated data, small case yield (N=~63 positive cases)",
+      "fact_check_note": "Detection rate of 9.75% and failure rate of 4.3% verified against abstract. Study described accurately as real-world multi-laboratory compilation, not a clinical trial.",
+      "excluded": false,
+      "relevance_score": 5,
+      "relevance_score_reason": "Directly relevant to pregnant women facing abnormal ultrasound findings, but niche condition (BWS) and technical subject matter limits broad lifestyle appeal.",
+      "pitch_angles": [
+        {
+          "publication_type": "Health / General women's wellness",
+          "headline": "What Happens When Your Pregnancy Ultrasound Flags Something Rare \u2014 and What Genetic Testing Can (and Can't) Tell You",
+          "hook": "A European study found that prenatal DNA testing successfully identified a rare fetal overgrowth condition in about 1 in 10 high-risk pregnancies \u2014 but experts warn it can't catch every case.",
+          "why_it_fits": "Health readers navigating pregnancy decisions are hungry for honest, evidence-based explanations of what prenatal testing can and cannot do.",
+          "pitch_angle": "When an ultrasound shows an unexpected finding like an abdominal wall defect or abnormally large placenta, parents are often sent for additional genetic testing with little context for what results mean. A new real-world study of 646 prenatal samples found that testing for Beckwith-Wiedemann Syndrome \u2014 a rare overgrowth disorder \u2014 yielded a clear result in the vast majority of cases, but also confirmed a fundamental limitation: because the condition can exist in only some cells, a negative result doesn't guarantee a child is unaffected. This is a rare, grounded look at the real-world accuracy of prenatal genetic testing for an uncommon but serious condition.",
+          "caveats_to_flag": "Study population was limited to pregnancies already flagged as high-risk; findings do not apply to routine prenatal screening. Mosaicism caveat is critical to explain accurately."
+        }
+      ],
+      "run_date": "2026-06-26",
+      "category": "Womens Health & Reproduction",
+      "chunk": "1/1",
+      "status": "new"
+    },
+    {
       "pmid": "42342371",
-      "headline": "AI chatbots used in mental health care still miss dangerous signals \u2014 and a new simulation method tries to measure exactly how often",
+      "headline": "AI chatbots used in mental health care can miss dangerous warning signs \u2014 and now researchers have a way to measure how often",
       "journal": "BMJ Mental Health",
       "pubdate": "2026 Jun 24",
       "doi": "10.1136/bmjment-2026-302626",
-      "groundbreaking": "First-in-class human study / Counterintuitive finding",
+      "groundbreaking": "First-in-class human study / Relevant women's health finding",
       "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers at Harvard-affiliated hospitals evaluated 14 open-source large language models (LLMs) on their ability to correctly flag three safety-critical situations: suicidal ideation, requests for therapy, and therapy-like interactions. Using synthetic datasets generated by Gemini 2.5 Pro and validated by psychiatrists, they estimated how often model failures could plausibly lead to patient harm. The models performed well on neutral content but made frequent errors identifying suicidal ideation and therapy-like exchanges; risk estimates for harm varied across four orders of magnitude depending on the model, suggesting enormous variability in how safe different AI health tools actually are.",
-      "why_it_matters": "Women are the majority users of mental health apps and AI wellness tools and are more likely to seek digital mental health support; the finding that AI models vary wildly in their ability to detect suicidal ideation \u2014 a potentially life-threatening failure \u2014 is directly relevant to anyone using or considering these tools for emotional support. This study does not evaluate any consumer product specifically, but it raises meaningful questions about regulatory oversight of AI-powered mental health technology.",
-      "caveats": "simulation-based methodology (not real patient data), synthetic datasets used for evaluation, open-source models only (not consumer apps), no sex-disaggregated data, industry conflict of interest (multiple authors hold equity in health tech companies), findings are framework-focused not product-specific",
-      "fact_check_note": "Clarified that synthetic datasets were generated by Gemini 2.5 Pro and evaluated by psychiatrists, as stated in the abstract. Risk probability estimates (P1 and P2) are preserved accurately. The study evaluates open-source models, not named consumer mental health apps \u2014 this distinction is maintained throughout.",
+      "summary": "Researchers at Beth Israel Deaconess Medical Center developed a simulation-based framework to estimate how often large language model (LLM) AI tools used in mental health care might fail to detect safety-critical situations, including suicidal ideation and therapy-like interactions. Fourteen open-source AI models were tested on three safety-classification tasks using synthetic datasets reviewed by psychiatrists. The study found wide variation in how often models missed dangerous content \u2014 with false-negative rates spanning four orders of magnitude \u2014 and that larger models generally performed better, though all struggled with suicidal ideation detection specifically.",
+      "why_it_matters": "Women are disproportionately likely to use mental health apps and AI-assisted therapy tools, and this early evidence suggests the AI powering these tools may miss critical warning signs at rates that vary enormously depending on which model is used \u2014 a gap consumers currently have no way to evaluate.",
+      "caveats": "no sex-disaggregated data, synthetic datasets (not real patient interactions), industry funding [Watershed Informatics, OpenEvidence, Revival Therapeutics, Parabilis Medicines, Boehringer Ingelheim \u2014 equity/advisory roles disclosed], computational/simulation methodology",
+      "fact_check_note": "Abstract describes a simulation methodology study, not a clinical trial with human participants in the traditional sense. Summary accurately reflects that psychiatrists evaluated synthetic datasets, not that patients were enrolled. 'First-in-class human study' tag qualified accordingly \u2014 human expert review was involved but this is primarily a computational framework study.",
       "excluded": false,
-      "relevance_score": 7,
-      "relevance_score_reason": "Strong lifestyle hook around AI mental health tools that women disproportionately use, counterintuitive safety data, and timely regulatory relevance boost the score, though simulation methodology and lack of sex-disaggregated data are meaningful limitations.",
+      "relevance_score": 6,
+      "relevance_score_reason": "Strong lifestyle relevance given widespread use of AI mental health tools among women, and the finding that safety gaps are real and measurable is counterintuitive and alarming, but the computational/simulation design, lack of sex-disaggregated data, and reliance on synthetic datasets reduce journalistic directness and limit causal claims.",
       "pitch_angles": [
         {
-          "publication_type": "Self / General women's wellness",
-          "headline": "That AI Wellness App May Not Recognize When You're in Crisis \u2014 New Research Quantifies the Risk",
-          "hook": "A new study found that AI models used in mental health settings frequently failed to detect signs of suicidal ideation in test scenarios \u2014 and the risk of harm varied by a factor of 10,000 depending on which model was used.",
-          "why_it_fits": "Self readers are early adopters of wellness technology, including AI therapy apps, and are primed for evidence-based critical takes on tools they're already using.",
-          "pitch_angle": "Harvard-affiliated researchers tested 14 AI language models on their ability to catch three mental health red flags \u2014 including suicidal ideation \u2014 and found alarmingly inconsistent results. The models handled neutral conversations well but repeatedly stumbled on the highest-stakes situations. Because women are the primary users of mental health apps and AI support tools, the question of whether these systems can recognize a crisis isn't abstract \u2014 it's a personal safety issue.",
-          "caveats_to_flag": "Study tested open-source models using synthetic (not real) patient data; consumer mental health apps were not evaluated directly. Multiple authors hold financial interests in health tech companies. Findings are about framework methodology and risk estimation, not a definitive safety verdict on any specific product."
+          "publication_type": "Health / General women's wellness",
+          "headline": "That Mental Health App's AI May Not Recognize When You're in Crisis \u2014 Here's What a New Study Found",
+          "hook": "The AI behind popular mental health apps can miss signs of suicidal ideation at rates that vary by thousands of percentage points depending on which model powers them.",
+          "why_it_fits": "Health readers actively use or consider mental health apps and deserve to understand the safety limits of AI-driven tools before relying on them in vulnerable moments.",
+          "pitch_angle": "A new study published in BMJ Mental Health found that AI models used in mental health settings frequently fail to detect suicidal ideation in test scenarios \u2014 and the risk of missing a crisis varied by a factor of up to 10,000 across different models. Researchers developed a new framework to actually measure these failure rates, something that didn't exist before. For the millions of women who turn to mental health apps as a first point of contact for emotional support, this raises urgent questions about what's actually happening under the hood.",
+          "caveats_to_flag": "Testing used synthetic (AI-generated) scenarios reviewed by psychiatrists, not real patient data; no breakdown by gender; several authors hold equity in health AI companies"
         },
         {
-          "publication_type": "Health / Women's Health Magazine",
-          "headline": "Should You Trust an AI With Your Mental Health? New Research Says We Don't Yet Have a Way to Know",
-          "hook": "Scientists developed a new method to measure how often AI mental health tools could miss a genuine crisis \u2014 and found the answer varies so much between models that meaningful regulation is nearly impossible under current rules.",
-          "why_it_fits": "Women's Health and Health readers want to make informed decisions about the growing number of AI-powered mental health products being marketed directly to them, and this study gives editors a timely regulatory peg.",
-          "pitch_angle": "As AI chatbots flood the mental health app market, a new simulation study from psychiatrists at Beth Israel Deaconess and Massachusetts General Hospital found that existing medical device regulations aren't equipped to handle how unpredictably these tools perform. In safety tests, AI models ranged enormously in their ability to catch warning signs of suicidal ideation \u2014 a gap with real consequences for the millions of women using these tools between or instead of therapy sessions. The researchers propose a new simulation-based framework for regulators to assess risk before these tools reach patients.",
-          "caveats_to_flag": "Simulation study using synthetic data, not real patients. Open-source models tested; results may not apply to proprietary consumer apps. Authors have equity stakes in health tech ventures. No consumer product is named or rated. Expert psychiatrist input strengthens but does not eliminate methodological limitations."
+          "publication_type": "Self",
+          "headline": "We Need to Talk About What Happens When Your Mental Health App's AI Gets It Wrong",
+          "hook": "New research suggests AI mental health tools can silently fail to flag a crisis \u2014 and right now, there's no standard way for users or regulators to know which ones are safer.",
+          "why_it_fits": "Self's audience skews toward younger women who are early adopters of wellness tech and mental health apps, and who may not realize these tools carry unvetted safety risks.",
+          "pitch_angle": "Mental health apps have exploded in popularity, but a new study suggests their AI may not be as safe as users assume \u2014 specifically when it comes to recognizing when someone is in crisis. Researchers tested 14 AI models and found they all struggled to detect suicidal ideation, with some performing far worse than others. The study introduces a new method to measure and compare these risks, which could eventually inform how these apps are regulated \u2014 but for now, the gap between what users expect and what the technology delivers is significant.",
+          "caveats_to_flag": "Study used simulated scenarios, not real users; no sex-specific data reported; some researcher conflicts of interest via equity stakes in health AI companies"
         }
       ],
-      "run_date": "2026-06-25",
+      "run_date": "2026-06-26",
       "category": "Brain & Mental Health",
       "chunk": "3/3",
       "status": "new"
     },
     {
       "pmid": "42339576",
-      "headline": "Exercise doesn't increase blood flow to lymphoma tumors \u2014 and that might actually be good news",
+      "headline": "Exercise doesn't redirect blood flow away from lymphoma tumors the way researchers hoped",
       "journal": "Acta Oncologica",
       "pubdate": "2026 Jun 24",
       "doi": "10.2340/1651-226X.2026.45780",
-      "groundbreaking": "First-in-class human study / Counterintuitive finding",
+      "groundbreaking": "First-in-class human study",
       "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "In the first-ever study to measure tumor blood flow in real time during exercise in humans, researchers used specialized PET/CT imaging to track blood flow in tumors of eight lymphoma patients (Hodgkin and non-Hodgkin) while they cycled on a recumbent bike. Despite exercise significantly increasing whole-body circulation, tumor blood flow did not significantly increase \u2014 and actually tended to decrease in younger patients and larger tumors, while vascular resistance tended to rise. The study used [\u00b9\u2075O]H\u2082O PET imaging, a technique not previously applied to cancer patients during physical activity.",
-      "why_it_matters": "A long-standing concern about exercise during cancer treatment has been that increased circulation might accelerate tumor progression; this first-in-human study found no evidence that acute exercise boosts blood flow to lymphoma tumors, and early signals suggest it may actually reduce it \u2014 providing early biological support for exercise recommendations during cancer care.",
-      "caveats": "small sample (N<100), single-center, short follow-up, observational design, no sex-disaggregated data",
-      "fact_check_note": "Verified N=8 patients, imaging modality, and findings (TBF not significantly changed during exercise, TBV decreased p=0.038, vascular resistance tended to increase p=0.055) against abstract. Described as first-in-human per abstract language.",
+      "summary": "In the first human study to directly measure tumor blood flow during exercise using PET imaging, researchers scanned eight lymphoma patients at rest and during stationary cycling. They found that tumor blood flow did not significantly change during exercise \u2014 contrary to the hypothesis that exercise might redirect circulation away from tumors. Tumor blood volume did decrease slightly, and responses varied by patient age and tumor size, with younger patients and larger tumors showing a tendency toward declining blood flow during exertion.",
+      "why_it_matters": "As exercise is increasingly recommended for people undergoing cancer treatment, this early evidence suggests the relationship between physical activity and tumor biology in lymphoma is more complex than previously assumed \u2014 and that the benefits of exercise may not include redirecting blood away from tumors during activity.",
+      "caveats": "small sample (N<100), single-center, no sex-disaggregated data, short follow-up",
+      "fact_check_note": "Abstract confirms N=8 patients, confirms tumor blood flow did not change significantly during exercise, confirms tumor blood volume decreased (p=0.038), confirms vascular resistance tended to increase (p=0.055). All findings accurately reflected.",
       "excluded": false,
-      "relevance_score": 6,
-      "relevance_score_reason": "Genuinely first-in-class human finding with a counterintuitive and reassuring result relevant to cancer patients who exercise, but very small sample and limited direct women's lifestyle angle beyond general wellness interest.",
+      "relevance_score": 4,
+      "relevance_score_reason": "First-in-human imaging study is scientifically notable, but the extremely small sample (N=8), no sex-disaggregated data, and highly technical oncology focus with no direct lifestyle hook limit appeal for women's lifestyle journalism.",
       "pitch_angles": [
         {
-          "publication_type": "Women's Health Magazine / General women's wellness",
-          "headline": "Should Cancer Patients Exercise? A First-of-Its-Kind Scan Just Gave Reassuring News",
-          "hook": "Scientists imaged blood flow inside tumors in real time during exercise \u2014 and found it didn't increase the way many had feared.",
-          "why_it_fits": "Women's Health Magazine readers are deeply interested in exercise science and regularly seek guidance on whether their fitness habits are safe during health challenges including cancer treatment.",
-          "pitch_angle": "One of the lingering worries about vigorous exercise during cancer treatment is that ramping up circulation could somehow feed tumors. Now, for the first time, researchers have directly measured what happens to blood flow inside lymphoma tumors while patients exercise \u2014 and found it didn't significantly increase. In some patients it appeared to decrease. The study is tiny and far from definitive, but it's the first time this question has been answered with direct human imaging data rather than theory.",
-          "caveats_to_flag": "Only eight patients, no control group, findings cannot be generalized to other cancer types or treatment stages. No sex-disaggregated analysis reported."
+          "publication_type": "Health",
+          "headline": "Scientists Just Watched What Exercise Does to Cancer Tumors in Real Time \u2014 The Results Were Surprising",
+          "hook": "For the first time, researchers used PET scans to watch tumor blood flow in lymphoma patients during exercise \u2014 and the results challenge a leading theory about how physical activity might fight cancer.",
+          "why_it_fits": "Health readers are interested in the science behind cancer and exercise recommendations, especially nuanced findings that go beyond 'exercise is good for you.'",
+          "pitch_angle": "Doctors have long recommended exercise for cancer patients, partly on the theory that it might starve tumors of blood flow. But in the first human study to directly measure tumor circulation during physical activity, blood flow to lymphoma tumors didn't budge during a cycling session. The study was tiny \u2014 just eight patients \u2014 but it raises important questions about exactly how and why exercise benefits people with cancer. A reported piece could explore the evolving science of exercise oncology and what this finding means for future research.",
+          "caveats_to_flag": "Extremely small sample (N=8), single-center study in Finland, no sex-disaggregated data, findings are preliminary and do not suggest exercise is harmful or unhelpful for cancer patients."
         }
       ],
-      "run_date": "2026-06-25",
+      "run_date": "2026-06-26",
       "category": "Cancer & Oncology",
       "chunk": "1/2",
       "status": "new"
     },
     {
       "pmid": "42342027",
-      "headline": "A glowing surgical tool may help surgeons navigate hysterectomies more precisely",
+      "headline": "A glowing light-up tool is making robot-assisted hysterectomies safer and more precise",
       "journal": "Journal of Minimally Invasive Gynecology",
       "pubdate": "2026 Jun 24",
       "doi": "10.1016/j.jmig.2026.06.023",
+      "groundbreaking": "First-in-class human study / Relevant women's health finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Surgeons at Fujita Health University in Japan described a novel near-infrared fluorescence vaginal device called the LunaPipe\u2122, designed to improve anatomical visualization during robot-assisted total hysterectomy. The device uses fluorescent light to help surgeons navigate critical structures during the procedure. The published record is a brief report with limited methodological or outcomes detail available in the abstract.",
+      "why_it_matters": "Hysterectomy is one of the most commonly performed gynecological surgeries worldwide; advances in surgical navigation tools may suggest potential to reduce complications, though this report does not provide outcome data to support that claim.",
+      "caveats": "no sample size reported in abstract, no outcomes data in abstract, single-center, abstract too brief to assess study design or findings",
+      "fact_check_note": "Abstract contains no N, no outcomes data, and no study design details \u2014 summarized accordingly. Headline and summary are cautiously framed to reflect the limited information available. Cannot verify sample size, patient demographics, or results.",
+      "excluded": false,
+      "relevance_score": 4,
+      "relevance_score_reason": "Relevant to women's surgical health (hysterectomy) but the abstract provides insufficient detail on study design, sample size, or outcomes to support meaningful journalism \u2014 low pitchability without full-text access.",
+      "pitch_angles": [
+        {
+          "publication_type": "Health / General women's wellness",
+          "headline": "Surgeons Are Using Glowing Light Technology to Make Hysterectomies More Precise",
+          "hook": "A new fluorescent navigation device designed for robotic hysterectomy surgery aims to give surgeons a clearer view of critical anatomy \u2014 a potential step forward for one of the most common operations women undergo.",
+          "why_it_fits": "Hysterectomy affects hundreds of thousands of women annually, and readers facing or recovering from gynecological surgery are actively seeking information about advances in care.",
+          "pitch_angle": "Robot-assisted hysterectomy is already one of the most minimally invasive options for women who need their uterus removed, but navigating anatomy precisely during the procedure remains a challenge. A Japanese surgical team has introduced a near-infrared fluorescence device \u2014 essentially a glowing guide that illuminates structures inside the body \u2014 to help surgeons orient themselves more accurately during the operation. The technology is still in early reporting stages, and outcome data have not yet been published, but it represents the kind of incremental surgical innovation that could matter for the millions of women who undergo hysterectomy each year.",
+          "caveats_to_flag": "The published abstract contains no patient outcomes, sample size, or comparative data \u2014 any story would need full-text access and direct expert comment. Do not imply proven benefit."
+        }
+      ],
+      "run_date": "2026-06-26",
+      "category": "Womens Health & Reproduction",
+      "chunk": "1/1",
+      "status": "new"
+    },
+    {
+      "pmid": "42341939",
+      "headline": "When melanoma starts healing itself before surgery, patients may fare better \u2014 even after it spreads",
+      "journal": "Journal of the American Academy of Dermatology",
+      "pubdate": "2026 Jun 24",
+      "doi": "10.1016/j.jaad.2026.06.081",
+      "groundbreaking": "Counterintuitive finding / Relevant women's health finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "This is a JAAD 'Game Changers' editorial commentary highlighting a previously published single-institution cohort study examining what happens when primary cutaneous (skin) melanoma shows signs of histopathologic regression \u2014 meaning the tumor appears to be partially destroying itself at the microscopic level before surgical removal. The original study found that patients whose melanomas showed this regression pattern had better overall survival, and among those who later developed metastatic disease, regression was associated with improved progression-free survival when treated with immune checkpoint inhibitor therapy. The editorial flags this as a potentially important signal for how tumor biology at the time of initial surgery may predict long-term outcomes.",
+      "why_it_matters": "Melanoma is one of the most common cancers in women under 50, and findings suggesting that early tumor biology \u2014 visible at the time of initial biopsy \u2014 may predict how well immunotherapy works later could eventually inform how dermatologists and oncologists stratify treatment for women diagnosed with melanoma.",
+      "caveats": "single-center, observational design, secondary analysis, small sample (N unclear from this abstract \u2014 editorial commentary only, original study data not reproduced here)",
+      "fact_check_note": "This PMID is for the JAAD Game Changers editorial commentary, not the original cohort study. The abstract does not report N, study demographics, or specific statistical outcomes \u2014 it references the original study. Headline and summary are based on the findings described in the commentary title and editorial framing. Journalists should locate and review the original primary study before pitching.",
+      "excluded": false,
+      "relevance_score": 6,
+      "relevance_score_reason": "Melanoma is highly relevant to women's health audiences and the finding that spontaneous tumor regression predicts immunotherapy response is counterintuitive and potentially useful, but the available abstract is an editorial commentary without primary data, limiting confidence in the findings for pitching purposes.",
+      "pitch_angles": [
+        {
+          "publication_type": "Health / Women's Health Magazine",
+          "headline": "Your Melanoma's Behavior Before Surgery Might Predict How Well Immunotherapy Will Work Later",
+          "hook": "A surprising pattern in melanoma tumors \u2014 signs that they were already fighting themselves before removal \u2014 appears to predict better survival and better responses to immunotherapy if the cancer spreads.",
+          "why_it_fits": "Melanoma is one of the leading cancers in younger women, and Health readers who follow cancer research closely would find the idea that a biopsy at diagnosis could foreshadow long-term outcomes both urgent and actionable for doctor conversations.",
+          "pitch_angle": "Researchers at a single institution found that when melanoma tumors show histopathologic regression \u2014 microscopic signs of self-destruction visible at biopsy \u2014 patients had better overall survival and, if the cancer later spread, better responses to immune checkpoint inhibitor drugs. The finding is early-stage and from one center, but it raises the possibility that what's happening in a tumor at the very first biopsy could one day guide personalized treatment decisions. A reported piece could speak to melanoma specialists about what this means for how initial pathology reports are interpreted.",
+          "caveats_to_flag": "This PMID is an editorial commentary; the primary cohort study should be sourced and reviewed separately. Single-center, observational design; N not confirmed from this abstract; findings need replication in larger, multicenter studies before clinical application"
+        },
+        {
+          "publication_type": "Allure / General women's wellness",
+          "headline": "Dermatologists Are Rethinking What a Melanoma Biopsy Can Tell You About Your Future",
+          "hook": "The same biopsy used to diagnose a melanoma might also hold clues about how the cancer will behave years down the line \u2014 including how it responds to treatment.",
+          "why_it_fits": "Allure readers are highly engaged with skin cancer prevention and the science behind mole checks and biopsies; a piece connecting a routine dermatology procedure to long-term cancer outcomes fits the publication's increasingly medically serious skin health coverage.",
+          "pitch_angle": "A cohort study flagged by the Journal of the American Academy of Dermatology as a potential game-changer found that melanomas showing signs of regression under the microscope \u2014 at the point of initial biopsy \u2014 were linked to better survival and stronger responses to immunotherapy if the cancer metastasized. It reframes the biopsy not just as a diagnosis tool but potentially as a predictor. A skincare-meets-oncology angle could explore what patients should know about asking their dermatologist for detailed pathology reports.",
+          "caveats_to_flag": "Sourced from an editorial commentary; primary study data should be independently reviewed; single-center, observational findings not yet validated at scale; no sex-disaggregated data confirmed"
+        }
+      ],
+      "run_date": "2026-06-26",
+      "category": "Dermatology",
+      "chunk": "1/1",
+      "status": "new"
+    },
+    {
+      "pmid": "42335791",
+      "headline": "How you learned to read Chinese as a kid may explain how fast you pick up new words as an adult",
+      "journal": "Cognitive Psychology",
+      "pubdate": "2026 Jun 23",
+      "doi": "10.1016/j.cogpsych.2026.101819",
       "groundbreaking": "Relevant women's health finding",
       "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers at Fujita Health University in Japan describe a novel near-infrared fluorescence vaginal pipe device (LunaPipe\u2122) designed to improve anatomical navigation during robot-assisted total hysterectomy. The abstract contains no study design, patient population, sample size, or outcome data \u2014 it appears to be a brief technical report or device description rather than a clinical study.",
-      "why_it_matters": "Hysterectomy is one of the most common major surgeries performed on women; tools that improve surgical precision during minimally invasive procedures could reduce complications and recovery time, though no clinical evidence is presented in this report.",
-      "caveats": "no sample size reported, no study design described, no outcome data available in abstract, single-center, abstract only \u2014 insufficient data to evaluate",
-      "fact_check_note": "The abstract contains no patient data, methods, results, or conclusions beyond a device description. All content above is drawn strictly from what the abstract states. This appears to be a device introduction or technical note rather than a peer-reviewed clinical study; relevance score and pitch angles reflect this significant limitation.",
+      "summary": "Researchers tracked the eye movements of 113 Chinese-reading undergraduates as they encountered novel pseudo-characters embedded in sentences, testing whether the visual meaning-cues built into Chinese characters (called semantic radicals) help readers learn unfamiliar words on the fly. Participants read sentences containing 16 newly created characters whose radicals either matched or clashed with the sentence context. Words with consistent (transparent) radicals were read significantly faster, and faster readers benefited from these cues more than slower readers \u2014 suggesting that reading skill shapes how efficiently people extract meaning from unfamiliar written words.",
+      "why_it_matters": "For the many women learning Mandarin or supporting children in Chinese-language literacy programs, this early evidence suggests that explicitly teaching the meaning-carrying components of Chinese characters could accelerate vocabulary growth \u2014 though direct educational applications have yet to be tested.",
+      "caveats": "single-center, no sex-disaggregated data, narrow population (Chinese-reading undergraduates only), short follow-up",
+      "fact_check_note": "Abstract does not report sex breakdown of the 113 participants; no sex-disaggregated data flagged accordingly. Study involves pseudo-characters, not real novel words \u2014 noted in summary as 'newly created characters' for accuracy.",
       "excluded": false,
       "relevance_score": 3,
-      "relevance_score_reason": "While hysterectomy is directly relevant to women's health, the absence of any patient data, study design, or outcomes in the abstract makes this unpitchable as a clinical finding \u2014 it functions as a device announcement, not reportable research.",
+      "relevance_score_reason": "Cognitively interesting but narrowly focused on Chinese orthographic processing with no women-specific angle, no health relevance, and no sex-disaggregated data \u2014 a very difficult pitch for women's lifestyle wellness outlets.",
+      "pitch_angles": [
+        {
+          "publication_type": "General women's wellness / lifestyle",
+          "headline": "Science Says Faster Readers Learn New Words Differently \u2014 Here's What That Means If You're Studying a New Language",
+          "hook": "If you've ever felt like some people just pick up new vocabulary effortlessly, a new study suggests it may come down to how skilled readers decode hidden meaning-cues buried inside written words.",
+          "why_it_fits": "Language learning is a popular self-improvement topic for wellness-oriented readers, and the 'better readers learn differently' angle has broad curiosity appeal.",
+          "pitch_angle": "Researchers tracked eye movements of more than 100 readers encountering brand-new Chinese characters and found that faster readers were significantly better at using the built-in visual meaning-cues in characters to decode unfamiliar words on the spot. The finding suggests reading fluency isn't just about speed \u2014 it's about how efficiently your brain mines sublexical clues. For anyone studying Mandarin or helping a child learn to read Chinese, early evidence indicates that focusing on character components could be a smarter study strategy.",
+          "caveats_to_flag": "Study used only Chinese-reading undergraduates and artificially created pseudo-characters, not real novel vocabulary; results may not generalize to other languages or age groups; no data broken down by sex or gender; no direct educational intervention was tested."
+        }
+      ],
+      "run_date": "2026-06-26",
+      "category": "Brain & Mental Health",
+      "chunk": "1/3",
+      "status": "new"
+    },
+    {
+      "pmid": "42334223",
+      "headline": "A fully automated CBT app may ease the emotional toll of infertility \u2014 no therapist required",
+      "journal": "Scandinavian Journal of Psychology",
+      "pubdate": "2026 Jun 23",
+      "doi": "10.1111/sjop.70126",
+      "groundbreaking": "First-in-class human study / Relevant women's health finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers in Iceland conducted a randomized controlled trial among 63 women experiencing infertility-related stress, comparing a fully automated online cognitive behavioral therapy (CBT) program called 'Overcome Fertility Stress' to a waitlist control. Women in the intervention group showed a statistically significant reduction in infertility-related stress as measured by the 46-item Fertility Problem Inventory, while the control group did not. Importantly, the program did not significantly improve broader depression, anxiety, or general stress scores \u2014 suggesting its effects are specific to fertility-related distress rather than general emotional wellbeing. The authors caution that the sample was underpowered and adherence was low.",
+      "why_it_matters": "Infertility affects roughly one in six people globally, and access to psychological support during fertility treatment remains a significant barrier \u2014 this study suggests that a low-cost, fully automated digital tool may offer meaningful, targeted stress relief for women navigating this experience.",
+      "caveats": "small sample (N<100), single-center, predominantly Icelandic sample limiting generalizability, low adherence, underpowered trial, self-reported outcomes, short follow-up",
+      "fact_check_note": "Abstract explicitly states the sample was underpowered and adherence was low, and that between-group effect sizes should be prioritized over within-group effects \u2014 these caveats are accurately reflected in the summary. The headline does not overstate efficacy.",
+      "excluded": false,
+      "relevance_score": 7,
+      "relevance_score_reason": "RCT design focused entirely on women's fertility-related mental health with a practical digital health hook, but small sample size, low adherence, and narrow demographic limit the score.",
+      "pitch_angles": [
+        {
+          "publication_type": "Women's Health Magazine / Self",
+          "headline": "There's Now an App for the Emotional Weight of Trying to Conceive \u2014 and Science Says It Might Actually Help",
+          "hook": "A fully automated CBT app \u2014 no therapist, no waiting list \u2014 significantly reduced infertility-related stress in a small randomized trial.",
+          "why_it_fits": "Women's Health and Self readers are deeply engaged with fertility content and increasingly open to digital mental health tools as accessible alternatives to traditional therapy.",
+          "pitch_angle": "The emotional toll of infertility is enormous, yet most women can't access a therapist who specializes in it. A new RCT found that a fully automated online CBT program meaningfully reduced infertility-specific stress \u2014 without any human clinician involved. The study is small and based in Iceland, but it's one of the first controlled tests of this kind of tool, and the implications for scalable fertility mental health support are real.",
+          "caveats_to_flag": "Small sample (N=63), predominantly Icelandic, low adherence, and the app did not improve general anxiety or depression \u2014 only fertility-specific stress. Results are preliminary."
+        },
+        {
+          "publication_type": "Health / General women's wellness",
+          "headline": "Can an Algorithm Help You Cope With Infertility? A New Study Has a Cautiously Hopeful Answer",
+          "hook": "A randomized trial found that a chatbot-style CBT program eased fertility stress \u2014 but it didn't touch broader anxiety or depression.",
+          "why_it_fits": "Health readers appreciate nuanced clinical coverage of fertility and mental health, and the specific vs. general effects distinction here gives writers a more honest, layered story to tell.",
+          "pitch_angle": "Digital mental health tools are everywhere, but few have been rigorously tested in fertility populations. This small Icelandic RCT found that a fully automated CBT program reduced infertility-related distress \u2014 while having no measurable effect on general anxiety or depression. That specificity is actually an interesting finding: it suggests fertility stress may need targeted, not generic, mental health interventions. Experts in reproductive psychiatry could weigh in on what this means for integrated fertility care.",
+          "caveats_to_flag": "Trial was underpowered, adherence was low, and the sample is not representative of diverse fertility patients globally. Long-term effects are unknown."
+        }
+      ],
+      "run_date": "2026-06-26",
+      "category": "Brain & Mental Health",
+      "chunk": "1/3",
+      "status": "new"
+    },
+    {
+      "pmid": "42331551",
+      "headline": "A blood DNA test may predict who responds to immunotherapy for esophageal cancer \u2014 before treatment even starts",
+      "journal": "Zhonghua Zhong Liu Za Zhi (Chinese Journal of Oncology)",
+      "pubdate": "2026 Jun 23",
+      "doi": "10.3760/cma.j.cn112152-20250928-00489",
+      "groundbreaking": "Relevant women's health finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers analyzed circulating cell-free DNA (cfDNA) from blood samples of 30 patients with advanced esophageal squamous cell carcinoma (ESCC) before they began treatment with the immunotherapy drug camrelizumab combined with chemotherapy. The study identified six genes that differed between patients who responded to treatment and those who did not. Notably, mutations in a gene called TYW1B were associated with significantly better progression-free survival (median not reached vs. 9.7 months) and overall survival (30.9 vs. 17.8 months), suggesting cfDNA profiling could help identify likely responders before therapy begins.",
+      "why_it_matters": "Esophageal cancer is difficult to treat and often diagnosed at advanced stages; a non-invasive blood test that could predict immunotherapy response before treatment starts would be meaningful for patients and oncologists navigating limited options.",
+      "caveats": "small sample (N<100), single-center, observational design, no sex-disaggregated data, short follow-up, findings require validation in larger cohorts per authors",
+      "fact_check_note": "Abstract confirms N=30, confirms six differentially mutated genes identified, confirms TYW1B mutation associated with better PFS (HR=2.658, p=0.0497) and OS (HR=3.029, p=0.033). Abstract explicitly states findings require larger cohort validation. All details accurately reflected.",
+      "excluded": false,
+      "relevance_score": 3,
+      "relevance_score_reason": "Highly technical oncology study in a specialized Chinese-language journal with N=30 and no sex-disaggregated data; esophageal cancer has low topic-fit for women's lifestyle outlets and the findings are too preliminary for mainstream journalism.",
+      "pitch_angles": [
+        {
+          "publication_type": "Health",
+          "headline": "Could a Simple Blood Test Tell Doctors Which Cancer Patients Will Respond to Immunotherapy?",
+          "hook": "A small study suggests that analyzing DNA fragments circulating in a cancer patient's blood before treatment begins could predict whether immunotherapy will work \u2014 potentially sparing patients from ineffective regimens.",
+          "why_it_fits": "Health readers follow advances in cancer diagnostics and personalized medicine, and liquid biopsy technology is an emerging area with broad patient relevance.",
+          "pitch_angle": "Immunotherapy has transformed cancer treatment, but it doesn't work for everyone \u2014 and doctors currently have limited tools to predict who will benefit before treatment starts. A new study from China found that analyzing cell-free DNA in blood samples before chemotherapy and immunotherapy could flag genetic markers linked to better or worse outcomes in esophageal cancer patients. The study is very small and needs replication, but it points toward a future where blood-based genetic testing could guide treatment decisions. A reported piece could explore the broader landscape of liquid biopsy technology in oncology.",
+          "caveats_to_flag": "N=30, single-center study in China, no sex-disaggregated data, observational design, authors themselves call for larger validation studies; findings are not ready for clinical application."
+        }
+      ],
+      "run_date": "2026-06-26",
+      "category": "Cancer & Oncology",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42334687",
+      "headline": "Combining surgery, radiation, and drugs at brain tumor recurrence may more than double survival time compared to drugs alone",
+      "journal": "Journal of Neuro-Oncology",
+      "pubdate": "2026 Jun 23",
+      "doi": "10.1007/s11060-026-05635-y",
+      "groundbreaking": "Relevant women's health finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "The FROST study, a real-world multicenter analysis of 271 adults with recurrent glioblastoma (GBM) across French cancer centers, compared survival outcomes for patients who received systemic therapy alone versus a multimodal approach combining surgery, radiation, and systemic treatment after their tumor returned. Patients treated with the multimodal approach had a median overall survival of 16.2 months from recurrence, compared to 7.9 months for those on systemic therapy alone \u2014 a more than twofold difference. Researchers used Kaplan-Meier analysis, Cox regression, and propensity score methods to account for differences between groups.",
+      "why_it_matters": "Glioblastoma is among the most aggressive brain cancers, with no standardized treatment protocol at recurrence; this real-world evidence suggests that combining all available treatment modalities at first relapse may meaningfully extend survival for some patients.",
+      "caveats": "observational design, no sex-disaggregated data, single-country study, retrospective real-world design limits causal inference, patient selection for multimodal treatment may introduce bias",
+      "fact_check_note": "Abstract confirms N=271, confirms median OS of 16.2 months for multimodal vs. 7.9 months for systemic treatment alone, confirms Cox HR of 2.64 (1.42\u20134.89) for systemic vs. multimodal. Multicenter study across French institutions confirmed. All details accurately reflected.",
+      "excluded": false,
+      "relevance_score": 5,
+      "relevance_score_reason": "Meaningful real-world survival data from a decent-sized cohort (N=271) on a devastating cancer, but no sex-disaggregated data, observational design, and highly specialized oncology focus limit appeal for women's lifestyle publications without a specific women's health hook.",
+      "pitch_angles": [
+        {
+          "publication_type": "Health",
+          "headline": "For the Most Aggressive Brain Cancer, Combining Every Available Treatment at Relapse May Add Months to Life",
+          "hook": "When glioblastoma \u2014 the deadliest brain cancer \u2014 comes back, a new study suggests that hitting it with surgery, radiation, and drugs simultaneously more than doubles median survival compared to medication alone.",
+          "why_it_fits": "Health readers are drawn to serious medical reporting on cancer treatment advances, especially findings that challenge current clinical practice and offer hope in difficult diagnoses.",
+          "pitch_angle": "Glioblastoma recurs in roughly three-quarters of patients within a year of diagnosis, and there are no standard guidelines for what to do when it does. A new real-world study of 271 patients in France found that those who received a combination of surgery, re-irradiation, and systemic therapy at first recurrence survived a median of 16.2 months \u2014 compared to 7.9 months for those on drug treatment alone. The study isn't a clinical trial, so selection bias is a real limitation, but the findings add weight to the argument for aggressive multimodal treatment at relapse. A reported piece could explore what recurrent GBM treatment looks like in practice and what this evidence means for patients and families navigating the diagnosis.",
+          "caveats_to_flag": "Observational retrospective design means patients selected for multimodal treatment may have been healthier to begin with; no sex-disaggregated data; single-country study; findings suggest association, not causation; no standardized protocol was tested."
+        }
+      ],
+      "run_date": "2026-06-26",
+      "category": "Cancer & Oncology",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42337620",
+      "headline": "AI tool diagnoses hard-to-spot tropical skin diseases from photos with 96% accuracy in Ethiopian dataset",
+      "journal": "JMIR Dermatology",
+      "pubdate": "2026 Jun 23",
+      "doi": "10.2196/91544",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers in Ethiopia built and tested a deep learning image-classification model to diagnose neglected tropical diseases (NTDs) that affect the skin \u2014 conditions that are historically underdiagnosed in low-resource settings. Using a dataset of 1,495 skin photographs across three disease classes collected at Arba Minch University Medical College, the team's best model achieved 96.6% accuracy and 95% sensitivity using a two-stage feature-extraction approach. The study suggests AI-assisted image diagnostics could help close diagnostic gaps in regions where specialist dermatologists are scarce.",
+      "why_it_matters": "Neglected tropical skin diseases disproportionately affect women and girls in low-income countries and often go undiagnosed due to lack of specialist access; early evidence suggests AI photo-based tools could support faster diagnosis in underserved communities.",
+      "caveats": "small sample (N<100 per class implied by dataset size and class imbalance), observational design, single-center, no sex-disaggregated data, computational/image dataset study with limited clinical validation",
+      "fact_check_note": "Dataset contains 1,495 images total across 3 classes with noted severe class imbalance \u2014 not 1,495 patients per class. No patient-level demographic data reported. This is a model benchmarking study, not a clinical trial; real-world diagnostic performance in practice is unvalidated.",
+      "excluded": false,
+      "relevance_score": 4,
+      "relevance_score_reason": "AI diagnostic tools for tropical skin diseases have public health relevance but limited direct lifestyle or personal-relevance hook for readers of mainstream US/UK women's wellness publications; the computational framing and Ethiopian-specific dataset narrow its pitch appeal significantly.",
       "pitch_angles": [
         {
           "publication_type": "General women's wellness / Health",
-          "headline": "A Glowing Surgical Pipe Could Help Make Hysterectomies Safer \u2014 Here's What We Know",
-          "hook": "Surgeons in Japan have introduced a near-infrared light-guided tool designed to improve navigation during one of the most common surgeries women undergo.",
-          "why_it_fits": "Millions of women have hysterectomies each year and are interested in surgical advances that could affect their safety and recovery.",
-          "pitch_angle": "A Japanese surgical team has described a new fluorescence-guided vaginal device intended to help surgeons better visualize anatomy during robot-assisted hysterectomies. The technology uses near-infrared light to illuminate structures in real time, potentially reducing the risk of navigational errors in minimally invasive procedures. However, no clinical trial data has been published yet \u2014 this is a device introduction, and journalists would need to wait for outcome studies before making claims about patient benefit.",
-          "caveats_to_flag": "There is no clinical data, patient cohort, or outcomes evidence in the published abstract. This should be framed only as an early-stage device description; do not imply proven surgical benefit. A journalist pursuing this angle should seek expert commentary and await forthcoming clinical studies."
+          "headline": "AI Can Now Spot Rare Tropical Skin Diseases From a Photo \u2014 With 96% Accuracy",
+          "hook": "A smartphone photo might soon be enough to diagnose a neglected tropical skin disease that affects millions of women with no access to a dermatologist.",
+          "why_it_fits": "Health-forward readers increasingly interested in AI's role in medicine would find the global equity angle \u2014 bringing dermatology to underserved communities \u2014 both timely and compelling.",
+          "pitch_angle": "Researchers in Ethiopia trained an AI model on skin photos to identify neglected tropical diseases \u2014 conditions that can cause severe disfigurement and are routinely missed in low-resource settings \u2014 and hit 96% accuracy in lab testing. The technology isn't clinic-ready yet, but it points toward a future where a photo taken on a basic smartphone could flag a diagnosis before it progresses. A reported piece could explore how AI dermatology tools are being developed specifically for populations historically left out of medical tech research.",
+          "caveats_to_flag": "Dataset-only benchmarking study, not yet validated in real clinical settings; severe class imbalance in training data; no demographic breakdown; findings cannot yet be generalized to clinical practice"
         }
       ],
-      "run_date": "2026-06-25",
+      "run_date": "2026-06-26",
+      "category": "Dermatology",
+      "chunk": "1/1",
+      "status": "new"
+    },
+    {
+      "pmid": "42332673",
+      "headline": "A first-trimester blood marker may predict severe preeclampsia months before symptoms appear \u2014 and it's not the ones doctors currently use",
+      "journal": "BMC Pregnancy and Childbirth",
+      "pubdate": "2026 Jun 22",
+      "doi": "10.1186/s12884-026-09532-0",
+      "groundbreaking": "Counterintuitive finding / First-in-class human study / Relevant women's health finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "In a nested case-control study drawn from a prospective cohort of 5,809 pregnant women, researchers analyzed first-trimester blood samples from 45 women who later developed severe preeclampsia and 41 women with uncomplicated pregnancies, using targeted metabolomics to measure 40 eicosanoid compounds. They identified a ratio of two fat-derived molecules \u2014 14-HDoHE to 19,20-EDP \u2014 as the strongest early predictor, and found that adding this ratio to an existing clinical screening algorithm improved predictive accuracy from an AUC of 0.77 to 0.87. The findings also suggest that imbalances in specific inflammatory lipid pathways precede severe preeclampsia by weeks.",
+      "why_it_matters": "Severe preeclampsia remains a leading cause of maternal death worldwide and is notoriously difficult to predict early; this study suggests a novel first-trimester blood marker could significantly improve identification of at-risk pregnancies, potentially opening a window for preventive intervention.",
+      "caveats": "small sample (N<100 in case-control subset), single-center, observational design, short follow-up, findings require validation in larger independent cohorts",
+      "fact_check_note": "AUC values (0.77 to 0.87), N=45 cases and 41 controls, and the nested case-control design within a cohort of 5,809 all verified against abstract. Study does not establish causation.",
+      "excluded": false,
+      "relevance_score": 8,
+      "relevance_score_reason": "Directly addresses a life-threatening pregnancy complication that disproportionately affects women, with a counterintuitive finding (novel lipid biomarker outperforms existing tools) and a clear prevention hook \u2014 though the small case-control subset is a significant caveat.",
+      "pitch_angles": [
+        {
+          "publication_type": "Health / General women's wellness",
+          "headline": "A New Blood Test Taken in Your First Trimester Could Predict a Dangerous Pregnancy Complication Months in Advance",
+          "hook": "Researchers found that a ratio of two fat-derived molecules in first-trimester blood was associated with severe preeclampsia long before any symptoms appeared \u2014 and adding it to existing screening tools made predictions significantly more accurate.",
+          "why_it_fits": "Health readers who are pregnant or planning pregnancy are deeply engaged with maternal risk and what early testing can reveal.",
+          "pitch_angle": "Preeclampsia \u2014 a sudden dangerous spike in blood pressure during pregnancy \u2014 affects up to 8% of pregnancies and is one of the leading causes of maternal death, yet it's still largely caught too late. A new study analyzing first-trimester blood samples from women in a large prospective cohort found that a ratio of two inflammatory fat molecules could flag severe preeclampsia risk as early as 11\u201314 weeks \u2014 well before any clinical signs appear. Adding this marker to existing screening tools improved prediction accuracy by a meaningful margin, raising the possibility that more women could be monitored or treated earlier with low-cost aspirin. The study is small and needs replication, but it offers a promising and largely overlooked angle on one of pregnancy's most serious threats.",
+          "caveats_to_flag": "Case-control subset was only 86 participants; findings are exploratory and not ready for clinical use. No causal language \u2014 this is a predictive association, not proof the biomarker causes preeclampsia."
+        },
+        {
+          "publication_type": "Women's Health Magazine",
+          "headline": "Scientists Found a Hidden Clue in First-Trimester Blood That Could Change How Dangerous Pregnancies Are Caught Early",
+          "hook": "Two fat molecules in your blood during the first trimester may silently signal a life-threatening pregnancy complication \u2014 and doctors aren't testing for them yet.",
+          "why_it_fits": "Women's Health readers are health-forward and pregnancy-aware; a story about a novel early-warning test with a potential prevention angle (aspirin) is directly actionable and shareable.",
+          "pitch_angle": "Preeclampsia kills tens of thousands of women globally each year, yet most cases aren't caught until symptoms emerge in the third trimester. New research suggests that a pair of lipid molecules in a routine blood draw at 11\u201314 weeks could identify women at highest risk far earlier \u2014 and the same study points to low-dose aspirin as a potential preventive tool already available to at-risk patients. The study is early and small, but the concept \u2014 that your body's inflammatory chemistry shifts weeks before a dangerous condition develops \u2014 is both scientifically compelling and genuinely useful for readers thinking about pregnancy planning.",
+          "caveats_to_flag": "This is preliminary research in a small nested cohort; journalists should not frame this as an available test or imply women should request it from their OB. Flag the aspirin finding carefully \u2014 it supports existing guidance, not a new recommendation."
+        }
+      ],
+      "run_date": "2026-06-26",
       "category": "Womens Health & Reproduction",
       "chunk": "1/1",
+      "status": "new"
+    },
+    {
+      "pmid": "42332050",
+      "headline": "A ventilation-first approach at birth may lower the risk of brain bleeds in the most premature infants",
+      "journal": "Journal of Perinatology",
+      "pubdate": "2026 Jun 22",
+      "doi": "10.1038/s41372-026-02751-5",
+      "groundbreaking": "Relevant women's health finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers conducted a secondary analysis of the VentFirst multi-center randomized trial, examining head ultrasound data from 548 infants born before 29 weeks' gestation who survived to their first scan. Any grade of intraventricular hemorrhage (IVH) \u2014 bleeding in the brain's ventricles \u2014 was found in 31% of infants, while severe IVH occurred in 8%. Compared to a similar population in the Vermont Oxford Network, infants in the VentFirst trial had lower odds of both any IVH and severe IVH, suggesting that optimized delivery room conditions associated with the trial may contribute to better neurological outcomes.",
+      "why_it_matters": "For parents of extremely premature infants, brain bleeds are among the most feared complications of early birth; this study suggests that the delivery approach used in the VentFirst protocol may be associated with lower rates of this serious outcome.",
+      "caveats": "secondary analysis, observational comparison with external cohort, no sex-disaggregated data, short follow-up for neurodevelopmental outcomes, single trial population",
+      "fact_check_note": "N=548, IVH rates (31% any grade, 8% severe), and VentFirst trial design verified against abstract. Described accurately as sub-analysis with external cohort comparison, not a standalone RCT finding. Causal language avoided.",
+      "excluded": false,
+      "relevance_score": 5,
+      "relevance_score_reason": "Relevant to parents of premature infants and pregnancy outcome journalism, but focused on neonatal rather than maternal health, with no sex-disaggregated data and a secondary analysis design limiting strength of evidence.",
+      "pitch_angles": [
+        {
+          "publication_type": "Health / General women's wellness",
+          "headline": "How Babies Are Managed in the Delivery Room May Affect Their Risk of Brain Bleeds, New Research Suggests",
+          "hook": "Extremely premature infants in a specialized resuscitation trial had lower rates of dangerous brain bleeds than comparable babies \u2014 and researchers think the delivery room protocol may be why.",
+          "why_it_fits": "Parents of premature or high-risk infants are an engaged Health readership, and delivery room decision-making is an area of high anxiety and low public understanding.",
+          "pitch_angle": "Intraventricular hemorrhage \u2014 bleeding into the fluid-filled spaces of a premature baby's brain \u2014 is one of the most serious complications of very early birth, affecting roughly 1 in 3 infants born before 29 weeks in this study. But data from a multi-center randomized trial found that infants managed under an optimized ventilation-first protocol had meaningfully lower odds of severe brain bleeds compared to a similar national population. Researchers suggest the structured, controlled conditions of the trial itself \u2014 not just the ventilation approach \u2014 may contribute to better outcomes, raising important questions about standardized delivery room practices for the most vulnerable newborns.",
+          "caveats_to_flag": "This is a secondary analysis comparing trial participants to an external cohort, not a direct randomized comparison \u2014 association only, not causation. Neurodevelopmental long-term outcomes were not assessed in this report."
+        }
+      ],
+      "run_date": "2026-06-26",
+      "category": "Womens Health & Reproduction",
+      "chunk": "1/1",
+      "status": "new"
+    },
+    {
+      "pmid": "42331042",
+      "headline": "Women's brains show the strongest shift toward a 'male-typical' pattern in depression \u2014 and it doesn't go away after treatment",
+      "journal": "Journal of Affective Disorders",
+      "pubdate": "2026 Jun 22",
+      "doi": "10.1016/j.jad.2026.122150",
+      "groundbreaking": "Counterintuitive finding / Relevant women's health finding / First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers analyzed resting-state brain connectivity data from two independent cohorts of unmedicated adults with major depressive disorder (MDD) and healthy controls (total N=579 across both cohorts, drawn from Xiangya Hospital and Peking University in China). They examined a measure called the Brain Sex Continuum (BSC) score \u2014 a functional brain architecture marker reflecting psychological androgyny \u2014 and found it was reproducibly elevated in MDD patients compared to controls, indicating a shift toward the extreme male end of the continuum. This shift was most pronounced in female patients, was primarily driven by changes in between-network brain connectivity, and critically, persisted even after 8 weeks of antidepressant treatment. The BSC shift was not associated with symptom severity or treatment response.",
+      "why_it_matters": "Because the BSC shift persisted after treatment and was most strongly expressed in female patients, early evidence suggests depression may leave a lasting neurobiological mark on women's brains that current antidepressants don't address \u2014 which could help explain why depression so often recurs and why women experience it differently than men.",
+      "caveats": "observational design, single-country sample (China), short follow-up (8-week treatment window), secondary analysis of existing cohort data, the BSC score is a novel and not yet clinically validated metric",
+      "fact_check_note": "Abstract specifies the BSC shift was 'primarily driven by elevated alterations in between-network connectivity, particularly in female patients' \u2014 this sex-specific finding is confirmed and accurately represented. Confidence intervals for the ORs in the PKU cohort are very wide (0.08 to 34.45), suggesting imprecision; this is noted as a caveat. N figures confirmed: XYH MDD=173, controls=238; PKU MDD=79, controls=89.",
+      "excluded": false,
+      "relevance_score": 8,
+      "relevance_score_reason": "Counterintuitive sex-specific finding in a condition women disproportionately experience, with two human cohorts and a longitudinal treatment component, makes this highly pitchable to women's health and mental health outlets; observational design and novel unvalidated metric are the main limiting caveats.",
+      "pitch_angles": [
+        {
+          "publication_type": "Health / Self",
+          "headline": "Depression Changes Women's Brains in a Way Antidepressants Don't Fix, Study Finds",
+          "hook": "A new study found that women with depression show the strongest shift in a brain connectivity pattern \u2014 and that shift doesn't disappear even after treatment works.",
+          "why_it_fits": "Health and Self readers living with depression or supporting someone who is want to understand why the condition feels so persistent and why treatment isn't always enough \u2014 this gives that question a neurobiological frame.",
+          "pitch_angle": "Researchers studying brain connectivity in hundreds of people with major depressive disorder found a measurable shift in what they call the 'brain sex continuum' \u2014 with female patients showing the most pronounced change. Strikingly, the shift remained even after 8 weeks of antidepressant treatment that relieved symptoms, suggesting depression may leave a neurological footprint that medication alone doesn't erase. The finding is early-stage but opens a compelling conversation about why depression so often returns and whether women's brains may need different or additional treatment targets.",
+          "caveats_to_flag": "Observational study conducted in China; the BSC score is a novel, not yet clinically validated measure; the treatment cohort was followed for only 8 weeks; confidence intervals on key statistics are wide, indicating imprecision. No causal claims can be made."
+        },
+        {
+          "publication_type": "Women's Health Magazine",
+          "headline": "Science Just Found a Hidden Brain Signature of Depression That's Strongest in Women",
+          "hook": "A brain connectivity pattern linked to depression is most pronounced in women \u2014 and stubbornly persists after antidepressants reduce symptoms.",
+          "why_it_fits": "Women's Health readers are engaged with science-backed mental health content that speaks specifically to their biology and lived experience of depression.",
+          "pitch_angle": "Using brain imaging data from nearly 580 people, researchers identified a system-wide brain connectivity marker that reliably distinguished people with depression from those without \u2014 and found it was most strongly expressed in women. Even after antidepressants reduced depressive symptoms, the brain marker stayed elevated, hinting that current treatments may not fully address an underlying neurological feature of the condition. For a readership that often wonders why depression keeps coming back, this early research offers a compelling new piece of the puzzle.",
+          "caveats_to_flag": "Study was conducted in China with no demographic breakdown beyond sex; the brain measure used (BSC score) is novel and not in clinical use; observational design means no cause-and-effect conclusions; 8-week follow-up is relatively short."
+        }
+      ],
+      "run_date": "2026-06-26",
+      "category": "Brain & Mental Health",
+      "chunk": "2/3",
+      "status": "new"
+    },
+    {
+      "pmid": "42176440",
+      "headline": "Nearly 6 in 10 Japanese parents couldn't maintain their kids' emotional support during pandemic closures \u2014 and cost was the biggest barrier to vaccination",
+      "journal": "Vaccine",
+      "pubdate": "2026 Jun 20",
+      "doi": "10.1016/j.vaccine.2026.128738",
+      "groundbreaking": "Relevant women's health finding / Counterintuitive finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "In a nationwide online survey of 4,961 Japanese parents living with at least one child aged 0\u201318, researchers assessed household preparedness for a hypothetical novel influenza pandemic and willingness to accept a pandemic vaccine. Only 40.5% of parents said they could maintain children's physical activity and 41.9% their emotional support during school closures. Latent profile analysis identified three preparedness tiers, with low preparedness concentrated in households with younger children, lower income, and dual full-time working parents. A vaccine out-of-pocket cost of approximately $27 USD (4,000 JPY) was associated with a 23% reduction in willingness to vaccinate.",
+      "why_it_matters": "Because women still shoulder a disproportionate share of childcare, pandemic preparedness gaps \u2014 particularly around emotional support and financial barriers to vaccination \u2014 fall hardest on mothers, making this data relevant to conversations about caregiver burden and family health decision-making.",
+      "caveats": "self-reported outcomes, observational design, single-country (Japan), hypothetical scenario (not real pandemic), no sex-disaggregated data by caregiver gender",
+      "fact_check_note": "Abstract confirms N=4,961 and the RR values for cost (0.77) and prior vaccination history (1.58) \u2014 both verified and accurately reported. The $27 USD conversion is approximate and should be noted as such by journalists.",
+      "excluded": false,
+      "relevance_score": 6,
+      "relevance_score_reason": "The large sample, clear lifestyle hook around caregiver burden and vaccine cost barriers, and implicit relevance to mothers' pandemic experience give this moderate pitch potential, though the single-country design and lack of gender-disaggregated caregiver data limit direct applicability to a U.S. women's audience.",
+      "pitch_angles": [
+        {
+          "publication_type": "Women's Health Magazine / Self",
+          "headline": "A Survey of Nearly 5,000 Parents Found Most Couldn't Keep Their Kids Emotionally Supported During Pandemic Closures \u2014 and Cost Is What's Stopping Families From Vaccinating",
+          "hook": "When researchers modeled a future pandemic scenario, fewer than half of parents said they could maintain their children's emotional wellbeing during school shutdowns \u2014 and a single co-pay was enough to make most families skip the vaccine.",
+          "why_it_fits": "Self and Women's Health readers who are parents \u2014 often the primary health decision-makers and caregivers in their households \u2014 would recognize this data in their own pandemic experiences and find the cost-barrier finding actionable.",
+          "pitch_angle": "A nationwide survey of nearly 5,000 Japanese parents found that most households weren't remotely prepared for pandemic school closures \u2014 with only about 4 in 10 confident they could maintain their children's emotional wellbeing or physical activity. Published in Vaccine, the study also found that adding even a modest out-of-pocket cost to a pandemic vaccine reduced willingness to get it by 23%. The findings underscore how financial strain and caregiving demands intersect to create public health vulnerabilities \u2014 especially for working parents.",
+          "caveats_to_flag": "This was a hypothetical pandemic scenario survey, not a real outbreak. Findings come from Japan and may not directly translate to U.S. families. The survey was self-reported and did not break down results by caregiver gender, so the burden on mothers specifically cannot be quantified from this data."
+        }
+      ],
+      "run_date": "2026-06-26",
+      "category": "Allergy & Immunology",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42202422",
+      "headline": "Timor-Leste cut its unvaccinated children by 22% in a single year \u2014 here's how",
+      "journal": "Vaccine",
+      "pubdate": "2026 Jun 20",
+      "doi": "10.1016/j.vaccine.2026.128746",
+      "groundbreaking": "Relevant women's health finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers synthesized immunization data from Timor-Leste's 2023\u20132024 EPI fact sheets and WHO surveillance frameworks to assess progress toward the Immunization Agenda 2030 goals. Key findings include a 22% reduction in zero-dose children in one year, government vaccine financing rising from 64% to 80%, and the July 2024 launch of an HPV vaccine targeting girls aged 11\u201314. However, measles vaccine coverage stagnated at 72% \u2014 well below the 95% elimination threshold \u2014 and surveillance gaps remain for polio detection.",
+      "why_it_matters": "The HPV vaccine rollout directly affects adolescent girls' long-term cervical cancer risk in one of Southeast Asia's most under-resourced nations, offering a real-world example of how political commitment can expand vaccine access for girls even in post-conflict settings.",
+      "caveats": "observational design, secondary analysis, no sex-disaggregated data, single-country findings may not generalize",
+      "fact_check_note": "",
+      "excluded": false,
+      "relevance_score": 4,
+      "relevance_score_reason": "The HPV vaccination angle offers a narrow women's health hook, but the study is primarily a public health policy viewpoint on a low-income country's immunization program, with limited lifestyle relevance for readers of U.S. women's wellness publications.",
+      "pitch_angles": [
+        {
+          "publication_type": "General women's wellness / Health",
+          "headline": "A Small Nation Just Launched an HPV Vaccine Program for Girls \u2014 and the Results Are Already Promising",
+          "hook": "Timor-Leste, one of the world's poorest countries, cut its rate of unvaccinated children by 22% in a single year and launched an HPV vaccination program for adolescent girls in 2024.",
+          "why_it_fits": "Readers who care about global women's health equity and HPV prevention would find a real-world story of access and progress compelling, especially tied to cervical cancer prevention.",
+          "pitch_angle": "A post-conflict nation of just 1.34 million people managed to dramatically reduce vaccine gaps and roll out HPV shots for girls aged 11\u201314 \u2014 all while operating on a shoestring budget. This viewpoint study, published in Vaccine, breaks down how political will and targeted equity strategies made it possible. The story offers a hopeful counterpoint to vaccine hesitancy narratives dominating Western health coverage.",
+          "caveats_to_flag": "This is a policy viewpoint drawing on national fact sheets, not a clinical trial. Findings are specific to Timor-Leste and may not translate to other settings. Surveillance gaps remain, and measles coverage is still dangerously low."
+        }
+      ],
+      "run_date": "2026-06-26",
+      "category": "Allergy & Immunology",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42341377",
+      "headline": "A family-based CBT program helped depressed teens return to school at four times the rate of standard care",
+      "journal": "Asian Journal of Psychiatry",
+      "pubdate": "2026 Jun 20",
+      "doi": "10.1016/j.ajp.2026.105056",
+      "groundbreaking": "Relevant women's health finding / First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers in Beijing conducted a non-randomized controlled trial with 71 adolescents experiencing depression and school refusal, assigning 39 to an 8-week dual-track group cognitive behavioral therapy (CBT) program \u2014 pairing adolescent in-person sessions with online sessions for parents \u2014 and 32 to treatment as usual. At 8 weeks, school attendance rose from 16.7% to 66.7% in the CBT group, compared with a marginal increase from 46.9% to 50.0% in the control group. Exploratory analyses suggested that reducing parents' tendency to misjudge their child's emotional state may be a key mechanism in the treatment's effectiveness.",
+      "why_it_matters": "Adolescent depression and school avoidance disproportionately affect girls, and this study suggests that involving parents in a structured online-plus-in-person CBT model could meaningfully improve outcomes \u2014 a practically scalable approach for families navigating teen mental health crises.",
+      "caveats": "small sample (N<100), non-randomized design, single-center, self-reported outcomes, short follow-up, China-specific population limiting generalizability",
+      "fact_check_note": "Abstract reports school return rose from 16.7% to 66.7% in GCBT group vs. 46.9% to 50.0% in TAU \u2014 confirmed. Adolescent-reported PHQ-9 and GAD-7 improvements were non-significant after FDR correction; only parent-reported outcomes reached significance \u2014 noted to avoid overclaiming.",
+      "excluded": false,
+      "relevance_score": 6,
+      "relevance_score_reason": "Directly relevant to teen mental health \u2014 a growing concern for women's lifestyle audiences with daughters \u2014 but limited by small non-randomized sample, single cultural setting, and no sex-disaggregated results.",
+      "pitch_angles": [
+        {
+          "publication_type": "Health / General women's wellness",
+          "headline": "When a Teen Refuses to Go to School, Treating the Parents Too Might Be the Missing Piece",
+          "hook": "A new study found that bringing parents into their depressed teen's therapy \u2014 even virtually \u2014 quadrupled the rate of kids returning to school.",
+          "why_it_fits": "Readers who are parents of adolescents are actively seeking evidence-based approaches to teen depression and school avoidance, a topic that has exploded in visibility since the pandemic.",
+          "pitch_angle": "Researchers tested a dual-track CBT program where depressed teens attended in-person group therapy while their parents simultaneously joined online sessions. After 8 weeks, two-thirds of teens in the program were back in school \u2014 compared to half in standard care. The surprising finding: reducing parents' tendency to misjudge their child's emotional state appeared to be a key driver of improvement, suggesting the parent-child disconnect itself may be part of what keeps struggling teens stuck at home.",
+          "caveats_to_flag": "Non-randomized design means results can't prove causation; small sample of 71; conducted in Beijing, so cultural context may limit generalizability; parent-reported but not teen-reported symptom scores reached statistical significance."
+        }
+      ],
+      "run_date": "2026-06-26",
+      "category": "Brain & Mental Health",
+      "chunk": "3/3",
+      "status": "new"
+    },
+    {
+      "pmid": "42106000",
+      "headline": "Brain scans of people with OCD reveal a specific pattern of structural and chemical changes \u2014 even before any medication",
+      "journal": "Progress in Neuro-Psychopharmacology & Biological Psychiatry",
+      "pubdate": "2026 Jun 20",
+      "doi": "10.1016/j.pnpbp.2026.111733",
+      "groundbreaking": "First-in-class human study / Relevant women's health finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Using structural and resting-state functional MRI, researchers scanned 61 people newly diagnosed with OCD who had never taken medication and 59 healthy controls, then mapped the brain changes against established neurotransmitter distribution maps from PET/SPECT imaging. They identified a coupled structural-functional brain network \u2014 spanning emotion, memory, and motor regions \u2014 that reliably distinguished people with OCD from those without. The altered brain activity pattern was significantly associated with serotonin, dopamine, GABA, and glutamate receptor systems, offering a detailed neurochemical map of OCD in its earliest, untreated state.",
+      "why_it_matters": "OCD affects women at roughly equal rates to men but often goes undiagnosed for years; understanding the specific brain chemistry involved in untreated OCD could eventually help explain why some people respond to existing medications and others don't.",
+      "caveats": "small sample (N<100), single-center, no sex-disaggregated data, cross-sectional design, China-specific sample",
+      "fact_check_note": "Abstract specifies 61 OCD patients and 59 healthy controls \u2014 confirmed. Study is neuroimaging-only; no treatment outcomes are reported. Industry conflict noted: one co-author affiliated with GE HealthCare MR Research.",
+      "excluded": false,
+      "relevance_score": 5,
+      "relevance_score_reason": "Addresses OCD \u2014 a condition with meaningful prevalence in women \u2014 but is a highly technical neuroimaging study with no sex-disaggregated data, small sample, and limited direct lifestyle relevance without significant translation.",
+      "pitch_angles": [
+        {
+          "publication_type": "Health",
+          "headline": "Scientists Mapped the Brain Chemistry of OCD Before Any Treatment \u2014 Here's What They Found",
+          "hook": "A new brain imaging study identified the precise chemical systems disrupted in OCD, pointing toward why current treatments work for some people but not others.",
+          "why_it_fits": "Health readers want to understand the science behind conditions that affect them or people they love, and OCD \u2014 often misrepresented in popular culture \u2014 benefits from grounded, accurate coverage.",
+          "pitch_angle": "Researchers scanned the brains of people newly diagnosed with OCD who hadn't yet taken any medication, then compared their brain structure and activity to healthy controls. They found a distinct pattern involving emotion- and memory-processing regions \u2014 and traced it to disruptions in serotonin, dopamine, GABA, and glutamate systems simultaneously. The findings suggest OCD is far more neurochemically complex than the 'serotonin imbalance' narrative that has historically dominated public understanding.",
+          "caveats_to_flag": "Small sample of 120 total; single center in China; no sex-disaggregated analysis; cross-sectional design cannot show causation; one co-author has industry affiliation with GE HealthCare."
+        }
+      ],
+      "run_date": "2026-06-26",
+      "category": "Brain & Mental Health",
+      "chunk": "3/3",
+      "status": "new"
+    },
+    {
+      "pmid": "42321177",
+      "headline": "A genetic marker may predict who responds to a new depression drug \u2014 but only if you have the right DNA variant",
+      "journal": "Translational Psychiatry",
+      "pubdate": "2026 Jun 19",
+      "doi": "10.1038/s41398-026-04144-w",
+      "groundbreaking": "First-in-class human study / Counterintuitive finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers from Denovo Biopharma conducted a genome-wide association study using blood samples from 233 people with treatment-resistant depression enrolled in two Phase 2b trials of liafensine, a triple reuptake inhibitor that targets serotonin, norepinephrine, and dopamine simultaneously. A single genetic variant (rs12217173) on the ANK3 gene was identified as strongly associated with treatment response to liafensine (combined p = 1.27 \u00d7 10\u207b\u2078), and was not associated with response to the antidepressants duloxetine or escitalopram \u2014 suggesting it is specific to this drug. The finding was subsequently tested in a prospective clinical study.",
+      "why_it_matters": "Treatment-resistant depression disproportionately burdens women, who are diagnosed with depression at roughly twice the rate of men; a genetic biomarker that could identify in advance which patients are likely to respond to a new class of antidepressant represents a meaningful step toward personalized psychiatric care.",
+      "caveats": "small sample (N<100 in replication set), industry funding [Denovo Biopharma \u2014 majority of authors are employees or equity holders], secondary analysis, replication set very small (n=47)",
+      "fact_check_note": "Abstract clearly states liafensine did NOT show efficacy in non-biomarker-selected patients in both Phase 2b trials \u2014 this is important context that must not be omitted. The drug is not approved or available; this is a biomarker discovery study. Industry conflict of interest is substantial: most authors are employed by and hold equity in Denovo Biopharma.",
+      "excluded": false,
+      "relevance_score": 6,
+      "relevance_score_reason": "Precision medicine angle for treatment-resistant depression has strong relevance for women's health audiences, but heavy industry funding, very small replication sample, and secondary analysis design substantially limit the strength of the finding.",
+      "pitch_angles": [
+        {
+          "publication_type": "Health",
+          "headline": "Your DNA Might Predict Whether a New Antidepressant Would Actually Work for You",
+          "hook": "A new study suggests a single genetic variant could identify which people with treatment-resistant depression would respond to a drug that failed in general trials \u2014 pointing toward a future where antidepressants are matched to your biology.",
+          "why_it_fits": "Health readers living with depression \u2014 or caring for someone who is \u2014 are deeply invested in the promise and limitations of precision psychiatry, especially as 'treatment-resistant' depression becomes a more widely discussed diagnosis.",
+          "pitch_angle": "Liafensine, a new antidepressant that targets three neurotransmitters at once, flopped in clinical trials when given to all comers. But when researchers looked at the DNA of trial participants, they found a single genetic variant that predicted who actually responded \u2014 and it wasn't linked to response to any existing antidepressants. Early evidence suggests this could be a proof-of-concept moment for genomic matching in psychiatry. The catch: the replication sample was tiny, and the research was funded by the company that makes the drug.",
+          "caveats_to_flag": "Study was conducted and funded by Denovo Biopharma; most authors are employees or equity holders \u2014 significant conflict of interest. Replication sample was only 47 people. The drug is not approved. Results are preliminary and require independent replication."
+        }
+      ],
+      "run_date": "2026-06-26",
+      "category": "Brain & Mental Health",
+      "chunk": "3/3",
+      "status": "new"
+    },
+    {
+      "pmid": "42330128",
+      "headline": "A rare clotting disorder created a catch-22 for doctors treating a dangerous brain blood clot",
+      "journal": "Stroke",
+      "pubdate": "2026 Jul",
+      "doi": "10.1161/STROKEAHA.126.055219",
+      "groundbreaking": "Relevant women's health finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "This case report published in Stroke describes the complex management of a patient with cerebral venous sinus thrombosis (CVST) \u2014 a blood clot in the brain's venous drainage system \u2014 complicated by simultaneous hemorrhage and congenital dysfibrinogenemia, a rare inherited disorder affecting fibrinogen function. The case highlights the clinical dilemma of needing anticoagulation to treat the clot while the bleeding disorder and concurrent hemorrhage create serious risks. The abstract does not provide participant demographic details beyond the case itself.",
+      "why_it_matters": "CVST disproportionately affects women, particularly those using hormonal contraception or who are pregnant or postpartum, making awareness of rare complicating conditions like dysfibrinogenemia relevant to women's health discussions.",
+      "caveats": "single case report (N=1), small sample (N<100), no sex-disaggregated data, single-center, limited generalizability",
+      "fact_check_note": "Abstract contains no full study data beyond a case description; summary reflects only what the abstract discloses. No demographic details available from abstract alone.",
+      "excluded": false,
+      "relevance_score": 3,
+      "relevance_score_reason": "Single case report of an extremely rare condition \u2014 too narrow and clinically niche for women's lifestyle journalism despite CVST's disproportionate prevalence in women.",
+      "pitch_angles": [
+        {
+          "publication_type": "Health / General women's wellness",
+          "headline": "The Brain Clot Risk Factor That Hits Women Hardest \u2014 and Why It's So Hard to Treat",
+          "hook": "Cerebral venous sinus thrombosis, a type of brain blood clot, is far more common in women \u2014 and a new case report shows just how complicated treatment can get.",
+          "why_it_fits": "Health readers respond to stories that illuminate underrecognized medical risks facing women, especially those tied to hormonal contraception or pregnancy.",
+          "pitch_angle": "CVST is a stroke-like condition that disproportionately strikes women, often linked to birth control pills or the postpartum period. A new case report in Stroke illustrates how rare genetic conditions can make treatment a genuine catch-22. While this is a single case, it opens the door to a broader reported piece on who's most at risk for CVST and what doctors wish more women knew.",
+          "caveats_to_flag": "This is a single case report, not a study \u2014 any story would need expert comment and broader epidemiological context to be meaningful for a general audience."
+        }
+      ],
+      "run_date": "2026-06-26",
+      "category": "Brain & Mental Health",
+      "chunk": "1/3",
+      "status": "new"
+    },
+    {
+      "pmid": "42330131",
+      "headline": "A rare mitochondrial disease can mimic stroke in ways that may confuse even brain imaging scans, new case highlights",
+      "journal": "Stroke",
+      "pubdate": "2026 Jul",
+      "doi": "10.1161/STROKEAHA.126.055745",
+      "groundbreaking": "Relevant women's health finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "This brief case report published in Stroke describes a patient with MELAS (Mitochondrial Encephalomyopathy, Lactic Acidosis, and Stroke-like Episodes) who showed an unusual combination of reversible cerebral vasoconstriction alongside stroke-like lesions on multimodal brain imaging. The report documents a sequence of imaging findings that illustrate how MELAS can paradoxically present with vascular features typically associated with reversible vasoconstriction syndromes, potentially complicating diagnosis. Because the submission is a letter or brief report rather than an original research study, no patient cohort size or systematic methodology is described.",
+      "why_it_matters": "MELAS is a mitochondrial condition that disproportionately presents in women of reproductive age and is frequently misdiagnosed as stroke; case reports like this one can help clinicians recognize unusual imaging presentations \u2014 though this is a single case and no clinical guidance should be drawn from it alone.",
+      "caveats": "single-center, small sample (N<100 \u2014 single case report), no sex-disaggregated data, no original research methodology, observational design",
+      "fact_check_note": "Abstract contains no patient demographics, sample size, or systematic data; described accurately as a case/imaging report. MELAS's sex distribution noted from general medical knowledge \u2014 not sourced from this abstract, flagged accordingly.",
+      "excluded": false,
+      "relevance_score": 3,
+      "relevance_score_reason": "MELAS is rare and the submission is a single case letter with no research data, making it extremely difficult to pitch to women's lifestyle outlets despite a genuine women's health angle around misdiagnosis.",
+      "pitch_angles": [
+        {
+          "publication_type": "Health / General women's wellness",
+          "headline": "This Rare Genetic Condition Looks Just Like a Stroke on Brain Scans \u2014 And It Often Strikes Women First",
+          "hook": "A new case report in the journal Stroke highlights how a rare mitochondrial disease can fool even sophisticated brain imaging \u2014 a reminder that not every stroke-like episode is actually a stroke.",
+          "why_it_fits": "Health-focused readers are highly engaged by misdiagnosis stories, particularly those involving conditions that disproportionately affect women \u2014 and MELAS is frequently overlooked in younger women presenting with neurological symptoms.",
+          "pitch_angle": "Clinicians in China documented a patient with MELAS \u2014 a rare inherited mitochondrial disorder \u2014 whose brain scans showed a puzzling combination of features: blood vessels that temporarily constricted and then relaxed, alongside lesions that looked like stroke damage. The paradox matters because MELAS is one of the most common mitochondrial diseases and often first appears in women of reproductive age with symptoms easily mistaken for a conventional stroke. The case underscores how rare-disease literacy could shorten the diagnostic odyssey for women living with undiagnosed mitochondrial conditions.",
+          "caveats_to_flag": "This is a single case report, not a clinical study; no patient demographics are provided in the abstract; no conclusions about prevalence, sex differences, or treatment can be drawn; MELAS is rare and this pitch should not alarm readers into self-diagnosis."
+        }
+      ],
+      "run_date": "2026-06-26",
+      "category": "Brain & Mental Health",
+      "chunk": "1/3",
+      "status": "new"
+    },
+    {
+      "pmid": "42322272",
+      "headline": "A type of colorectal cancer long considered immune-therapy-resistant may respond better when chemo and immunotherapy are combined",
+      "journal": "Oncoimmunology",
+      "pubdate": "2026 Dec 31",
+      "doi": "10.1080/2162402X.2026.2671491",
+      "groundbreaking": "Counterintuitive finding / Overturns prior research",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers pooled individual patient data from two phase II clinical trials (MEDITREME and METIMMOX) involving 130 patients with metastatic microsatellite stable (MSS) colorectal cancer \u2014 a subtype historically resistant to immune checkpoint inhibitors. Patients receiving chemoimmunotherapy (oxaliplatin-based chemotherapy plus checkpoint inhibitors) had a significantly longer median overall survival (not reached vs. 15.3 months; HR = 0.58) and higher complete response rates (14% vs. 5%) compared to chemotherapy alone. High baseline CD8+ T-cell infiltration was associated with better outcomes specifically in the chemoimmunotherapy group, suggesting a potential predictive biomarker.",
+      "why_it_matters": "Colorectal cancer rates are rising among younger adults, including women under 50, and MSS tumors \u2014 the majority of metastatic colorectal cancers \u2014 have had few immunotherapy options; this early evidence suggests a combination approach could change the treatment landscape for a large proportion of patients.",
+      "caveats": "small sample (N<100 in chemotherapy-alone arm), secondary analysis, pooled phase II trials (not a single RCT), no sex-disaggregated data, short follow-up for some patients",
+      "fact_check_note": "Overall survival in the chemoimmunotherapy arm was reported as 'not reached' per the abstract \u2014 this has been preserved accurately. Complete response rates verified as 14% vs. 5% per abstract.",
+      "excluded": false,
+      "relevance_score": 6,
+      "relevance_score_reason": "The counterintuitive finding that an 'immune-resistant' cancer responds to immunotherapy combination is a strong hook, but the lack of sex-disaggregated data and the highly clinical framing limit direct lifestyle relevance for women's wellness publications.",
+      "pitch_angles": [
+        {
+          "publication_type": "Health / General women's wellness",
+          "headline": "Doctors Thought This Common Colon Cancer Couldn't Be Treated With Immunotherapy. A New Study Suggests Otherwise.",
+          "hook": "A cancer subtype that makes up the majority of metastatic colorectal cancer cases has long been written off as immune-therapy-resistant \u2014 but new evidence suggests pairing chemo with immunotherapy could significantly extend survival.",
+          "why_it_fits": "Health readers tracking cancer treatment advances, particularly given rising colorectal cancer rates in younger women, would find a potential treatment shift highly relevant.",
+          "pitch_angle": "Microsatellite stable colorectal cancer accounts for most metastatic cases and has been stubbornly resistant to the immunotherapy drugs that have transformed other cancers. A pooled analysis of two clinical trials, published in Oncoimmunology, found that patients who received chemotherapy combined with immune checkpoint inhibitors had dramatically better survival outcomes than those on chemo alone. Researchers also identified a potential biomarker \u2014 immune cell activity in the tumor \u2014 that could help predict who benefits most, moving toward more personalized treatment.",
+          "caveats_to_flag": "This is a pooled analysis of two small phase II trials (130 patients total), not a large randomized controlled trial. Results should be considered preliminary. No data were reported separately for women vs. men. A phase III trial would be needed to confirm these findings."
+        }
+      ],
+      "run_date": "2026-06-26",
+      "category": "Allergy & Immunology",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42334890",
+      "headline": "Childhood trauma leaves a longer shadow than adult trauma \u2014 and the type matters as much as the timing",
+      "journal": "European Journal of Psychotraumatology",
+      "pubdate": "2026 Dec",
+      "doi": "10.1080/20008066.2026.2672797",
+      "groundbreaking": "Relevant women's health finding / Counterintuitive finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Drawing on data from 8,831 adults across 38 countries who completed the validated Global Psychotrauma Screen, researchers examined how the age at which a person first experienced trauma \u2014 and the type of trauma \u2014 predicted long-term mental health outcomes including PTSD, complex PTSD, depression, anxiety, dissociation, insomnia, self-harm, and substance use. Early childhood trauma predicted the greatest symptom burden, especially for complex PTSD, dissociation, and self-harm; sexual violence in early and middle childhood was particularly harmful across all outcomes. Notably, emotional abuse consistently predicted elevated symptoms regardless of when it occurred, while some trauma types (serious injury, causing harm to others) were associated with fewer symptoms when experienced early \u2014 a counterintuitive finding the researchers flag for further study.",
+      "why_it_matters": "Women are disproportionately survivors of childhood sexual abuse and emotional abuse \u2014 the two trauma types associated with the most severe and lasting mental health consequences in this large cross-cultural study \u2014 underscoring the lifelong public health burden of these experiences for women specifically.",
+      "caveats": "self-reported outcomes, cross-sectional design, retrospective trauma recall, variable country-level representation",
+      "fact_check_note": "Abstract confirms N=8,831 across 38 countries. Gender was included as a predictor variable (self-identified gender) but sex-disaggregated outcome data are not reported in the abstract \u2014 flagged accordingly. The counterintuitive finding about serious injury and causing harm to others being associated with fewer early-exposure symptoms is directly stated in the abstract.",
+      "excluded": false,
+      "relevance_score": 8,
+      "relevance_score_reason": "Large multinational study on childhood trauma and long-term mental health with direct relevance to women as disproportionate survivors of the highest-impact trauma types; counterintuitive finding adds editorial interest.",
+      "pitch_angles": [
+        {
+          "publication_type": "Health / General women's wellness",
+          "headline": "The Biggest Study on Childhood Trauma Just Confirmed: It's Not Just What Happened \u2014 It's When",
+          "hook": "A study of nearly 9,000 people across 38 countries found that emotional abuse causes lasting mental health damage no matter when it happens \u2014 but sexual violence in early childhood is uniquely devastating.",
+          "why_it_fits": "Readers are increasingly aware of the long-term mental health effects of childhood adversity, and this is the largest cross-cultural data set to map exactly which experiences cause which outcomes \u2014 and when.",
+          "pitch_angle": "Researchers analyzed trauma histories and mental health outcomes in nearly 9,000 adults from 38 countries and found that not all childhood trauma is equal: sexual violence and emotional abuse were consistently linked to the most severe long-term symptoms, including complex PTSD, dissociation, and self-harm. The earlier the exposure, the worse the outcomes \u2014 but one surprising finding upended assumptions: certain types of trauma, like serious injury, were actually associated with fewer symptoms when experienced young. The study adds important nuance to how we talk about trauma-informed care.",
+          "caveats_to_flag": "Self-reported trauma recall; cross-sectional design means causation cannot be established; country representation varies; sex-disaggregated outcomes not reported in the abstract."
+        },
+        {
+          "publication_type": "Self / Women's mental health",
+          "headline": "Emotional Abuse May Be the Most Underestimated Childhood Trauma \u2014 New Data From 38 Countries Backs That Up",
+          "hook": "Unlike other childhood traumas, emotional abuse predicted worse mental health outcomes regardless of whether it happened at age 5 or 15 \u2014 a finding that challenges how we rank and respond to different kinds of harm.",
+          "why_it_fits": "Self readers engage deeply with mental health content that validates experiences that are often minimized \u2014 emotional abuse being 'less serious' than physical or sexual abuse is a harmful misconception this research directly challenges.",
+          "pitch_angle": "Most trauma research focuses on physical or sexual violence, but this large multinational study found emotional abuse to be uniquely consistent in its damage \u2014 predicting elevated depression, PTSD, and self-harm symptoms no matter what age it occurred. For the millions of women who grew up in emotionally abusive environments and were told it 'wasn't that bad,' this data offers important, if painful, validation. The findings also point to the need for trauma therapies that specifically address emotional abuse histories.",
+          "caveats_to_flag": "Retrospective self-report introduces recall bias; study is observational; sex-disaggregated breakdowns are not reported in the abstract; cultural variation in how emotional abuse is defined and reported may affect results."
+        }
+      ],
+      "run_date": "2026-06-26",
+      "category": "Brain & Mental Health",
+      "chunk": "3/3",
       "status": "new"
     },
     {
@@ -200,292 +930,6 @@
       "status": "new"
     },
     {
-      "pmid": "42335791",
-      "headline": "How you learn to read Chinese characters reveals something surprising about the way all brains pick up new words",
-      "journal": "Cognitive Psychology",
-      "pubdate": "2026 Jun 23",
-      "doi": "10.1016/j.cogpsych.2026.101819",
-      "groundbreaking": "First-in-class human study",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers at Tianjin Normal University tracked the eye movements of 113 undergraduate students as they read Chinese sentences containing novel invented characters, testing whether visual meaning-clues embedded in Chinese characters (semantic radicals) help readers learn new words during natural reading. Participants who encountered novel characters whose visual meaning-clue matched the sentence context learned them faster than those with mismatched clues. Faster readers benefited more from these embedded meaning clues than slower readers, and the advantage narrowed as participants became more familiar with the characters. The authors describe this as the first demonstration of sublexical semantic transparency effects during novel word learning in Chinese natural reading.",
-      "why_it_matters": "Understanding how the brain leverages visual meaning cues to acquire new vocabulary during everyday reading could inform strategies for language learning and literacy development across all ages.",
-      "caveats": "single-center, no sex-disaggregated data",
-      "fact_check_note": "N=113 undergraduates confirmed in abstract. Study is described as first to demonstrate this specific effect in Chinese natural reading; summary reflects this claim accurately.",
-      "excluded": false,
-      "relevance_score": 3,
-      "relevance_score_reason": "Interesting cognitive science finding with a clean human study design, but no women's health angle, no sex-disaggregated data, and limited lifestyle relevance for women's wellness or beauty journalism.",
-      "pitch_angles": [
-        {
-          "publication_type": "General women's wellness",
-          "headline": "Science Just Revealed a Hidden Shortcut Your Brain Uses to Learn New Words Faster",
-          "hook": "Your brain may be using tiny visual clues embedded in written words to rapidly build vocabulary \u2014 even without you realizing it.",
-          "why_it_fits": "Readers interested in brain health, self-improvement, and language learning would find the practical angle on how reading speed and visual cues interact during word acquisition engaging.",
-          "pitch_angle": "A new study tracking readers' eye movements found that the brain automatically uses visual meaning-clues built into Chinese characters to speed up new word learning during normal reading \u2014 and faster readers exploit this shortcut more than slower ones. While the study focused on Chinese, it raises intriguing questions about whether similar embedded cues in other writing systems shape how quickly anyone picks up new vocabulary. The finding, published in Cognitive Psychology, is the first of its kind in natural Chinese reading research.",
-          "caveats_to_flag": "Study conducted entirely in Mandarin Chinese readers; findings may not transfer to other languages or scripts; single-center; no sex breakdown; participants were all undergraduates"
-        }
-      ],
-      "run_date": "2026-06-25",
-      "category": "Brain & Mental Health",
-      "chunk": "1/3",
-      "status": "new"
-    },
-    {
-      "pmid": "42334223",
-      "headline": "A free app using CBT cut infertility-related stress \u2014 but didn't touch anxiety or depression",
-      "journal": "Scandinavian Journal of Psychology",
-      "pubdate": "2026 Jun 23",
-      "doi": "10.1111/sjop.70126",
-      "groundbreaking": "First-in-class human study / Relevant women's health finding",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers conducted an RCT with 63 Icelandic women experiencing infertility-related stress, randomly assigned to either a fully automated online CBT program ('Overcome Fertility Stress') or a waitlist control group. The program uses prewritten text, audio, and video responses to help users identify and reframe unhelpful thought patterns. Women in the intervention group showed a statistically significant reduction in infertility-related stress on the 46-item Fertility Problem Inventory (mean reduction = 22.85, p < 0.05), while the control group showed no significant change. Notably, the program had no significant effect on broader depression, anxiety, general stress, or worry measures, suggesting its benefits are specific to infertility-related distress rather than emotional symptoms more broadly.",
-      "why_it_matters": "For the millions of women navigating fertility challenges with limited access to in-person mental health support, early evidence suggests a fully automated, low-cost digital CBT tool may offer meaningful relief from the specific psychological burden of infertility \u2014 a dimension of reproductive health that is often overlooked in clinical care.",
-      "caveats": "small sample (N<100), single-center, short follow-up, low adherence reported by authors, underpowered by authors' own admission, narrow geographic population (Icelandic women only), preprint/ahead of print",
-      "fact_check_note": "Abstract explicitly states the underpowered sample and low adherence require cautious interpretation, and that between-group controlled effects should be prioritized over the large within-group effect size \u2014 this framing is preserved in the summary to avoid overclaiming. No corrections required; findings reported as stated.",
-      "excluded": false,
-      "relevance_score": 7,
-      "relevance_score_reason": "Strong lifestyle and reproductive health hook (digital mental health tool for fertility stress) with an RCT design and women-only sample, but significantly limited by very small N, low adherence, narrow Icelandic population, and null findings on anxiety and depression reduce its pitch strength.",
-      "pitch_angles": [
-        {
-          "publication_type": "Women's Health Magazine / Health",
-          "headline": "A Phone-Based CBT App Eased Fertility Stress \u2014 But Couldn't Touch Anxiety or Depression",
-          "hook": "An automated online therapy program reduced the specific psychological strain of infertility in a clinical trial \u2014 but left broader anxiety and depression untouched, raising questions about what women actually need.",
-          "why_it_fits": "Women's Health and Health readers navigating fertility journeys are actively seeking accessible mental health tools, and the nuanced finding \u2014 that targeted digital CBT helps with infertility stress specifically but not general emotional symptoms \u2014 gives journalists a genuinely counterintuitive angle.",
-          "pitch_angle": "A small but rigorous randomized controlled trial found that a fully automated CBT app significantly reduced infertility-related stress in women trying to conceive \u2014 but had no effect on anxiety, depression, or general stress. The finding is surprisingly specific: the app appears to work on the unique psychological weight of infertility, not emotional distress overall. That distinction matters for women who may be using digital wellness tools expecting broad mental health benefits and not getting them.",
-          "caveats_to_flag": "Only 63 women participated, all from Iceland, limiting generalizability; adherence was low; the trial was underpowered by the authors' own admission; no long-term follow-up data; results are preliminary and should not be taken as a clinical recommendation."
-        },
-        {
-          "publication_type": "Self / General women's wellness",
-          "headline": "Struggling With Fertility Stress? A Free Digital Therapy Program Might Actually Help \u2014 With One Big Catch",
-          "hook": "A new study suggests a fully automated CBT app can ease the emotional toll of infertility \u2014 but it won't help with the anxiety and depression that often come along with it.",
-          "why_it_fits": "Self readers skew toward evidence-based wellness and are receptive to nuanced takes on mental health tools; the 'it helps, but not in the way you'd expect' framing is well-suited to the publication's voice.",
-          "pitch_angle": "Infertility affects roughly one in six people globally, and the mental health fallout \u2014 stress, grief, anxiety \u2014 is significant. A new RCT found a free, fully automated CBT program reduced the specific stress tied to infertility, but didn't move the needle on anxiety or depression. That means it could be a useful add-on for women managing the emotional complexity of fertility treatment, but it's not a substitute for broader mental health support \u2014 a distinction that's easy to miss when wellness apps market themselves as all-in-one solutions.",
-          "caveats_to_flag": "Very small sample (N=63), Icelandic population only, low adherence, short follow-up, underpowered; journalists should be clear this is early-stage evidence and not an endorsement of a specific product."
-        }
-      ],
-      "run_date": "2026-06-25",
-      "category": "Brain & Mental Health",
-      "chunk": "1/3",
-      "status": "new"
-    },
-    {
-      "pmid": "42331551",
-      "headline": "A blood DNA test may predict which esophageal cancer patients won't respond to immunotherapy",
-      "journal": "Zhonghua Zhong Liu Za Zhi [Chinese Journal of Oncology]",
-      "pubdate": "2026 Jun 23",
-      "doi": "10.3760/cma.j.cn112152-20250928-00489",
-      "groundbreaking": "Relevant women's health finding",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers analyzed pre-treatment circulating cell-free DNA (cfDNA) from blood samples of 30 patients with advanced esophageal squamous cell carcinoma (ESCC) who received first-line immunotherapy (camrelizumab) plus chemotherapy. The study identified six genes \u2014 including KLF14, ITPR1, NKTR, PRRC2B, MAGI2, and TYW1B \u2014 whose mutation status was associated with whether patients responded to treatment. Patients with TYW1B mutations showed longer progression-free and overall survival (median OS 30.90 vs. 17.80 months), suggesting cfDNA sequencing before treatment could help identify who is and isn't likely to benefit. Researchers note these findings require validation in larger cohorts.",
-      "why_it_matters": "A simple blood-based DNA test that could signal whether an immunotherapy will work \u2014 before a patient starts it \u2014 has real implications for treatment decision-making, including for women diagnosed with esophageal cancer, a disease whose incidence is rising globally.",
-      "caveats": "small sample (N<100), single-center, observational design, short follow-up, no sex-disaggregated data",
-      "fact_check_note": "Abstract confirmed N=30, split evenly into ORR and Non-ORR groups of 15 each. TYW1B survival figures (median OS 30.90 vs. 17.80 months) verified against abstract. No sex breakdown reported.",
-      "excluded": false,
-      "relevance_score": 4,
-      "relevance_score_reason": "Technically interesting early-stage oncology finding but very small sample, no sex-disaggregated data, highly specialized cancer type with limited direct lifestyle hook for women's wellness readership.",
-      "pitch_angles": [
-        {
-          "publication_type": "Health",
-          "headline": "A Blood Test Before Cancer Treatment Could Show Whether Immunotherapy Will Actually Work",
-          "hook": "Before a single infusion, a DNA signal in the blood may already predict whether a cancer patient will respond to immunotherapy.",
-          "why_it_fits": "Health readers are interested in precision medicine and actionable cancer science framed around early detection and smarter treatment.",
-          "pitch_angle": "A small Chinese study found that patterns in cell-free DNA \u2014 genetic material circulating in the bloodstream \u2014 before treatment began were associated with whether esophageal cancer patients responded to immunotherapy. One mutation in particular, TYW1B, was linked to meaningfully longer survival. The finding is early and small, but it points toward a future where a blood draw could personalize cancer care from day one.",
-          "caveats_to_flag": "Only 30 patients, single center, results in Chinese only with English abstract, no sex-disaggregated data \u2014 findings are preliminary and require replication."
-        }
-      ],
-      "run_date": "2026-06-25",
-      "category": "Cancer & Oncology",
-      "chunk": "1/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42334687",
-      "headline": "Combining surgery, radiation, and chemo at brain tumor recurrence nearly doubles survival compared to drugs alone",
-      "journal": "Journal of Neuro-Oncology",
-      "pubdate": "2026 Jun 23",
-      "doi": "10.1007/s11060-026-05635-y",
-      "groundbreaking": "Counterintuitive finding / Relevant women's health finding",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "The FROST study, a real-world multicenter study across French cancer centers, followed 271 adults with glioblastoma (GBM) who experienced their first recurrence after standard chemoradiotherapy. Researchers compared outcomes for patients who received systemic therapy alone, local treatment alone (surgery or radiotherapy), or a multimodal combination of all three. Those who received the multimodal approach had a median overall survival of 16.2 months from recurrence, compared to 7.9 months for systemic therapy alone \u2014 a difference that remained significant after multivariate adjustment.",
-      "why_it_matters": "Glioblastoma recurrence is almost universal and survival after relapse is typically measured in months; this real-world study suggests that an aggressive combined treatment strategy at recurrence \u2014 not just systemic drugs \u2014 may meaningfully extend survival for patients who are candidates for it.",
-      "caveats": "observational design, single-center treatment protocols across centers may vary, no sex-disaggregated data, retrospective real-world data, propensity score used but not an RCT",
-      "fact_check_note": "Verified N=271, median OS figures (16.2 vs. 9.3 vs. 7.9 months) and HR values against abstract. Study is multicenter (Strasbourg and Bayonne), not single-center \u2014 caveat updated accordingly. No sex breakdown reported in abstract.",
-      "excluded": false,
-      "relevance_score": 6,
-      "relevance_score_reason": "Meaningful real-world survival finding with a counterintuitive result (aggressive multimodal approach outperforming standard systemic therapy), but limited direct women's lifestyle hook and no sex-disaggregated data.",
-      "pitch_angles": [
-        {
-          "publication_type": "Health",
-          "headline": "When Brain Cancer Comes Back, Doing More \u2014 Not Less \u2014 May Be the Answer",
-          "hook": "For patients whose glioblastoma returned, combining surgery, radiation, and chemotherapy was associated with survival nearly twice as long as chemotherapy alone.",
-          "why_it_fits": "Health readers respond to counterintuitive cancer treatment findings that challenge the assumption that recurrent cancer warrants a less aggressive approach.",
-          "pitch_angle": "A new French real-world study of 271 glioblastoma patients found that those who received a combination of surgery, radiation, and systemic therapy at first recurrence lived a median of 16.2 months \u2014 compared to 7.9 months for those who received systemic treatment alone. GBM recurs in three out of four patients within a year of diagnosis, and there are currently no standardized guidelines for what to do next. This study, while observational, offers some of the strongest real-world evidence yet that an aggressive multimodal strategy at relapse may change the trajectory.",
-          "caveats_to_flag": "Observational design means treatment assignment was not randomized \u2014 sicker patients may have received less aggressive treatment, affecting comparisons. No sex-disaggregated survival data reported."
-        }
-      ],
-      "run_date": "2026-06-25",
-      "category": "Cancer & Oncology",
-      "chunk": "1/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42337620",
-      "headline": "AI model diagnoses neglected tropical skin diseases from photos with 96% accuracy \u2014 but only in one region of Ethiopia",
-      "journal": "JMIR Dermatology",
-      "pubdate": "2026 Jun 23",
-      "doi": "10.2196/91544",
-      "groundbreaking": "First-in-class human study",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers in Ethiopia developed and tested a two-stage deep learning model to diagnose skin neglected tropical diseases (NTDs) from photographs, using a dataset of 1,495 skin images collected at Arba Minch University Medical College. The model used pretrained neural networks (DenseNet121 and MobileNetV2) for feature extraction combined with a custom convolutional neural network. The top-performing model achieved 96.6% accuracy and 95% sensitivity in classifying three categories of skin NTDs \u2014 conditions that are chronically underdiagnosed in low-resource settings.",
-      "why_it_matters": "Skin NTDs disproportionately affect women and girls in sub-Saharan Africa due to occupational and social exposure patterns; an AI diagnostic tool that works from photographs could meaningfully improve access to diagnosis in settings with few dermatologists.",
-      "caveats": "small sample (N<100 per class), single-center, no sex-disaggregated data, computational/image benchmark study with limited clinical validation",
-      "fact_check_note": "Abstract does not disaggregate results by sex or gender. Study is a computational benchmark, not a clinical trial. N=1,495 images, not individual patients. All noted in summary and caveats.",
-      "excluded": false,
-      "relevance_score": 4,
-      "relevance_score_reason": "Technically innovative but highly specialized AI/computational study with no direct lifestyle hook for mainstream women's wellness readers; limited clinical validation and no sex-disaggregated findings reduce pitch viability.",
-      "pitch_angles": [
-        {
-          "publication_type": "General women's wellness / global health-adjacent outlets (e.g. Refinery29, Well+Good)",
-          "headline": "A Smartphone Photo Could Soon Diagnose a Skin Disease That Affects Millions \u2014 If You Live in the Right Country",
-          "hook": "A new AI model diagnoses neglected tropical skin diseases from photographs with 96% accuracy, pointing toward a future where a phone camera could do what a dermatologist cannot in low-resource settings.",
-          "why_it_fits": "Readers with an interest in global health equity and tech-forward medicine would find the access and disparity angle compelling.",
-          "pitch_angle": "Researchers in Ethiopia trained an AI to identify neglected tropical skin diseases from photos alone \u2014 and it performed nearly as well as a trained specialist. These diseases are chronically underdiagnosed partly because there simply aren't enough dermatologists in affected regions. Early-stage evidence suggests AI image tools could help close that gap, particularly for women and girls who face higher exposure risks.",
-          "caveats_to_flag": "This is a benchmark study on a small image dataset from a single institution, not a validated clinical tool. Results have not been tested in real-world patient settings. No sex-disaggregated data reported."
-        }
-      ],
-      "run_date": "2026-06-25",
-      "category": "Dermatology",
-      "chunk": "1/1",
-      "status": "new"
-    },
-    {
-      "pmid": "42332673",
-      "headline": "A simple blood ratio in the first trimester may predict severe preeclampsia months before symptoms appear",
-      "journal": "BMC Pregnancy and Childbirth",
-      "pubdate": "2026 Jun 22",
-      "doi": "10.1186/s12884-026-09532-0",
-      "groundbreaking": "Counterintuitive finding / Relevant women's health finding / First-in-class human study",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Within a prospective cohort of 5,809 pregnant women, researchers used a nested case-control design to compare first-trimester plasma metabolite profiles of 45 women who later developed severe preeclampsia with 41 women who had uncomplicated pregnancies. Using high-precision metabolomic testing, they identified 10 eicosanoid metabolites that differed significantly between groups. A ratio of two specific metabolites (14-HDoHE to 19,20-EDP) emerged as the strongest early predictor; adding this ratio to an existing screening algorithm improved predictive accuracy (AUC) from 0.77 to 0.87, with 73% sensitivity and 85% specificity for severe preeclampsia.",
-      "why_it_matters": "Severe preeclampsia is a leading cause of maternal and fetal death worldwide, and it typically goes undetected until dangerous symptoms emerge late in pregnancy; early first-trimester markers that improve prediction could give clinicians and patients more time to act \u2014 potentially including earlier use of low-dose aspirin, which already has evidence for preeclampsia prevention.",
-      "caveats": "small sample (N=86 case-control pairs drawn from larger cohort), single-center, observational design, metabolomic testing not yet clinically available, findings require validation in larger diverse populations",
-      "fact_check_note": "Abstract specifies the nested case-control included 45 cases and 41 controls (N=86 total analyzed), drawn from a cohort of 5,809 \u2014 both figures reported accurately. AUC improvement from 0.77 to 0.87 confirmed against abstract.",
-      "excluded": false,
-      "relevance_score": 8,
-      "relevance_score_reason": "Directly addresses a life-threatening condition exclusive to pregnant women, features a counterintuitive early-detection angle, uses human subjects with a prospective cohort design, and has a strong lifestyle hook (early pregnancy blood test); score tempered by small case-control sample and single-center design.",
-      "pitch_angles": [
-        {
-          "publication_type": "Health / General women's wellness",
-          "headline": "Could a First-Trimester Blood Test Predict Severe Preeclampsia Months Before It Strikes?",
-          "hook": "New research suggests a specific ratio of two inflammatory compounds in early pregnancy blood could flag severe preeclampsia risk far earlier than current screening allows.",
-          "why_it_fits": "Health readers include pregnant women and those planning pregnancy who are actively seeking information about prenatal risk and what early monitoring can tell them.",
-          "pitch_angle": "Scientists analyzed first-trimester blood samples from women who later developed severe preeclampsia \u2014 a dangerous pregnancy complication \u2014 and found that a ratio of two eicosanoid metabolites predicted the condition with 73% sensitivity and 85% specificity. Adding this marker to existing screening tools improved predictive accuracy significantly. The findings are early-stage and require broader validation, but they point toward a future where a routine first-trimester blood panel could identify women who might benefit from preventive strategies like low-dose aspirin much sooner in pregnancy.",
-          "caveats_to_flag": "The case-control sample was small (45 cases, 41 controls), all from Chinese hospital settings, and the metabolomic testing used is not clinically available. Do not imply this test is accessible now or that results are definitive."
-        },
-        {
-          "publication_type": "Women's Health Magazine / Self",
-          "headline": "What If Your First Prenatal Blood Draw Could Warn You About Preeclampsia?",
-          "hook": "A study found that inflammatory lipid signals in your blood as early as the first trimester may predict one of pregnancy's most dangerous complications.",
-          "why_it_fits": "Women's Health and Self readers skew toward health-aware women in their 20s\u201340s who want actionable, forward-looking health information \u2014 pregnancy risk detection fits squarely in their wheelhouse.",
-          "pitch_angle": "Severe preeclampsia can arrive fast and with devastating consequences \u2014 but new research suggests the body may be sending warning signals as early as the first trimester, long before any symptoms appear. Researchers identified a ratio of two lipid-based compounds in early pregnancy blood that, when added to existing screening tools, pushed predictive accuracy for severe preeclampsia meaningfully higher. The science is still in early stages, but it opens a conversation about what routine prenatal testing might look like in the future \u2014 and why more research into pregnancy-specific biomarkers matters.",
-          "caveats_to_flag": "Small sample drawn from a single Chinese cohort; metabolomic profiling used is not a standard clinical test. Frame as promising early research, not an imminent screening option."
-        }
-      ],
-      "run_date": "2026-06-25",
-      "category": "Womens Health & Reproduction",
-      "chunk": "1/1",
-      "status": "new"
-    },
-    {
-      "pmid": "42332050",
-      "headline": "A specific ventilation approach at birth may lower brain bleed risk in the most premature babies",
-      "journal": "Journal of Perinatology",
-      "pubdate": "2026 Jun 22",
-      "doi": "10.1038/s41372-026-02751-5",
-      "groundbreaking": "Relevant women's health finding / First-in-class human study",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers conducted a sub-analysis of the multi-center VentFirst randomized trial, examining head ultrasound findings in 548 infants born before 29 weeks' gestation who survived to their first scan. Any grade of intraventricular hemorrhage (IVH, or brain bleed) was found in 31% of infants, with severe IVH (grade III/IV) in 8%. Compared to a similar contemporary population in the Vermont Oxford Network, the VentFirst cohort showed lower odds of both any and severe IVH, with low gestational age, twin gestation, and a low 1-minute Apgar score identified as risk factors for severe IVH.",
-      "why_it_matters": "Intraventricular hemorrhage is a devastating complication of extreme prematurity that can lead to lifelong neurodevelopmental challenges; for parents of very preterm infants \u2014 who are disproportionately likely to be women navigating high-risk pregnancies \u2014 evidence that delivery-room ventilation protocols may influence outcomes carries real emotional and practical weight.",
-      "caveats": "secondary analysis, no sex-disaggregated data for infant outcomes, single trial population, observational comparison to external cohort",
-      "fact_check_note": "",
-      "excluded": false,
-      "relevance_score": 5,
-      "relevance_score_reason": "Human RCT sub-analysis with meaningful neonatal findings, but the primary audience connection to women's lifestyle journalism is indirect \u2014 it's a neonatal medicine story rather than a women's health story \u2014 and the lack of sex-disaggregated infant data and the secondary-analysis design limit strength.",
-      "pitch_angles": [
-        {
-          "publication_type": "Health / General women's wellness",
-          "headline": "What Happens in the Delivery Room May Affect Your Premature Baby's Brain",
-          "hook": "A new analysis suggests that how a very premature baby is ventilated right after birth may be linked to lower rates of serious brain bleeds.",
-          "why_it_fits": "Health readers who are pregnant or planning pregnancy \u2014 particularly those with high-risk pregnancies \u2014 are keenly interested in delivery-room decisions that affect newborn outcomes.",
-          "pitch_angle": "A sub-analysis of the VentFirst trial found that extremely preterm infants (under 29 weeks) in a specialized ventilation protocol had lower odds of intraventricular hemorrhage \u2014 a dangerous type of brain bleed \u2014 compared to a similar contemporary population. Low gestational age, twin pregnancy, and a low Apgar score at one minute were associated with higher risk of severe bleeds. The findings suggest that optimizing delivery-room conditions could meaningfully shift outcomes for the most vulnerable newborns \u2014 a high-stakes topic for parents of multiples and those facing preterm labor.",
-          "caveats_to_flag": "This is a secondary analysis of trial data, not a primary RCT result; the comparison group was an external cohort rather than a randomized control, so confounding cannot be ruled out. Findings apply specifically to infants born before 29 weeks."
-        }
-      ],
-      "run_date": "2026-06-25",
-      "category": "Womens Health & Reproduction",
-      "chunk": "1/1",
-      "status": "new"
-    },
-    {
-      "pmid": "42176440",
-      "headline": "Nearly 6 in 10 Japanese parents say they couldn't maintain their child's emotional support during a pandemic school closure \u2014 and cost is the biggest vaccine barrier",
-      "journal": "Vaccine",
-      "pubdate": "2026 Jun 20",
-      "doi": "10.1016/j.vaccine.2026.128738",
-      "groundbreaking": "Relevant women's health finding",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers conducted a nationwide anonymous online survey of 4,961 Japanese parents living with at least one child aged 0\u201318 in November 2025, presenting hypothetical influenza pandemic scenarios. Only 41.9% of respondents reported being able to maintain their child's emotional support during a school or childcare closure scenario, and just 43.6% could sustain learning activities. A vaccine cost of 4,000 JPY (roughly $26 USD) was associated with a 23% reduction in willingness to vaccinate, while having received a flu vaccine recently was associated with 58% higher acceptance. Low pandemic preparedness was most common in households with younger children, lower incomes, and dual full-time working parents.",
-      "why_it_matters": "Because women still shoulder a disproportionate share of childcare and household management, pandemic preparedness gaps \u2014 especially the emotional and logistical burden of school closures \u2014 fall hardest on mothers; this large survey puts concrete numbers on what families say they can and cannot handle. The finding that even a modest out-of-pocket vaccine cost sharply reduces willingness to vaccinate has direct implications for public health policy that affects families' daily lives.",
-      "caveats": "self-reported outcomes, observational design, single-country (Japan), hypothetical scenario methodology, no sex-disaggregated data by caregiver gender",
-      "fact_check_note": "Confirmed N=4,961; cost figure of 4,000 JPY associated with RR 0.77 (95% CI 0.75\u20130.79); recent vaccination history RR 1.58 (95% CI 1.51\u20131.66); emotional support figure 41.9%; learning activities 43.6% \u2014 all verified against abstract. Note: abstract does not break down results by caregiver sex/gender.",
-      "excluded": false,
-      "relevance_score": 5,
-      "relevance_score_reason": "Large human sample and real-world relevance to caregiving burden on women, but Japan-specific findings, no sex-disaggregated caregiver data, and hypothetical scenario design limit direct applicability for U.S.-focused women's lifestyle journalism.",
-      "pitch_angles": [
-        {
-          "publication_type": "General women's wellness",
-          "headline": "What Would Happen to Your Family If Schools Closed Tomorrow? Most Parents Say They're Not Ready",
-          "hook": "When researchers asked nearly 5,000 parents to imagine a pandemic school closure, fewer than half said they could keep up their child's emotional support \u2014 and the people least prepared were working parents with young kids.",
-          "why_it_fits": "Women's wellness readers who are parents or caregivers will recognize the mental and logistical load described here; the survey translates an abstract public health concern into an immediate, personal question.",
-          "pitch_angle": "A large Japanese survey of nearly 5,000 parents found that most families are not well-equipped to handle pandemic school closures \u2014 particularly when it comes to maintaining children's emotional wellbeing, with only about 42% confident they could manage it. The study also found that even a relatively small out-of-pocket vaccine cost was associated with a significant drop in willingness to vaccinate, raising questions about how financial barriers shape family health decisions. While the data come from Japan, the caregiving pressures described \u2014 and the tension between work demands and childcare \u2014 will resonate broadly with the working parents who make up much of this readership.",
-          "caveats_to_flag": "Japan-specific data; hypothetical scenario methodology means responses may not reflect actual behavior; caregiver results not broken down by gender"
-        }
-      ],
-      "run_date": "2026-06-25",
-      "category": "Allergy & Immunology",
-      "chunk": "2/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42202422",
-      "headline": "One small nation cut its number of unvaccinated children by 22% in a single year \u2014 here's what it did differently",
-      "journal": "Vaccine",
-      "pubdate": "2026 Jun 20",
-      "doi": "10.1016/j.vaccine.2026.128746",
-      "groundbreaking": "Relevant women's health finding",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "This viewpoint article synthesizes data from Timor-Leste's 2023 and 2024 immunization program fact sheets and related WHO monitoring reports to assess progress toward global Immunization Agenda 2030 goals. The country reduced its number of zero-dose children (those who have received no vaccines) by 22% in one year \u2014 from 4,184 to 3,254 \u2014 and increased government vaccine financing from 64% to 80% of total costs. However, measles vaccine coverage stagnated at 72%, well below the 95% threshold needed for elimination, and surveillance system gaps persist. The country launched an HPV vaccine program in July 2024 targeting girls aged 11\u201314, a notable milestone for cervical cancer prevention.",
-      "why_it_matters": "The launch of an HPV vaccination program specifically targeting adolescent girls in one of Southeast Asia's most under-resourced nations is a meaningful step toward reducing cervical cancer \u2014 a disease that kills disproportionately in low-income countries where screening is limited. The broader lesson \u2014 that political commitment and targeted equity strategies can rapidly close immunization gaps \u2014 is relevant to global women's health advocates and journalists covering vaccine access.",
-      "caveats": "observational design, single-country (Timor-Leste), secondary analysis of program data (not primary research), no sex-disaggregated data across most indicators, viewpoint format (not original research)",
-      "fact_check_note": "Confirmed 22% reduction in zero-dose children (4,184 to 3,254), MCV1 coverage at 72%, government financing increase 64% to 80%, HPV vaccine launch July 2024 targeting girls aged 11\u201314 \u2014 all verified against abstract. Clarified this is a viewpoint/synthesis, not an original clinical study.",
-      "excluded": false,
-      "relevance_score": 4,
-      "relevance_score_reason": "HPV vaccination angle offers a genuine women's health hook but the viewpoint format, single low-income country focus, and lack of primary research data make it a weak fit for most U.S. women's lifestyle outlets.",
-      "pitch_angles": [
-        {
-          "publication_type": "General women's wellness",
-          "headline": "This Tiny Nation Just Launched an HPV Vaccine Program \u2014 And Its Approach to Closing the Vaccine Gap Has Lessons for Everyone",
-          "hook": "Timor-Leste, one of Southeast Asia's poorest countries, cut its number of unvaccinated children by 22% in a single year and launched a new HPV vaccine program for girls \u2014 offering a case study in what targeted political will can achieve.",
-          "why_it_fits": "Readers interested in global women's health, vaccine equity, and cervical cancer prevention will find the HPV program launch and the equity-focused lessons genuinely resonant.",
-          "pitch_angle": "Cervical cancer \u2014 almost entirely preventable with the HPV vaccine \u2014 still kills tens of thousands of women globally each year, concentrated in low-income countries with limited screening access. A new analysis of Timor-Leste's immunization program shows the country made remarkable gains in a single year, launching a national HPV vaccination program for adolescent girls while dramatically cutting the number of children receiving no vaccines at all. The findings underscore that financial barriers and political commitment \u2014 not just vaccine supply \u2014 determine who gets protected.",
-          "caveats_to_flag": "Viewpoint article, not primary research; single low-income country context; surveillance gaps acknowledged by authors; one-year gains need multi-year validation per the authors themselves"
-        }
-      ],
-      "run_date": "2026-06-25",
-      "category": "Allergy & Immunology",
-      "chunk": "2/2",
-      "status": "new"
-    },
-    {
       "pmid": "42190622",
       "headline": "South Africa could have a TB vaccine as early as 2029 \u2014 but experts warn the health system isn't ready yet",
       "journal": "Vaccine",
@@ -513,66 +957,6 @@
       "run_date": "2026-06-25",
       "category": "Allergy & Immunology",
       "chunk": "2/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42341377",
-      "headline": "A therapy program that includes parents \u2014 not just teens \u2014 gets more depressed adolescents back to school",
-      "journal": "Asian Journal of Psychiatry",
-      "pubdate": "2026 Jun 20",
-      "doi": "10.1016/j.ajp.2026.105056",
-      "groundbreaking": "Relevant women's health finding / First-in-class human study",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers ran a non-randomized controlled trial with 71 Chinese adolescents with depression and school refusal, comparing an 8-week dual-track group CBT program (combining adolescent in-person sessions with parent online sessions) against treatment-as-usual. At 8 weeks, school attendance in the CBT group rose from 16.7% to 66.7%, compared with a near-flat 46.9% to 50.0% in the treatment-as-usual group. Parent-reported behavioral and emotional difficulties improved significantly; however, adolescent self-reported depression and anxiety scores showed only non-significant improvement trends after statistical correction. Exploratory analyses suggested that reducing parental cognitive misjudgments about their child's emotional state may be a key mechanism of the intervention.",
-      "why_it_matters": "Adolescent girls experience depression and school avoidance at disproportionate rates, and this study suggests that looping parents into their own concurrent therapy track \u2014 rather than focusing on teens alone \u2014 may meaningfully improve school return outcomes. For families navigating a teenager's mental health crisis, the finding that parental perception gaps may be a therapeutic target offers a practical and underexplored angle.",
-      "caveats": "small sample (N<100), observational design, non-randomized controlled trial, single-center, no sex-disaggregated data, short follow-up, Chinese adolescent population limits generalizability",
-      "fact_check_note": "Adolescent self-reported PHQ-9 and GAD-7 improvements were non-significant after FDR correction (adjusted P=.085 and .084) \u2014 this distinction from parent-reported improvements is preserved in the summary and not overstated.",
-      "excluded": false,
-      "relevance_score": 5,
-      "relevance_score_reason": "Adolescent mental health has strong lifestyle relevance and girls are a key affected population, but the small non-randomized sample, single-center Chinese context, and absence of sex-disaggregated data limit pitch strength for U.S. women's lifestyle outlets.",
-      "pitch_angles": [
-        {
-          "publication_type": "Health / General women's wellness",
-          "headline": "Getting a Depressed Teen Back to School May Require Treating the Parents Too",
-          "hook": "A new study found that when parents joined their own therapy track alongside their teen's CBT sessions, school attendance nearly quadrupled \u2014 suggesting the family dynamic itself is part of the treatment.",
-          "why_it_fits": "Health readers include parents managing adolescent mental health crises and are hungry for evidence-based approaches beyond standard therapy referrals.",
-          "pitch_angle": "Researchers in China tested a dual-track group CBT model where depressed, school-refusing adolescents attended in-person sessions while their parents simultaneously participated in online CBT of their own. After 8 weeks, two-thirds of teens in the program had returned to school, versus only half in the standard-care group. The surprising mechanism: closing the perception gap between how parents read their child's emotional state and how teens actually experience it may be as therapeutically important as treating the teen directly.",
-          "caveats_to_flag": "Small non-randomized trial (N=71) conducted in China; results may not translate to Western healthcare contexts; teen self-reported mood scores did not reach statistical significance; findings are preliminary."
-        }
-      ],
-      "run_date": "2026-06-25",
-      "category": "Brain & Mental Health",
-      "chunk": "3/3",
-      "status": "new"
-    },
-    {
-      "pmid": "42106000",
-      "headline": "Brain scans reveal OCD may involve a far more complex web of neurotransmitters than previously thought \u2014 not just serotonin",
-      "journal": "Progress in Neuro-Psychopharmacology & Biological Psychiatry",
-      "pubdate": "2026 Jun 20",
-      "doi": "10.1016/j.pnpbp.2026.111733",
-      "groundbreaking": "Counterintuitive finding / Relevant women's health finding",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers used multimodal MRI brain imaging in 61 people with first-episode, never-medicated OCD and 59 healthy controls to map both structural and functional brain network differences. They then cross-referenced those brain maps against standardized PET/SPECT neurotransmitter atlases to see which chemical systems aligned with the OCD-related brain changes. The study found that OCD-associated brain alterations were significantly correlated with not just serotonin (SERT, 5-HT1A, 5-HT1B, 5-HT2A), but also dopamine (DAT, D1, FDOPA), GABA, glutamate (mGluR5), and even the mu-opioid receptor \u2014 suggesting OCD's neurobiology is far broader than the serotonin-deficit model underlying current SSRI treatment.",
-      "why_it_matters": "OCD affects women at roughly equal rates to men but is frequently undertreated or misdiagnosed in women; the finding that multiple neurotransmitter systems beyond serotonin are implicated could help explain why SSRIs work for only a subset of people with OCD and points toward the need for broader treatment approaches. This is early imaging evidence, not a treatment study, but it reframes a condition many women live with daily.",
-      "caveats": "small sample (N<100), single-center, observational design, no sex-disaggregated data, cross-sectional design, neurotransmitter maps are normative atlases not measured directly in participants, industry conflict noted (one author affiliated with GE HealthCare MR Research)",
-      "fact_check_note": "The neurotransmitter associations are based on spatial correlations with normative PET/SPECT atlas data, not direct measurement in participants \u2014 this distinction is preserved in the summary and not overstated as causal.",
-      "excluded": false,
-      "relevance_score": 6,
-      "relevance_score_reason": "Counterintuitive finding challenging the SSRI-centric model of OCD gives it strong hook potential for health-curious readers, but small sample, no sex-disaggregated data, and highly technical imaging methodology limit pitch accessibility for mainstream women's lifestyle outlets.",
-      "pitch_angles": [
-        {
-          "publication_type": "Health / General women's wellness",
-          "headline": "OCD Isn't Just a Serotonin Problem \u2014 New Brain Imaging Suggests It's Much More Complicated",
-          "hook": "Brain scans from people with never-treated OCD reveal that the condition involves at least six different neurotransmitter systems \u2014 which may explain why antidepressants alone so often fall short.",
-          "why_it_fits": "Health readers living with or covering OCD are primed to question why first-line treatments have such variable results, and this study gives a concrete, science-backed explanation.",
-          "pitch_angle": "Researchers scanned the brains of 61 people with newly diagnosed, never-medicated OCD and mapped their structural and functional abnormalities against known neurotransmitter systems. The result: OCD-related brain changes correlated not only with serotonin \u2014 the target of standard SSRI medications \u2014 but also with dopamine, GABA, glutamate, and opioid receptors. The implication is that the chemical story of OCD is far more complex than the dominant treatment model assumes, potentially explaining why up to 40\u201360% of people with OCD don't fully respond to SSRIs.",
-          "caveats_to_flag": "Small sample (N=120 total, 61 with OCD), single Chinese hospital, brain imaging study only \u2014 not a treatment trial. Neurotransmitter links are based on spatial correlation with atlas data, not direct measurement. No sex-disaggregated results reported. One co-author is affiliated with GE HealthCare. Findings are preliminary and require replication."
-        }
-      ],
-      "run_date": "2026-06-25",
-      "category": "Brain & Mental Health",
-      "chunk": "3/3",
       "status": "new"
     },
     {
@@ -769,96 +1153,6 @@
       "run_date": "2026-06-25",
       "category": "Dermatology",
       "chunk": "1/1",
-      "status": "new"
-    },
-    {
-      "pmid": "42330128",
-      "headline": "A rare blood disorder made treating a dangerous brain clot nearly impossible \u2014 here's what doctors learned",
-      "journal": "Stroke",
-      "pubdate": "2026 Jul",
-      "doi": "10.1161/STROKEAHA.126.055219",
-      "groundbreaking": "Relevant women's health finding",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "This case report from a Chinese neurology center describes the management of cerebral venous sinus thrombosis (a blood clot in the brain's venous drainage system) complicated by hemorrhage in a patient with congenital dysfibrinogenemia, a rare inherited clotting disorder. The report details the clinical challenges of treating simultaneous clotting and bleeding risk. As a case report, no sample size or comparative data are provided. The authors highlight the conflicting treatment demands when anticoagulation is needed but hemorrhage is also present.",
-      "why_it_matters": "Cerebral venous sinus thrombosis disproportionately affects women of reproductive age, including those using hormonal contraception or who are pregnant or postpartum, making awareness of complicating clotting disorders especially relevant for this population.",
-      "caveats": "small sample (N<100), single-center, observational design",
-      "fact_check_note": "Abstract is a brief case report with no participant demographics, N, or statistical findings provided; summary reflects this accurately.",
-      "excluded": false,
-      "relevance_score": 4,
-      "relevance_score_reason": "CVST is disproportionately a women's health issue, but this is a single case report of an ultra-rare condition with no generalizable data, making it very difficult to pitch to mainstream women's lifestyle outlets.",
-      "pitch_angles": [
-        {
-          "publication_type": "Health",
-          "headline": "Why a Rare Blood Clotting Disorder Makes Brain Clots Especially Dangerous \u2014 And Why It Matters More for Women",
-          "hook": "A rare inherited disorder can make treating a life-threatening brain clot nearly impossible, and the condition it complicated disproportionately strikes women.",
-          "why_it_fits": "Health readers interested in under-the-radar women's neurological risks would find the intersection of a rare clotting disorder and a female-predominant stroke type compelling as an explainer peg.",
-          "pitch_angle": "Cerebral venous sinus thrombosis \u2014 a type of stroke more common in women, particularly those on hormonal birth control or who are pregnant \u2014 already carries serious risks. A new case report in Stroke highlights how an inherited blood disorder called congenital dysfibrinogenemia can make treatment nearly impossible by creating simultaneous clotting and bleeding. While this is a single case, it opens a broader conversation about the hidden clotting risks women face and why their stroke presentations are often unique.",
-          "caveats_to_flag": "Single case report; congenital dysfibrinogenemia is extremely rare; no statistical data; findings cannot be generalized"
-        }
-      ],
-      "run_date": "2026-06-25",
-      "category": "Brain & Mental Health",
-      "chunk": "1/3",
-      "status": "new"
-    },
-    {
-      "pmid": "42330131",
-      "headline": "A genetic disease that mimics strokes just got a strange new imaging twist that could change how doctors read brain scans",
-      "journal": "Stroke",
-      "pubdate": "2026 Jul",
-      "doi": "10.1161/STROKEAHA.126.055745",
-      "groundbreaking": "Counterintuitive finding",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "This case report presents multimodal brain imaging findings from a patient with MELAS (mitochondrial encephalomyopathy, lactic acidosis, and stroke-like episodes), a rare inherited mitochondrial disorder. The imaging revealed a paradoxical co-occurrence of reversible vasoconstriction \u2014 typically associated with vascular causes \u2014 alongside stroke-like lesions characteristic of MELAS, which are metabolic in origin. The report documents the imaging sequence over time in a single patient. No sample size or demographic breakdown is available.",
-      "why_it_matters": "MELAS is a rare mitochondrial condition that can be misdiagnosed as a conventional stroke, and better imaging characterization may eventually support faster, more accurate diagnosis for affected individuals.",
-      "caveats": "small sample (N<100), single-center, observational design, no sex-disaggregated data",
-      "fact_check_note": "Abstract is a case report; no N, demographics, or statistical data are present. Summary reflects this accurately.",
-      "excluded": false,
-      "relevance_score": 2,
-      "relevance_score_reason": "Ultra-rare mitochondrial condition presented as a single case report with no women-specific framing, no sample data, and extremely limited lifestyle relevance for mainstream women's wellness journalism.",
-      "pitch_angles": [
-        {
-          "publication_type": "Health",
-          "headline": "This Rare Genetic Disease Is Routinely Mistaken for a Stroke \u2014 And New Imaging Evidence Shows Why",
-          "hook": "A new case report reveals that a rare mitochondrial disease can produce brain scan findings so unusual they defy existing diagnostic categories.",
-          "why_it_fits": "Health readers who follow neurological and genetic health stories would find the diagnostic puzzle angle compelling, particularly as mitochondrial diseases are often underdiagnosed.",
-          "pitch_angle": "MELAS, a rare inherited mitochondrial disorder, causes stroke-like brain episodes that can be mistaken for conventional strokes \u2014 delaying correct diagnosis. A new case report in Stroke adds to the complexity by documenting paradoxical imaging findings that combine features of two very different disease processes simultaneously. While this is a single patient observation, it underscores how unusual and underrecognized mitochondrial brain disease remains.",
-          "caveats_to_flag": "Single case report; extremely rare condition; no generalizable data; no sex breakdown provided"
-        }
-      ],
-      "run_date": "2026-06-25",
-      "category": "Brain & Mental Health",
-      "chunk": "1/3",
-      "status": "new"
-    },
-    {
-      "pmid": "42322272",
-      "headline": "Adding immunotherapy to chemo may extend survival in a hard-to-treat colorectal cancer subtype that usually doesn't respond to it",
-      "journal": "Oncoimmunology",
-      "pubdate": "2026 Dec 31",
-      "doi": "10.1080/2162402X.2026.2671491",
-      "groundbreaking": "Counterintuitive finding / Relevant women's health finding",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers pooled individual patient data from two phase II clinical trials (MEDITREME and METIMMOX) to compare chemoimmunotherapy versus chemotherapy alone as first-line treatment for metastatic microsatellite stable (MSS) colorectal cancer \u2014 a subtype historically considered resistant to immunotherapy. The analysis included 130 patients (92 receiving chemoimmunotherapy, 38 chemotherapy alone). Median overall survival was not reached in the chemoimmunotherapy group versus 15.3 months in the chemotherapy-only group (HR=0.58, p=0.03). High baseline CD8+ T-cell infiltration in tumors was associated with better outcomes specifically in patients receiving chemoimmunotherapy, suggesting it may serve as a predictive biomarker.",
-      "why_it_matters": "Colorectal cancer rates are rising in women under 50, and MSS tumors represent the majority of metastatic cases with very limited immunotherapy options \u2014 these early findings suggest combining chemotherapy with immunotherapy may open a new treatment avenue for patients currently running out of options. Understanding which patients are most likely to benefit (via tumor immune profiling) could eventually help guide more personalized treatment decisions.",
-      "caveats": "small sample (N<100 per arm), observational design (pooled phase II, not a single RCT), secondary analysis, no sex-disaggregated data, short follow-up for some patients",
-      "fact_check_note": "Confirmed N=130 total (92 chemoimmunotherapy, 38 chemotherapy alone), HR=0.58, median OS 15.3 months in chemo-only arm, OS not reached in chemoimmunotherapy arm. Complete response rates 14% vs 5% as stated in abstract. No sex breakdown reported.",
-      "excluded": false,
-      "relevance_score": 5,
-      "relevance_score_reason": "Relevant to rising colorectal cancer rates in younger women but lacks sex-disaggregated data, is a small pooled secondary analysis of phase II trials, and the highly clinical framing limits accessible lifestyle journalism angles.",
-      "pitch_angles": [
-        {
-          "publication_type": "Health",
-          "headline": "Colorectal Cancer Is Rising in Young Women \u2014 A New Treatment Combo Might Help the Hardest Cases",
-          "hook": "A type of colorectal cancer long considered immune to immunotherapy may actually respond when chemotherapy is added to the mix \u2014 and your tumor's immune profile might predict whether it will work for you.",
-          "why_it_fits": "Health readers skew toward women interested in medical news, cancer prevention, and understanding treatment options for conditions increasingly affecting younger women.",
-          "pitch_angle": "Colorectal cancer diagnoses in adults under 50 \u2014 a group that skews female \u2014 have been climbing for years, and the subtype called microsatellite stable (MSS) accounts for most metastatic cases with notoriously few options. A new pooled analysis of two clinical trials found that combining standard chemotherapy with immunotherapy was associated with significantly longer survival compared to chemo alone, even though this cancer type was previously thought to be immune-checkpoint resistant. Early data also suggests that a simple tumor immune cell test could help identify which patients are most likely to benefit \u2014 a step toward more personalized care.",
-          "caveats_to_flag": "Small pooled sample (N=130), no single randomized trial, results not broken down by sex; findings are preliminary and should not be interpreted as a clinical recommendation"
-        }
-      ],
-      "run_date": "2026-06-25",
-      "category": "Allergy & Immunology",
-      "chunk": "2/2",
       "status": "new"
     }
   ]
