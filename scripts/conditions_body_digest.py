@@ -480,8 +480,8 @@ relevance_score rubric (1–10): start at 5, then adjust:
   −1 no sex-disaggregated data
   −2 finding is tied to a single non-US/non-multinational region's diet, genetics, environment, or healthcare system in a way unlikely to resonate with or apply to a US/global audience (this does not apply to large multinational cohorts, WHO/global-health studies, or findings with a clear universal biological mechanism)
   Topic fit bonus: breast cancer, cervical/ovarian cancer, anxiety and depression in women, acne/eczema/psoriasis, fertility, endometriosis, PCOS, allergies and asthma, body image score higher
-
-{personalization}Return ONLY a valid JSON array, no other text.
+{personalization}
+Return ONLY a valid JSON array, no other text.
 
 Studies:
 {studies_block}"""
