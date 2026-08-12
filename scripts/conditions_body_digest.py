@@ -422,20 +422,22 @@ Title: {s['title']}
 Abstract: {s['abstract']}
 """
 
-    prompt = f"""You are a science writer and editor for a Conditions & Body Research Digest, writing for a journalist audience covering women's health conditions, mental health, skin, and reproductive health.
+    # Fixed instructions only -- no per-run values (personalization, media_note) --
+    # so this stays byte-identical across runs and actually hits the prompt cache.
+    _system = """You are a science writer and editor for a Conditions & Body Research Digest, writing for a journalist audience covering women's health conditions, mental health, skin, and reproductive health.
 
 Your readers pitch to publications like Women's Health Magazine, Health, Self, Allure, Glamour, and similar women's lifestyle and wellness outlets.
 
 For each study below, return a single JSON array. Each object must have exactly these keys:
 
-{{
+{
   "pmid": "string — copy from input",
   "headline": "Plain-language present-tense headline, no jargon — punchy, counterintuitive, or surprising",
   "journal": "journal name",
   "pubdate": "publication date",
   "doi": "doi or empty string",
   "groundbreaking": "one or more of: Counterintuitive finding / Overturns prior research / First-in-class human study / Relevant women's health finding",
-  "media_coverage": "{media_note}",
+  "media_coverage": "copy the Media coverage status line below exactly",
   "summary": "3 sentences max: what researchers did, who participated (N=X, demographics if relevant), key finding in plain language — verified against abstract",
   "why_it_matters": "1 sentence max. of real-world significance for women specifically. Do NOT imply clinical action.",
   "caveats": "comma-separated flags: small sample (N<100), observational design, single-center, self-reported outcomes, short follow-up, industry funding [name], preprint, secondary analysis, no sex-disaggregated data — or 'None identified'",
@@ -443,14 +445,14 @@ For each study below, return a single JSON array. Each object must have exactly 
   "relevance_score": 7,
   "relevance_score_reason": "Max 15 words: topic fit and study quality.",
   "pitch_angles": [
-    {{
+    {
       "publication_type": "e.g. Women's Health Magazine / Health / Self / Allure / General women's wellness",
       "headline": "Publication-appropriate headline",
       "hook": "One sentence opening leading with the surprising or useful finding",
       "pitch_angle": "2 sentences max: what happened, why surprising or useful, lifestyle hook"
-    }}
+    }
   ]
-}}
+}
 
 Rules for pitch_angles:
 - Generate ONE pitch angle if the study fits one obvious publication type
@@ -479,19 +481,17 @@ relevance_score rubric (1–10): start at 5, then adjust:
   −2 animal/non-human only
   −1 no sex-disaggregated data
   Topic fit bonus: breast cancer, cervical/ovarian cancer, anxiety and depression in women, acne/eczema/psoriasis, fertility, endometriosis, PCOS, allergies and asthma, body image score higher
-{personalization}
-Return ONLY a valid JSON array, no other text.
 
-Studies:
-{studies_block}"""
+Return ONLY a valid JSON array, no other text."""
 
-    # Separate static instructions (cached across batches) from dynamic studies
-    _sep = "\n\nStudies:\n"
-    _ret = "\n\nReturn ONLY a valid JSON array, no other text."
-    _system = prompt.split(_sep)[0].replace(_ret, "").strip() if _sep in prompt else ""
+    # Per-run/per-batch content (personalization history, media-check status, the
+    # studies themselves) goes after the cache breakpoint so it never invalidates
+    # the cached system block above.
     _user = (
-        f"Studies:\n{studies_block}\n\nReturn ONLY a valid JSON array, no other text."
-        if _sep in prompt else prompt
+        (f"{personalization}\n\n" if personalization else "")
+        + f"Media coverage status: {media_note}\n\n"
+        + f"Studies:\n{studies_block}\n\n"
+        + "Return ONLY a valid JSON array, no other text."
     )
 
     client = anthropic.Anthropic(api_key=ANTHROPIC_KEY)
