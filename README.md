@@ -13,7 +13,6 @@ A GitHub Actions workflow that searches curated journals in cancer, mental healt
 5. **Claude pass** — Writes structured JSON entries: headline, summary, why it matters, caveats, fact-check note, and pitch angles per publication type
 6. **Artifact upload** — Saves JSON results as a GitHub Actions artifact
 7. **Deploy job** — Downloads all job artifacts, merges and deduplicates by PMID, commits `data/results.json`, serves via GitHub Pages
-8. **Email notification** — Short email with study count and link to dashboard
 
 ---
 
@@ -77,9 +76,10 @@ Add these in **Settings → Secrets and variables → Actions**:
 | Secret | Description |
 |---|---|
 | `ANTHROPIC_API_KEY` | Anthropic API key (`sk-ant-...`) |
-| `SERPAPI_KEY` | SerpAPI key for Google News filtering |
-| `RESEND_API_KEY` | Resend API key (`re_...`) for email delivery |
-| `DASHBOARD_URL` | Full URL of the GitHub Pages dashboard |
+| `SERPAPI_API_KEY` | SerpAPI key for Google News filtering |
+| `SUPABASE_URL` | Supabase project URL (enables personalization from dashboard save/delete feedback) |
+| `SUPABASE_KEY` | Supabase API key (read-only use; optional) |
+| `DASHBOARD_REPO_TOKEN` | Token with push access to the shared `research-digest-dashboard` repo |
 
 ---
 
