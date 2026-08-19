@@ -25,6 +25,7 @@ jobs:
     timeout-minutes: 20
     strategy:
       fail-fast: false
+      max-parallel: 1  # run sequentially so later jobs can read the earlier ones' prompt cache instead of racing them
       matrix:
         include:
           # ── Brain & Mental Health (422 journals → 3 chunks) ──────────────
