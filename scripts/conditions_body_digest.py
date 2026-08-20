@@ -489,7 +489,7 @@ Return ONLY a valid JSON array, no other text."""
     message = client.messages.create(
         model=CLAUDE_MODEL,
         max_tokens=6000,
-        system=[{"type": "text", "text": _system, "cache_control": {"type": "ephemeral"}}],
+        system=[{"type": "text", "text": _system, "cache_control": {"type": "ephemeral", "ttl": "1h"}}],
         messages=[{"role": "user", "content": _user}],
     )
     try:
