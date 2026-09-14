@@ -146,5 +146,5 @@ Each study card on the dashboard shows:
 - **Why it matters** — real-world significance for women specifically
 - **Caveats** — limitations flagged automatically
 - **Fact-check note** — corrections made during the Claude pass
-- **Pitch angles** — one expandable block per target publication type (Women's Health Magazine, Health, Self, Allure, etc.)
+- **Pitch angles** — one expandable block per target publication type (Women's Health Magazine, Health, Allure, etc.)
 - **Status** — New / Saved / Pitched / Passed (tracked in your browser)
