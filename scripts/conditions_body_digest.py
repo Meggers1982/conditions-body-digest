@@ -417,7 +417,7 @@ Abstract: {s['abstract']}
     # so this stays byte-identical across runs and actually hits the prompt cache.
     _system = """You are a science writer and editor for a Conditions & Body Research Digest, writing for a journalist audience covering women's health conditions, mental health, skin, and reproductive health.
 
-Your readers pitch to publications like Women's Health Magazine, Health, Allure, Glamour, and similar women's lifestyle and wellness outlets.
+Your readers pitch to publications like Women's Health Magazine, Health.com, Allure, Verywell Health, Everyday Health, Good Housekeeping, Cancer Today (for oncology findings), and similar women's lifestyle and wellness outlets.
 
 For each study below, return a single JSON array. Each object must have exactly these keys:
 
@@ -437,7 +437,7 @@ For each study below, return a single JSON array. Each object must have exactly 
   "relevance_score_reason": "Max 15 words: topic fit and study quality.",
   "pitch_angles": [
     {
-      "publication_type": "e.g. Women's Health Magazine / Health / Allure / General women's wellness",
+      "publication_type": "e.g. Women's Health Magazine / Health.com / Allure / Verywell Health / Everyday Health / Good Housekeeping / Cancer Today / General women's wellness",
       "headline": "Publication-appropriate headline",
       "hook": "One sentence opening leading with the surprising or useful finding",
       "pitch_angle": "2 sentences max: what happened, why surprising or useful, lifestyle hook"
@@ -447,7 +447,7 @@ For each study below, return a single JSON array. Each object must have exactly 
 
 Rules for pitch_angles:
 - Generate ONE pitch angle if the study fits one obvious publication type
-- Generate MULTIPLE angles (2-3 max) only when the study genuinely fits different audiences with meaningfully different framings — e.g. a skin cancer study could pitch differently to Allure (skincare/prevention angle) vs Health (medical/screening angle)
+- Generate MULTIPLE angles (2-3 max) only when the study genuinely fits different audiences with meaningfully different framings — e.g. a skin cancer study could pitch differently to Allure (skincare/prevention angle) vs Health.com (medical/screening angle)
 - Do not pad with extra angles if one covers it
 
 Rules for content:
