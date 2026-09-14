@@ -41,13 +41,40 @@ Can also be triggered manually via **Actions → Conditions & Body Research Dige
 
 | Category | Journals | Jobs |
 |---|---|---|
-| Brain & Mental Health | 422 | 3 (chunks 1–3) |
-| Cancer & Oncology | 164 | 2 (chunks 1–2) |
-| Allergy & Immunology | 135 | 2 (chunks 1–2) |
-| Womens Health & Reproduction | 98 | 1 |
-| Dermatology | 48 | 1 |
+| Brain & Mental Health | 424 | 3 (chunks 1–3) |
+| Cancer & Oncology | 169 | 2 (chunks 1–2) |
+| Allergy & Immunology | 136 | 2 (chunks 1–2) |
+| Womens Health & Reproduction | 102 | 1 |
+| Dermatology | 51 | 1 |
 
 Large categories are split into chunks so each job processes a manageable number of journals, keeping run times under 20 minutes.
+
+---
+
+## Journal list audit (2026-09-14)
+
+**Method** — Pulled OpenAlex's top sources for this digest's subject areas over the prior year, diffed them against the CSVs (by any ISSN or title), and kept only titles NCBI lists with PubMed articles in the last 12 months. Because every row's journal enters the digest in full (no topic filter), a title was added only if its whole output fits the beat and isn't a mega-journal that would crowd the 30 candidate slots.
+
+**Added (15)**
+
+| Category | Journals |
+|---|---|
+| Cancer & Oncology | ESMO Open; The Breast; npj Breast Cancer; Cancer Epidemiology; Cancer Causes & Control |
+| Womens Health & Reproduction | Journal of Assisted Reproduction and Genetics; Reproductive Biology and Endocrinology; Gynecological Endocrinology; International Journal of Women's Health |
+| Dermatology | JAAD International; International Journal of Women's Dermatology; Clinical, Cosmetic and Investigational Dermatology |
+| Brain & Mental Health | Cephalalgia; The Journal of Headache and Pain (migraine skews heavily female) |
+| Allergy & Immunology | Allergy, Asthma & Clinical Immunology |
+
+**Notable exclusions**
+- **Volume** — Annals of Surgical Oncology (~2,550 PubMed articles/yr), Alzheimer's & Dementia (~1,070), Journal of Alzheimer's Disease (~1,090) would swamp the candidate slots.
+- **Off-beat** — general neurology, dementia, Parkinson's/movement-disorder, and neurocritical/neurointerventional titles (mostly already carried by the mental-health and elderly-geriatric digests); surgical oncology (European Journal of Surgical Oncology); Innovation in Aging, Pancreatology, Toxicon, International Journal of Colorectal Disease.
+- **Low pitchability** — Placenta (mostly basic science), npj Precision Oncology and Immuno-Oncology Technology (molecular/technical), Sexual Medicine (much of it male sexual dysfunction), npj Schizophrenia, Journal of ECT.
+- **Case reports / regional** — Case Reports in Neurology; Polish, Indian, Japanese and Korean national titles.
+- **Not in PubMed** — the largest OpenAlex hits in this area aren't PubMed-indexed and could never be searched: International Journal of Clinical Obstetrics and Gynaecology (~495 topic articles/yr), International Journal of Reproduction, Contraception, Obstetrics and Gynecology (~367), Annales de Dermatologie et de Vénéréologie – FMC, EJC Skin Cancer, Revue française d'allergologie.
+- Journal of Assisted Reproduction and Genetics was flagged as "0 PubMed articles" by the candidate pipeline (a stale ISSN mixup); a direct PubMed check found ~418 articles/yr, so it was added.
+- **Held back to keep additions modest** — Frontiers in Allergy, Allergologia et Immunopathologia, Dermatology and Therapy, Headache, F&S Reports.
+
+The CSVs in `data/` are now hand-maintained: the source workbook (`~/PubMed_Journals_Categorized.xlsx`) no longer exists, so re-running `scripts/extract_journals.py` would wipe hand-added rows.
 
 ---
 
@@ -91,7 +118,7 @@ Add these in **Settings → Secrets and variables → Actions**:
     conditions-body-digest.yml   # GitHub Actions workflow (matrix + deploy)
 scripts/
   conditions_body_digest.py      # Main pipeline: PubMed → Claude → JSON artifact
-  extract_journals.py            # One-time script to extract CSVs from the Excel workbook
+  extract_journals.py            # One-time script that built the CSVs from a now-deleted workbook — don't re-run
   merge_results.py               # Deploy job: merges artifacts → data/results.json
 data/
   Cancer & Oncology.csv
