@@ -136,6 +136,8 @@ def get_issns(selected_cats: list[str]) -> list[str]:
                 issn = row.get("ISSN (Online)", "").strip() or row.get("ISSN (Print)", "").strip()
                 if issn:
                     issns.add(issn)
+                else:
+                    print(f"  Warning: no ISSN for journal {row.get('Journal Title', '').strip()!r} in category '{cat}'")
     sorted_issns = sorted(issns)
     if CHUNK_TOTAL > 1:
         chunk_size = len(sorted_issns) // CHUNK_TOTAL
