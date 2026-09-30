@@ -31,7 +31,7 @@ Features:
 
 ## Schedule
 
-Runs automatically every **morning at 7:00 AM ET**. All jobs run in parallel; the deploy job merges results and publishes the dashboard once all jobs complete.
+Runs automatically every **morning at 6:00 AM ET**. All jobs run in parallel; the deploy job merges results and publishes the dashboard once all jobs complete.
 
 Can also be triggered manually via **Actions → Conditions & Body Research Digest → Run workflow**.
 

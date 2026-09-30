@@ -1,9 +1,9 @@
 name: Conditions & Body Research Digest
 
 on:
-  # Runs every morning at 6:00 AM Central during daylight saving time (11:00 UTC)
+  # Runs every morning at 5:00 AM Central during daylight saving time (10:00 UTC)
   schedule:
-    - cron: '0 11 * * *'
+    - cron: '0 10 * * *'
 
   # Manual trigger — optionally override a single category
   workflow_dispatch:
