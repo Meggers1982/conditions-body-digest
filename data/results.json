@@ -1,226 +1,1333 @@
 {
-  "last_updated": "2026-09-29T16:58:48.814958+00:00",
-  "total_studies": 848,
-  "new_this_run": 3,
+  "last_updated": "2026-10-01T17:31:31.893308+00:00",
+  "total_studies": 871,
+  "new_this_run": 23,
   "studies": [
     {
+      "pmid": "42811250",
+      "headline": "When Aboriginal mothers are hospitalized for mental health in the first year after birth, their young children face a significantly higher risk of preventable hospitalizations",
+      "journal": "Archives of Women's Mental Health",
+      "pubdate": "2026 Sep 30",
+      "doi": "10.1007/s00737-026-01774-3",
+      "groundbreaking": "Relevant women's health finding / First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Using 16 years of linked administrative records for 59,159 children born in Australia's Northern Territory (2002\u20132017), researchers examined whether mothers' postnatal mental health-related hospitalization was associated with potentially avoidable hospitalizations (PAH) in their children aged 12\u201360 months. Among children of Aboriginal mothers, those exposed to maternal mental health hospitalization had a 24% higher risk of PAH compared to unexposed children; no corresponding elevated risk was found among children of non-Aboriginal mothers. The findings suggest that untreated or severe postnatal mental illness in Aboriginal mothers is associated with downstream, preventable child health harms.",
+      "why_it_matters": "The study highlights how failing to adequately support Indigenous mothers' postnatal mental health may compound health disadvantage across generations, with children bearing measurable physical health consequences.",
+      "caveats": "observational design, single-region (Northern Territory, Australia \u2014 findings specific to an Indigenous Australian population context unlikely to generalize directly to US readers), administrative data may undercount mental health episodes, no causal inference possible",
+      "fact_check_note": "",
+      "relevance_score": 6,
+      "relevance_score_reason": "Meaningful maternal mental health finding; strong design, but population specific to Aboriginal Australians limits US pitch relevance.",
+      "pitch_angles": [
+        {
+          "publication_type": "General women's wellness / Health.com",
+          "headline": "Postpartum Mental Health Crises Don't Just Harm Moms \u2014 New Data Shows Children Pay a Physical Price Too",
+          "hook": "Children whose mothers were hospitalized for mental illness in their first year of life were significantly more likely to end up in the hospital themselves for preventable conditions.",
+          "pitch_angle": "A large 16-year Australian dataset found that severe postnatal mental illness in mothers was associated with a 24% higher risk of avoidable child hospitalizations \u2014 but only among Aboriginal families, pointing to systemic gaps in culturally appropriate care. It reframes postpartum mental health support as a child health intervention, not just a maternal one."
+        }
+      ],
+      "run_date": "2026-10-01",
+      "category": "Brain & Mental Health",
+      "chunk": "1/3",
+      "status": "new"
+    },
+    {
+      "pmid": "42814205",
+      "headline": "American Indian and Alaska Native Patients Are Diagnosed With Stomach Cancer Younger \u2014 and Are Slower to Start Treatment",
+      "journal": "Cancer Causes & Control",
+      "pubdate": "2026 Sep 30",
+      "doi": "10.1007/s10552-026-02254-w",
+      "groundbreaking": "Relevant women's health finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Using North Carolina cancer registry data from 2003\u20132021, researchers compared gastric cancer presentation and treatment initiation between non-Hispanic American Indian and Alaska Native (NHAIAN, n=111 diagnosis cohort) and non-Hispanic White (NHW, n=7,685) patients. NHAIAN patients were diagnosed at a younger age (65 vs. 68 years), more often with later-stage, non-cardia cancers, and were significantly more likely to live in low-density rural areas. The cumulative probability of starting treatment within 30 days of diagnosis was significantly lower for NHAIAN patients (CIF difference = -0.09).",
+      "why_it_matters": "For American Indian and Alaska Native women, these findings suggest both a higher gastric cancer burden at younger ages and meaningful delays in accessing treatment \u2014 disparities that warrant attention from clinicians and health systems serving Native communities.",
+      "caveats": "small sample (N<100 for NHAIAN treatment cohort, n=97), observational design, single-center, no sex-disaggregated data",
+      "fact_check_note": "",
+      "relevance_score": 6,
+      "relevance_score_reason": "Health equity finding, US population, meaningful disparity in treatment access; small NHAIAN sample limits strength.",
+      "pitch_angles": [
+        {
+          "publication_type": "Everyday Health",
+          "headline": "American Indian and Alaska Native Cancer Patients Face a Double Burden: Earlier Diagnosis, Slower Access to Care",
+          "hook": "A new study found that American Indian and Alaska Native patients with stomach cancer were not only diagnosed at a younger age and more advanced stage than white patients \u2014 they were also significantly less likely to start treatment within the first 30 days.",
+          "pitch_angle": "Researchers analyzing nearly two decades of North Carolina cancer registry data found stark disparities in how quickly NHAIAN patients began treatment for gastric cancer compared to white patients, even after adjusting for key factors. The findings point to systemic barriers \u2014 including rural location \u2014 that may be delaying potentially life-saving care for a population already facing a disproportionate cancer burden."
+        }
+      ],
+      "run_date": "2026-10-01",
+      "category": "Cancer & Oncology",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
       "pmid": "42763799",
-      "headline": "People With Newly Diagnosed Asthma Who Worry the Most Are the Least Likely to Take Their Medication",
-      "journal": "The Journal of Asthma",
+      "headline": "People Most Anxious About Their Asthma Are Least Likely to Take Their Medication \u2014 and It May Be Worsening Their Disease",
+      "journal": "Journal of Asthma",
       "pubdate": "2026 Sep 29",
       "doi": "10.1080/02770903.2026.2734970",
       "groundbreaking": "Counterintuitive finding / Relevant women's health finding",
       "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers enrolled 212 newly diagnosed asthma patients in a prospective cohort study and used clustering analysis to group patients by how they perceived their illness at diagnosis. Over a 6-month follow-up, four distinct mindset clusters emerged \u2014 and the 'Hypersensitive-Anxious' group, despite reporting the highest levels of concern about their asthma, had the worst medication adherence and poorest asthma control. Baseline illness-perception cluster independently predicted whether patients would stick to their medication regimen, suggesting early mindset profiling could help flag who needs extra support.",
-      "why_it_matters": "For women \u2014 who are diagnosed with asthma at higher rates than men in adulthood \u2014 understanding that high anxiety about a new diagnosis may paradoxically undermine treatment adherence could inform how clinicians frame conversations at the point of diagnosis.",
-      "caveats": "single-center, observational design, self-reported outcomes, short follow-up, no sex-disaggregated data",
+      "summary": "Researchers followed 212 newly diagnosed asthma patients over six months, clustering them into four groups based on illness perceptions at diagnosis. The 'Hypersensitive-Anxious' cluster \u2014 those reporting the highest concern about their asthma \u2014 showed the worst medication adherence and poorest disease control over follow-up. Baseline illness perception cluster independently predicted adherence, suggesting psychological profiling at diagnosis could help identify who needs additional support.",
+      "why_it_matters": "For women, who are disproportionately diagnosed with asthma in adulthood and may experience anxiety comorbidities, this suggests that feeling most scared about a condition can paradoxically undermine treatment follow-through.",
+      "caveats": "single-center, observational design, no sex-disaggregated data, study population from China (Guangzhou) which may limit generalizability",
       "fact_check_note": "",
       "relevance_score": 7,
-      "relevance_score_reason": "Counterintuitive anxiety-adherence paradox; asthma relevant to women; limited by single-center and self-report.",
+      "relevance_score_reason": "Counterintuitive anxiety-adherence paradox; asthma is relevant to women; single-center, no sex breakdown.",
       "pitch_angles": [
         {
           "publication_type": "Health.com / Everyday Health",
-          "headline": "The Counterintuitive Reason Anxiety About Your Asthma Can Make It Worse",
-          "hook": "New research finds that newly diagnosed asthma patients who worry the most about their condition are the least likely to actually take the medication that could help them.",
-          "pitch_angle": "A 6-month study of 212 patients identified a striking 'anxiety-adherence paradox': the group most anxious about their asthma had the worst medication adherence and disease control \u2014 suggesting that fear alone doesn't translate into self-care, and that early mental-health-aware support at diagnosis could make a real difference."
+          "headline": "Being Most Worried About Your Asthma Might Actually Make It Worse \u2014 Here's Why",
+          "hook": "The patients who feared their asthma most were the ones least likely to take their medication \u2014 and their lung health suffered for it.",
+          "pitch_angle": "A new prospective study found that newly diagnosed asthma patients who reported the highest anxiety about their condition had the worst medication adherence over six months, upending the assumption that concern drives compliance. Experts say this 'anxiety-adherence paradox' could change how clinicians support patients at the moment of diagnosis."
         },
         {
-          "publication_type": "Women's Health Magazine / General women's wellness",
-          "headline": "Being Scared of Your New Asthma Diagnosis Might Actually Stop You From Managing It",
-          "hook": "If you're newly diagnosed with asthma and terrified, research suggests your anxiety could be working against your treatment \u2014 not for it.",
-          "pitch_angle": "A prospective study found that patients who felt the most anxious and hypersensitive about their asthma were paradoxically the worst at taking their prescribed medications \u2014 a finding especially relevant for women, who are more likely to develop asthma in adulthood and may benefit from targeted emotional support alongside a new diagnosis."
+          "publication_type": "Women's Health Magazine",
+          "headline": "Why Worrying Too Much About Your Asthma Diagnosis Could Backfire",
+          "hook": "Feeling overwhelmed after an asthma diagnosis may actually get in the way of managing it \u2014 and new research shows the pattern starts immediately.",
+          "pitch_angle": "Researchers tracked 212 newly diagnosed asthma patients and found the most anxious group had the poorest medication adherence and worst disease control six months later, suggesting that emotional response at diagnosis matters as much as the prescription itself. The findings point to a need for mental health support alongside inhaler instructions \u2014 especially for women, who more often experience anxiety alongside respiratory conditions."
         }
       ],
-      "run_date": "2026-09-29",
+      "run_date": "2026-10-01",
       "category": "Allergy & Immunology",
       "chunk": "1/2",
       "status": "new"
     },
     {
+      "pmid": "42810527",
+      "headline": "A Protein That Helps B Cells Survive May Also Be Silencing the Body's Own Asthma Brakes",
+      "journal": "Immunology letters",
+      "pubdate": "2026 Sep 29",
+      "doi": "10.1016/j.imlet.2026.107244",
+      "groundbreaking": "Counterintuitive finding / First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers used mouse models and human B cells to investigate how the anti-apoptotic protein Mcl-1 affects regulatory B cell (Breg) function in allergic asthma; translational analysis also included B cells from people with asthma (modest sample size not specified). They found Mcl-1 acts as an epigenetic suppressor of IL-10 transcription in B cells \u2014 a role entirely separate from its known cell-survival function \u2014 thereby blunting the immune-dampening capacity of Bregs. In human asthma patients, B cells showed elevated Mcl-1 and reduced IL-10, suggesting this newly identified axis may drive allergic airway inflammation.",
+      "why_it_matters": "For the roughly 60% of asthma patients who are women, early evidence of a novel molecular target distinct from existing biologics could eventually open new treatment avenues \u2014 though pharmacological validation is still needed.",
+      "caveats": "small sample (N<100), single-center, observational design, no sex-disaggregated data, primarily mouse/cell model with limited human validation",
+      "fact_check_note": "",
+      "relevance_score": 6,
+      "relevance_score_reason": "Asthma disproportionately affects women; early-stage mechanistic finding limits score.",
+      "pitch_angles": [
+        {
+          "publication_type": "Health.com / Everyday Health",
+          "headline": "A Cell-Survival Protein May Be Secretly Worsening Your Asthma \u2014 Here's What Scientists Found",
+          "hook": "A protein best known for keeping immune cells alive may also be switching off the body's own asthma-fighting signals.",
+          "pitch_angle": "Researchers found that Mcl-1 \u2014 long studied for its role in cancer because it helps cells avoid death \u2014 also silences a key anti-inflammatory molecule in B cells, potentially fueling allergic asthma. The finding suggests a completely unexpected drug target for a condition that hits women harder than men, though the research is still in early, mostly animal-based stages."
+        }
+      ],
+      "run_date": "2026-10-01",
+      "category": "Allergy & Immunology",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42810436",
+      "headline": "Brain Aneurysm Surgery Sometimes Has to Be Done Twice \u2014 Here's How Surgeons Navigate the Second Time",
+      "journal": "World Neurosurgery",
+      "pubdate": "2026 Sep 29",
+      "doi": "10.1016/j.wneu.2026.125375",
+      "groundbreaking": "Relevant women's health finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers at D\u00fcsseldorf University Hospital reviewed 22 studies and presented two illustrative surgical cases to describe the technical challenges of reopening the brain to re-clip a cerebral aneurysm that regrew or recurred after initial treatment. Challenges included scar tissue, altered anatomy, and difficult vascular control; strategies included careful clip removal, bypass procedures, and neurophysiological monitoring. The review synthesizes operative approaches for one of the most complex scenarios in cerebrovascular surgery.",
+      "why_it_matters": "Brain aneurysms disproportionately affect women, so understanding retreatment options matters for the patients most likely to face this rare but serious surgical scenario.",
+      "caveats": "small sample (N<100), single-center, observational design, no sex-disaggregated data",
+      "fact_check_note": "",
+      "relevance_score": 4,
+      "relevance_score_reason": "Niche surgical review; limited lifestyle hook; no sex-disaggregated data.",
+      "pitch_angles": [
+        {
+          "publication_type": "Health.com",
+          "headline": "Brain Aneurysm Surgery Can Fail \u2014 and the Second Operation Is Even Harder",
+          "hook": "Most people don't know that a clipped brain aneurysm can sometimes grow back \u2014 and fixing it the second time is one of the most demanding surgeries in neuroscience.",
+          "pitch_angle": "A surgical review details the rare but serious scenario where a brain aneurysm recurs after clipping and must be reoperated, with dense scarring and altered anatomy making the procedure far more complex. Since women are more likely than men to develop brain aneurysms, understanding the retreatment landscape is especially relevant to a female readership."
+        }
+      ],
+      "run_date": "2026-10-01",
+      "category": "Brain & Mental Health",
+      "chunk": "3/3",
+      "status": "new"
+    },
+    {
       "pmid": "42804809",
-      "headline": "Brain's Waste-Clearance System May Work Differently in Adults Who Develop Schizophrenia Later in Life",
+      "headline": "Brain scans reveal a hidden difference in schizophrenia depending on when in life it first appears \u2014 and it may explain why hallucinations vary",
       "journal": "Schizophrenia Research",
       "pubdate": "2026 Sep 28",
       "doi": "10.1016/j.schres.2026.09.024",
       "groundbreaking": "Counterintuitive finding / First-in-class human study",
       "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers used a brain imaging technique (DTI-ALPS) to assess putative glymphatic function \u2014 the brain's fluid-based waste-clearance system \u2014 in 195 first-episode schizophrenia patients (103 early-onset, 92 adult-onset) and 191 matched healthy controls in China. Adult-onset patients showed significantly lower glymphatic activity markers compared to both healthy controls and early-onset patients, a difference not seen in the early-onset group. Lower right-hemisphere glymphatic indices in adult-onset patients were also associated with greater hallucination severity.",
-      "why_it_matters": "If the brain's waste-clearance system is differentially impaired depending on when schizophrenia begins, this finding could help explain why adult-onset cases sometimes present and progress differently \u2014 a distinction that matters given women's higher rates of late-onset schizophrenia.",
-      "caveats": "observational design, single-center, no sex-disaggregated data, cross-sectional design, DTI-ALPS is an indirect/proxy measure of glymphatic function, non-US population (China), industry-adjacent conflict of interest (co-author LP reports honoraria from pharmaceutical companies)",
+      "summary": "Researchers in China and Canada used diffusion tensor imaging (DTI-ALPS) \u2014 an indirect brain-scan marker of the glymphatic system, which clears waste from the brain \u2014 in 195 first-episode schizophrenia patients and 191 healthy controls, split by whether symptoms began in childhood/adolescence (early-onset) or adulthood. Adults with adult-onset schizophrenia showed significantly lower glymphatic activity markers compared to both healthy older adults and early-onset patients, suggesting the brain's waste-clearance system is specifically disrupted in adult-onset cases. Lower glymphatic function in adult-onset patients was also associated with more severe hallucinations.",
+      "why_it_matters": "Understanding why schizophrenia looks and feels different depending on when it starts could eventually guide more personalized treatment \u2014 and because women are more likely to develop schizophrenia later in life (adult-onset), this glymphatic difference may be especially relevant to them.",
+      "caveats": "single-center, observational design, no sex-disaggregated data, industry funding [LP reports honoraria from Janssen Canada, Bausch Health, Bristol-Myers Squibb, Otsuka Canada]",
       "fact_check_note": "",
-      "relevance_score": 5,
-      "relevance_score_reason": "Interesting mechanistic finding, reasonable sample size, but no sex breakdown and niche topic.",
+      "relevance_score": 6,
+      "relevance_score_reason": "Intriguing brain-mechanism finding; no sex-disaggregated data limits women's health pitch.",
       "pitch_angles": [
         {
-          "publication_type": "Health.com / Everyday Health",
-          "headline": "The Brain's Built-In Cleaning System May Break Down Differently Depending on When Schizophrenia Starts",
-          "hook": "New imaging research suggests that adults who develop schizophrenia later in life show more disruption to the brain's waste-clearance system than those diagnosed in adolescence \u2014 and the difference is tied to hallucination severity.",
-          "pitch_angle": "Scientists used a specialized MRI technique to measure how well fluid flows through the brain's 'glymphatic' system in people newly diagnosed with schizophrenia, finding that adult-onset cases showed significantly more impairment than early-onset cases. Because women are more likely than men to develop schizophrenia later in life, understanding what drives adult-onset cases biologically could eventually shape more targeted treatments."
+          "publication_type": "Health.com",
+          "headline": "Why Schizophrenia That Starts in Adulthood May Look So Different From the Teenage Kind \u2014 New Brain Scans Offer a Clue",
+          "hook": "A brain-imaging study found that adults who develop schizophrenia for the first time show signs of a disrupted waste-clearance system that younger patients don't \u2014 and it may partly explain why hallucinations are worse.",
+          "pitch_angle": "The glymphatic system \u2014 the brain's overnight cleaning crew \u2014 appears compromised specifically in adult-onset schizophrenia, offering a potential biological explanation for why the condition varies so much between people and hinting at new treatment targets."
         }
       ],
-      "run_date": "2026-09-29",
+      "run_date": "2026-10-01",
       "category": "Brain & Mental Health",
       "chunk": "2/3",
       "status": "new"
     },
     {
       "pmid": "42803874",
-      "headline": "A Protein Flag on Kidney Tumors Predicts Worse Survival \u2014 Even Before Immunotherapy Is Involved",
+      "headline": "A biomarker used to select immunotherapy patients may also predict worse survival in kidney cancer treated without immunotherapy",
       "journal": "Clinical & Translational Oncology",
       "pubdate": "2026 Sep 28",
       "doi": "10.1007/s12094-026-04543-x",
       "groundbreaking": "Counterintuitive finding",
       "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers conducted a retrospective multicenter study across 25 Spanish hospitals examining whether PD-L1 expression predicts survival in 242 evaluable patients with metastatic renal cell carcinoma treated with antiangiogenic drugs only (no immunotherapy). The cohort was predominantly male (76.4%), with a median age of 64. Patients whose tumors expressed PD-L1 at \u22651% had significantly shorter median overall survival (9.7 vs. 14.5 months), suggesting PD-L1 may act as an adverse prognostic marker independent of immune checkpoint therapy.",
-      "why_it_matters": "This finding suggests the PD-L1 marker \u2014 widely associated with immunotherapy response \u2014 may also signal poorer prognosis in kidney cancer patients who never receive immunotherapy, potentially helping clinicians better stratify risk.",
-      "caveats": "observational design, retrospective, no sex-disaggregated data, single-country (Spain), majority male cohort limits applicability to women",
+      "summary": "This retrospective multicenter Spanish study evaluated PD-L1 expression as a prognostic marker in 242 patients with metastatic renal cell carcinoma who were treated with antiangiogenic drugs \u2014 not immunotherapy \u2014 in the first-line setting. Researchers found that patients with PD-L1 expression \u22651% had significantly shorter median overall survival (9.7 months) compared to those with PD-L1 <1% (14.5 months). In multivariable analysis, PD-L1 \u22651% was an independent predictor of worse survival alongside poor risk score and multiple metastatic sites.",
+      "why_it_matters": "The finding suggests PD-L1, typically used to identify who might benefit from immunotherapy, may also flag patients with inherently more aggressive kidney cancer \u2014 a distinction that could help oncologists better stratify risk even when immunotherapy isn't used.",
+      "caveats": "observational design, retrospective, no sex-disaggregated data, 76.4% male population, single-region (Spain)",
       "fact_check_note": "",
       "relevance_score": 4,
-      "relevance_score_reason": "No sex-disaggregated data; predominantly male cohort; observational design.",
+      "relevance_score_reason": "Counterintuitive finding but predominantly male population, no women's health angle.",
       "pitch_angles": [
         {
           "publication_type": "Health.com",
-          "headline": "A Tumor Protein Linked to Immunotherapy May Also Predict Kidney Cancer Outcomes on Older Drugs",
-          "hook": "PD-L1, a marker used to guide immunotherapy decisions, also predicted shorter survival in kidney cancer patients who never received those drugs.",
-          "pitch_angle": "A large Spanish study found that a protein flag on kidney tumors associated with worse outcomes even when patients were treated with older targeted drugs \u2014 suggesting PD-L1 may carry broader prognostic meaning than previously understood. The finding could eventually help refine how doctors classify risk at diagnosis, though the cohort was largely male and results need validation in more diverse populations."
+          "headline": "A Test Used to Pick Immunotherapy Patients May Also Predict Who Has the Hardest-to-Treat Kidney Cancer",
+          "hook": "PD-L1, a biomarker usually used to match patients to immunotherapy, turned out to predict worse survival even in kidney cancer patients who never received immunotherapy \u2014 suggesting it marks something more fundamental about tumor aggression.",
+          "pitch_angle": "A Spanish multicenter study found that metastatic kidney cancer patients with elevated PD-L1 expression had nearly five fewer months of median survival than those with low expression, even when treated with older antiangiogenic drugs rather than immune checkpoint therapies. The finding raises new questions about what PD-L1 actually measures in kidney tumors."
         }
       ],
-      "run_date": "2026-09-29",
+      "run_date": "2026-10-01",
       "category": "Cancer & Oncology",
       "chunk": "1/2",
       "status": "new"
     },
     {
       "pmid": "42800379",
-      "headline": "A routine CT scan already in cancer records may double as a frailty screening tool for bladder cancer patients",
+      "headline": "A Routine CT Scan May Double as a Frailty Test for Bladder Cancer Patients",
       "journal": "Urologic Oncology",
       "pubdate": "2026 Sep 26",
       "doi": "10.1016/j.urolonc.2026.08.013",
-      "groundbreaking": "Relevant women's health finding",
+      "groundbreaking": "First-in-class human study / Counterintuitive finding",
       "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers enrolled 56 patients with bladder cancer (any stage; median age 71; 84% male) in a prospective observational study and compared CT-derived body composition measurements to standard geriatric assessments including grip strength and mobility testing. Greater skeletal muscle area and density on CT were associated with significantly lower odds of poor grip strength and slow mobility times. The findings suggest CT scans patients already receive for staging could provide additional frailty-related information without extra testing.",
-      "why_it_matters": "For the roughly 16% of bladder cancer patients who are women \u2014 often diagnosed later and at more advanced stages \u2014 a passive CT-based frailty signal could mean faster, more personalized treatment planning without added clinical burden.",
-      "caveats": "small sample (N<100), observational design, single-center, 84% male (sex-disaggregated data limited), industry funding [Boston Scientific, Becton Dickinson, AstraZeneca, Bristol Myers Squibb, Pfizer, Johnson & Johnson]",
+      "summary": "Researchers enrolled 56 bladder cancer patients (median age 71; 84% male) in a prospective observational cohort and compared CT-derived body composition measurements against validated geriatric assessments including grip strength and the Timed Up and Go test. They found that greater skeletal muscle area and density on CT were associated with significantly lower odds of poor grip strength and mobility scores. The study suggests that body composition data already embedded in standard staging scans could serve as a faster, lower-burden surrogate for time-intensive frailty evaluations.",
+      "why_it_matters": "For women with bladder cancer \u2014 a disease often diagnosed at later stages in women \u2014 this approach could streamline treatment planning without the burden of additional testing.",
+      "caveats": "small sample (N<100), observational design, single-center, no sex-disaggregated data",
       "fact_check_note": "",
       "relevance_score": 4,
-      "relevance_score_reason": "Interesting clinical tool but very small N, male-dominated sample, limited women's health relevance.",
+      "relevance_score_reason": "Clever imaging finding but small, 84% male, no sex-disaggregated data.",
       "pitch_angles": [
         {
-          "publication_type": "Verywell Health",
-          "headline": "Your Cancer CT Scan Might Already Hold Clues About Your Physical Resilience",
-          "hook": "A scan bladder cancer patients already get for staging may quietly reveal whether they're strong enough to handle aggressive treatment \u2014 no extra tests required.",
-          "pitch_angle": "Early research suggests that muscle measurements extracted from routine staging CT scans are associated with standard frailty markers like grip strength and walking speed. If confirmed in larger studies, this could streamline how oncologists assess treatment readiness, particularly for older patients."
+          "publication_type": "Health.com",
+          "headline": "Your Cancer Staging Scan Could Also Tell Doctors How Well You'll Handle Treatment",
+          "hook": "A CT scan you're already getting for bladder cancer staging may contain hidden clues about how strong \u2014 or fragile \u2014 your body really is.",
+          "pitch_angle": "Researchers found that muscle measurements extracted from routine CT images closely tracked results from physical frailty tests, suggesting oncologists could assess treatment readiness without adding lengthy assessments; the approach could particularly benefit older patients who find traditional geriatric evaluations burdensome."
         }
       ],
-      "run_date": "2026-09-29",
+      "run_date": "2026-10-01",
       "category": "Cancer & Oncology",
       "chunk": "2/2",
       "status": "new"
     },
     {
       "pmid": "42800559",
-      "headline": "Early Hair Loss in Young Adults May Signal Metabolic Syndrome Risk, Study Suggests",
+      "headline": "Early-Onset Hair Loss May Be a Signal of Metabolic Trouble \u2014 Not Just Genetics",
       "journal": "Journal of the American Academy of Dermatology",
       "pubdate": "2026 Sep 26",
       "doi": "10.1016/j.jaad.2026.09.084",
-      "groundbreaking": "Counterintuitive finding / Relevant women's health finding",
+      "groundbreaking": "Relevant women's health finding",
       "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers conducted a retrospective matched case-control study examining the relationship between metabolic syndrome and early-onset androgenetic alopecia (AGA), and developed a novel risk scoring system to quantify that association. The study was conducted at Seoul National University/SMG-SNU Boramae Medical Center in South Korea; sample size is not reported in the available abstract. Early-onset hair loss was found to be associated with metabolic syndrome, suggesting that premature AGA may be a visible marker of underlying metabolic risk.",
-      "why_it_matters": "For women experiencing early hair thinning, this research suggests the symptom may warrant a broader metabolic health conversation with a clinician \u2014 not just a cosmetic one.",
-      "caveats": "observational design, single-center, retrospective design, no sex-disaggregated data, sample size unconfirmed from abstract, South Korea population (generalizability uncertain)",
-      "fact_check_note": "Sample size (N) is not reported in the available abstract and could not be verified; all other claims are consistent with the abstract.",
+      "summary": "South Korean researchers conducted a retrospective matched case-control study examining the relationship between metabolic syndrome and early-onset androgenetic alopecia (AGA), and developed a novel risk scoring system. The abstract does not provide sample size or sex breakdown. The study found an association between metabolic syndrome components and early-onset AGA, suggesting that hair loss beginning in younger adults may signal underlying metabolic health issues.",
+      "why_it_matters": "For women experiencing hair thinning earlier than expected, this research suggests the conversation with a doctor shouldn't stop at hormones \u2014 metabolic health markers may also be worth evaluating.",
+      "caveats": "observational design, single-center (Seoul National University), retrospective design, no sex-disaggregated data reported in abstract, sample size not reported in abstract",
+      "fact_check_note": "Abstract provides no sample size (N) or sex-disaggregated data; claims about study scope cannot be fully verified from the abstract alone.",
       "relevance_score": 5,
-      "relevance_score_reason": "Hair loss angle fits women's wellness; single-center, no sex-disaggregated data, N unconfirmed.",
+      "relevance_score_reason": "Relevant lifestyle hook for women; design and data gaps limit scoring.",
       "pitch_angles": [
         {
-          "publication_type": "Verywell Health / Everyday Health",
-          "headline": "Your Early Hair Loss Could Be Telling You Something About Your Metabolic Health",
-          "hook": "A new study suggests that premature hair thinning may be more than a cosmetic concern \u2014 it could be an early warning sign of metabolic syndrome.",
-          "pitch_angle": "Researchers found an association between early-onset androgenetic alopecia and metabolic syndrome, and developed a scoring tool to assess risk. The finding is a reminder that hair loss in younger adults might prompt a broader health screening conversation, not just a trip to the dermatologist."
+          "publication_type": "Everyday Health",
+          "headline": "Losing Your Hair in Your 20s or 30s? It Might Be Worth Checking Your Metabolic Health",
+          "hook": "Early-onset hair loss has long been blamed on genetics and hormones \u2014 but new research suggests metabolic syndrome may be a key driver that's going undetected.",
+          "pitch_angle": "A Korean case-control study found a meaningful association between metabolic syndrome \u2014 a cluster of conditions including high blood pressure, blood sugar, and cholesterol \u2014 and early-onset androgenetic alopecia. For women whose hair loss starts young, the findings suggest that getting a metabolic workup could offer answers beyond the standard 'it runs in your family' explanation."
         }
       ],
-      "run_date": "2026-09-29",
+      "run_date": "2026-10-01",
       "category": "Dermatology",
       "chunk": "1/1",
       "status": "new"
     },
     {
       "pmid": "42444565",
-      "headline": "NICU Babies Are Getting Picture Symbols as ID Tags \u2014 And Parents and Nurses Are On Board",
+      "headline": "Giving NICU babies a picture symbol instead of just a name tag may stop dangerous mix-up errors",
       "journal": "Journal of Perinatal Medicine",
       "pubdate": "2026 Sep 25",
       "doi": "10.1515/jpm-2026-0027",
-      "groundbreaking": "First-in-class human study / Relevant women's health finding",
+      "groundbreaking": "Relevant women's health finding",
       "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers at multiple U.S. centers tested a novel patient-safety intervention called 'Pictographs' \u2014 caregiver-selected images uploaded into the electronic health record and posted at the bedside \u2014 as visual identifiers for NICU newborns, who are at elevated risk of wrong-patient errors. In this feasibility and acceptability phase of a larger multicenter RCT, the vast majority of caregivers selected a Pictograph for their infant, and ordering clinicians recognized its potential as a visual cue, particularly for twins and multiples. This paper reports feasibility data only; effectiveness in preventing wrong-patient order errors has not yet been established.",
-      "why_it_matters": "Wrong-patient errors in the NICU \u2014 including giving the wrong medication, test, or breast milk to a baby \u2014 can cause serious harm, and this low-tech, parent-engaged solution could give families a meaningful role in their newborn's safety.",
-      "caveats": "observational design, small sample (N<100 at feasibility phase), single-center (two sites for this phase), no effectiveness data yet, secondary analysis",
+      "summary": "A multicenter feasibility study tested 'Pictographs' \u2014 caregiver-chosen images uploaded into the electronic health record and displayed at bedside \u2014 as visual identifiers for newborns in NICUs to reduce wrong-patient medication and procedure errors. The intervention was piloted at two sites as part of a larger ongoing RCT, and the vast majority of caregivers selected and posted a Pictograph for their infant. Clinicians recognized Pictographs as a useful visual cue, especially for multiple-birth infants where name-based identification is most error-prone.",
+      "why_it_matters": "Wrong-patient errors in NICUs \u2014 including giving a baby the wrong breast milk, medication, or procedure \u2014 are a known and serious risk that disproportionately affects parents of twins and preterm infants.",
+      "caveats": "small sample (N<100), observational design, single feasibility phase only \u2014 effectiveness not yet demonstrated, full RCT ongoing",
       "fact_check_note": "",
-      "relevance_score": 6,
-      "relevance_score_reason": "Appealing parent-safety hook; feasibility only, no effectiveness data yet limits strength.",
+      "relevance_score": 5,
+      "relevance_score_reason": "Patient safety angle for new parents; feasibility only, no outcome data yet.",
       "pitch_angles": [
         {
-          "publication_type": "Everyday Health / Good Housekeeping",
-          "headline": "Hospitals Are Testing a Surprisingly Simple Fix for One of the NICU's Scariest Errors",
-          "hook": "A picture of a bunny or a star posted next to a premature baby's incubator might sound like a cute touch \u2014 but it's actually a patient-safety tool designed to prevent babies from getting the wrong medication, test, or breast milk.",
-          "pitch_angle": "Researchers found that parents of NICU babies were almost universally willing to select a unique picture symbol \u2014 a 'Pictograph' \u2014 for their infant, which nurses and doctors said could serve as a critical visual cue when placing medical orders, especially for twins. The intervention is now being tested in a full randomized trial, but early data suggest both families and clinicians see real value in it as a low-tech layer of protection in a high-stakes environment."
+          "publication_type": "Good Housekeeping / Everyday Health",
+          "headline": "Could a Simple Picture Symbol Prevent Dangerous Baby Mix-Ups in the NICU?",
+          "hook": "Hospitals are testing whether giving each NICU baby their own emoji-style image \u2014 chosen by parents \u2014 can stop dangerous wrong-patient errors.",
+          "pitch_angle": "Wrong-patient errors in NICUs, from incorrect medications to misdelivered breast milk, are a serious and underreported risk; a low-tech fix involving parent-chosen visual symbols is now being tested in a multicenter trial."
         }
       ],
-      "run_date": "2026-09-29",
+      "run_date": "2026-10-01",
       "category": "Womens Health & Reproduction",
       "chunk": "1/1",
       "status": "new"
     },
     {
       "pmid": "42788222",
-      "headline": "A Digital Platform Designed for Caregivers of People With Psychosis Reduced Their Loneliness and Distress",
-      "journal": "Journal of Mental Health (Abingdon, England)",
+      "headline": "A Digital Platform May Ease Loneliness and Distress for Caregivers of People With First-Episode Psychosis",
+      "journal": "Journal of Mental Health",
       "pubdate": "2026 Sep 25",
       "doi": "10.1080/09638237.2026.2732880",
-      "groundbreaking": "First-in-class human study / Relevant women's health finding",
+      "groundbreaking": "Relevant women's health finding",
       "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers conducted a 6-month feasibility trial of Altitudes, a blended digital platform combining psychoeducation, therapy content, and social networking, designed specifically for caregivers of people experiencing first-episode psychosis. Participants completed mental health assessments at baseline, 3 months, and 6 months, and engagement and retention rates were tracked. Caregivers reported lower distress, greater self-compassion, reduced loneliness, and more positive caregiving experiences at follow-up, though wide confidence intervals mean findings should be interpreted cautiously.",
-      "why_it_matters": "Because women make up the majority of unpaid mental health caregivers, a digital tool that addresses caregivers' own well-being \u2014 not just the person they're caring for \u2014 could fill a significant gap in support.",
-      "caveats": "small sample (N<100 \u2014 sample size not reported precisely in abstract, uncontrolled feasibility trial), observational design, short follow-up, no sex-disaggregated data, single-center",
-      "fact_check_note": "Sample size is not explicitly stated in the abstract; 'small sample' flag applied conservatively given feasibility trial framing.",
-      "relevance_score": 6,
-      "relevance_score_reason": "Relevant caregiver mental health angle for women; feasibility study limits generalizability.",
+      "summary": "Researchers tested Altitudes, a 6-month blended digital platform combining psychoeducation, therapy content, and social networking, among caregivers of people experiencing first-episode psychosis. Participants completed assessments at baseline, 3 months, and 6 months; the study reports high retention and engagement. At follow-up, caregivers reported lower distress, increased self-compassion, more positive caregiving experiences, and reduced loneliness, though all effects had wide confidence intervals.",
+      "why_it_matters": "Women make up the majority of informal caregivers, and this early evidence suggests a digital tool specifically designed for psychosis caregivers may address their often-overlooked mental health needs.",
+      "caveats": "small sample (N<100), observational design, self-reported outcomes, short follow-up, no sex-disaggregated data, wide confidence intervals noted by authors",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Caregiver mental health relevant to women; small pilot with wide CIs limits score.",
       "pitch_angles": [
         {
           "publication_type": "Everyday Health / Verywell Health",
-          "headline": "A New App Built for Caregivers of People With Psychosis Helped Reduce Their Loneliness \u2014 Not Just Manage the Person They Care For",
-          "hook": "A digital platform designed specifically for caregivers of people with first-episode psychosis found early evidence it reduced caregiver distress, loneliness, and self-criticism over six months.",
-          "pitch_angle": "The Altitudes platform is one of the first digital tools to center the mental health needs of caregivers \u2014 not just those of the person with psychosis \u2014 and early results suggest it may help reduce the isolation and burnout that caregiving often causes. Given that women disproportionately fill caregiver roles, the approach could address a largely overlooked mental health burden."
+          "headline": "A New Digital Tool Could Help Family Caregivers of People With Psychosis Feel Less Alone",
+          "hook": "Caring for someone after a first psychotic episode is isolating \u2014 and a new online platform may finally offer caregivers a place to get support of their own.",
+          "pitch_angle": "Researchers found that a 6-month digital platform designed specifically for psychosis caregivers was associated with reduced loneliness and distress. Because women disproportionately take on informal caregiving roles, the finding is especially relevant for readers navigating a loved one's mental health crisis."
         }
       ],
-      "run_date": "2026-09-29",
+      "run_date": "2026-10-01",
       "category": "Brain & Mental Health",
       "chunk": "1/3",
       "status": "new"
     },
     {
       "pmid": "42789056",
-      "headline": "A Rare Genetic Deletion in Sperm Caused Fertilization to Fail \u2014 Until Doctors Tried a Workaround That Led to a Live Birth",
+      "headline": "A single gene deletion explains why some men's sperm cause chaotic fertilization \u2014 and a workaround led to a live birth",
       "journal": "Asian Journal of Andrology",
       "pubdate": "2026 Sep 25",
       "doi": "10.4103/aja202630",
-      "groundbreaking": "First-in-class human study",
+      "groundbreaking": "First-in-class human study / Relevant women's health finding",
       "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers in China identified a novel homozygous chromosomal microdeletion in the ACTL9 gene in a single infertile man whose sperm caused polyspermy (multiple sperm fertilizing one egg) in conventional IVF and near-total fertilization failure in ICSI. Laboratory analysis showed the deletion disrupted acrosome structure and eliminated a protein (PLCZ1) critical for normal egg activation, explaining the fertilization failures. Artificial oocyte activation combined with ICSI successfully overcame the defect and resulted in a live birth.",
-      "why_it_matters": "For fertility patients experiencing repeated unexplained IVF failure, this case suggests that genetic testing of sperm \u2014 not just eggs \u2014 and artificial oocyte activation may be worth exploring when standard fertilization methods repeatedly fail.",
-      "caveats": "small sample (N<100), single-center, single case report, observational design",
+      "summary": "Researchers identified a homozygous chromosomal microdeletion in the ACTL9 gene in a single infertile man whose sperm caused polyspermy (multiple sperm fertilizing one egg) in conventional IVF and near-total failure in standard ICSI. Electron microscopy and protein staining revealed the deletion disrupted acrosome structure and eliminated a key protein (PLCZ1) needed to block multiple sperm entry. Combining ICSI with artificial oocyte activation successfully rescued fertilization and resulted in a live birth.",
+      "why_it_matters": "For women undergoing IVF with a partner experiencing unexplained fertilization failure, identifying a sperm-specific genetic cause could guide a targeted lab fix and avoid repeated failed cycles.",
+      "caveats": "small sample (N<100), single-center, single case report",
       "fact_check_note": "",
       "relevance_score": 6,
-      "relevance_score_reason": "Fertility angle relevant to IVF patients; single case limits generalizability; narrow male-genetics focus.",
+      "relevance_score_reason": "Fertility angle relevant to IVF patients; single case limits generalizability.",
       "pitch_angles": [
         {
           "publication_type": "Verywell Health / Everyday Health",
-          "headline": "IVF Kept Failing \u2014 Then Doctors Found the Problem Was in the Sperm's DNA",
-          "hook": "A man's sperm appeared normal by standard testing, but a rare genetic deletion was silently causing every fertilization attempt to fail \u2014 until a lab workaround led to a successful pregnancy.",
-          "pitch_angle": "A new case report describes how a novel deletion in the ACTL9 gene disrupted a protein essential for egg activation, causing polyspermy in conventional IVF and near-total failure in ICSI \u2014 problems that genetic testing of sperm eventually uncovered. Researchers used artificial oocyte activation to rescue the process and achieve a live birth, raising questions about whether couples facing unexplained repeated IVF failure should be offered sperm genetic screening earlier in their journey."
+          "headline": "Why Some IVF Cycles Fail Completely \u2014 and How One Genetic Discovery Led to a Live Birth",
+          "hook": "A single gene deletion in one man's sperm caused every fertilized egg to self-destruct \u2014 until researchers found a workaround that resulted in a healthy baby.",
+          "pitch_angle": "A newly identified genetic mutation explains a baffling pattern of total IVF failure; the fix \u2014 combining sperm injection with artificial egg activation \u2014 suggests that for some couples, the problem is diagnosable and solvable."
         }
       ],
-      "run_date": "2026-09-29",
+      "run_date": "2026-10-01",
+      "category": "Womens Health & Reproduction",
+      "chunk": "1/1",
+      "status": "new"
+    },
+    {
+      "pmid": "42789227",
+      "headline": "Managing side effects aggressively may be the key to getting more out of a new stomach cancer drug",
+      "journal": "Medical Oncology",
+      "pubdate": "2026 Sep 25",
+      "doi": "10.1007/s12032-026-03422-3",
+      "groundbreaking": "Relevant women's health finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "This review examines real-world implementation of zolbetuximab, a first-line treatment for a specific subtype of gastric/gastroesophageal junction (GEJ) adenocarcinoma, focusing on managing its gastrointestinal side effects including nausea, vomiting, gastritis, and low albumin. Drawing on phase III trial subgroup data, real-world evidence, and Delphi consensus guidance, authors found that proactive antiemetic protocols, stepwise infusion-rate escalation, and multidisciplinary support were associated with better drug delivery and tolerability. Japanese patients in particular showed notably higher dose intensity and longer progression-free survival (median 20.53 months vs. HR 0.69\u20130.75 in overall populations), though authors caution these are hypothesis-generating observations.",
+      "why_it_matters": "For women diagnosed with this aggressive stomach cancer subtype, findings suggest that how aggressively clinical teams manage treatment side effects may meaningfully affect how much therapeutic benefit patients receive.",
+      "caveats": "observational design, single-center, secondary analysis, no sex-disaggregated data",
+      "fact_check_note": "",
+      "relevance_score": 4,
+      "relevance_score_reason": "Clinical management review; no sex-disaggregated data; narrow cancer subtype audience.",
+      "pitch_angles": [
+        {
+          "publication_type": "Cancer Today",
+          "headline": "The Side-Effect Strategy That May Help Stomach Cancer Patients Get More From a New Drug",
+          "hook": "Patients whose clinical teams aggressively managed nausea and vomiting during zolbetuximab infusions were better able to stay on treatment \u2014 and may have fared better as a result.",
+          "pitch_angle": "A new review finds that proactive, multidisciplinary side-effect management for a recently approved stomach cancer drug is associated with higher dose delivery and potentially better outcomes. The finding suggests that supportive care protocols \u2014 not just the drug itself \u2014 may be a critical variable in treatment success."
+        }
+      ],
+      "run_date": "2026-10-01",
+      "category": "Cancer & Oncology",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42785918",
+      "headline": "A new questionnaire captures the physical storm that hits trauma survivors in their sleep \u2014 racing heart, sweating, and all",
+      "journal": "Journal of Sleep Research",
+      "pubdate": "2026 Sep 24",
+      "doi": "10.1111/jsr.70439",
+      "groundbreaking": "First-in-class human study / Relevant women's health finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers developed and validated the STARSS Scale, an 11-item self-report tool specifically designed to capture trauma-related sleep disruption \u2014 including nightmares and autonomic symptoms like palpitations and sweating \u2014 that existing measures tend to undercount. The scale was validated in a sample of 830 healthcare workers and first responders who worked during the COVID-19 pandemic. STARSS scores correlated strongly with established measures of PTSD, anxiety, depression, and insomnia, and showed strong internal consistency.",
+      "why_it_matters": "Women are diagnosed with PTSD at roughly twice the rate of men, and better tools for measuring the full physical toll of trauma-related sleep disruption could improve how their symptoms are recognized and tracked in research and clinical settings.",
+      "caveats": "self-reported outcomes, observational design, single occupational group (healthcare workers/first responders), short follow-up, no sex-disaggregated data",
+      "fact_check_note": "",
+      "relevance_score": 6,
+      "relevance_score_reason": "PTSD sleep tool validated in large N; relevant to women; no sex breakdown, occupational sample limits generalizability.",
+      "pitch_angles": [
+        {
+          "publication_type": "Health.com / Verywell Health",
+          "headline": "Trauma Doesn't Just Haunt Your Dreams \u2014 It Makes Your Heart Race and Body Sweat at Night. A New Tool Finally Measures That",
+          "hook": "A new 11-item questionnaire is the first designed to capture the physical symptoms \u2014 racing heart, sweating, excessive movement \u2014 that trauma survivors experience during sleep, not just their nightmares.",
+          "pitch_angle": "The STARSS Scale, validated in over 800 pandemic-era healthcare workers, found that existing PTSD sleep tools miss crucial autonomic symptoms; the new measure correlated strongly with anxiety, depression, and insomnia scores, suggesting it could help researchers and clinicians see the full picture of trauma's toll on sleep."
+        }
+      ],
+      "run_date": "2026-10-01",
+      "category": "Brain & Mental Health",
+      "chunk": "1/3",
+      "status": "new"
+    },
+    {
+      "pmid": "42786218",
+      "headline": "A mild side effect of breast cancer drugs may actually signal the treatment is working",
+      "journal": "Cancer Chemotherapy and Pharmacology",
+      "pubdate": "2026 Sep 24",
+      "doi": "10.1007/s00280-026-04960-3",
+      "groundbreaking": "Counterintuitive finding / Relevant women's health finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers used repeated landmark analyses \u2014 a method designed to reduce statistical bias \u2014 to examine whether early side effects predicted survival in 404 patients with HR+/HER2- metastatic breast cancer receiving first-line CDK4/6 inhibitor therapy. The study found that mild-to-moderate neutropenia (low white blood cell counts, grade 1\u20132) occurring within the first 8\u201312 weeks of treatment was consistently associated with longer progression-free survival (33.2 vs. 22.1 months) and overall survival (90.6 vs. 40.8 months). Dose reductions, however, were independently associated with shorter progression-free survival.",
+      "why_it_matters": "For women on CDK4/6 inhibitors \u2014 one of the most common treatment classes for metastatic breast cancer \u2014 mild neutropenia may be a reassuring signal that the drug is active, rather than purely a complication to fear.",
+      "caveats": "observational design, single-center, retrospective, study population in Turkey",
+      "fact_check_note": "",
+      "relevance_score": 8,
+      "relevance_score_reason": "Counterintuitive finding directly relevant to women with metastatic breast cancer; large N, methodologically careful.",
+      "pitch_angles": [
+        {
+          "publication_type": "Cancer Today",
+          "headline": "Why a Common Side Effect of a Key Breast Cancer Drug May Actually Be a Good Sign",
+          "hook": "For women on CDK4/6 inhibitors, developing mild low white blood cell counts early in treatment was linked to dramatically longer survival \u2014 nearly triple the overall survival in one measure.",
+          "pitch_angle": "A study of 404 metastatic breast cancer patients found that grade 1\u20132 neutropenia in the first 8\u201312 weeks of CDK4/6 inhibitor therapy was associated with significantly better outcomes, suggesting it may reflect drug activity rather than just toxicity. Counterintuitively, dose reductions \u2014 often used to manage side effects \u2014 were tied to shorter progression-free survival."
+        },
+        {
+          "publication_type": "Health.com",
+          "headline": "A Scary-Sounding Side Effect of This Breast Cancer Drug Might Actually Mean It's Doing Its Job",
+          "hook": "Women who developed mild neutropenia early in CDK4/6 inhibitor therapy lived significantly longer than those who didn't \u2014 flipping the conventional worry about this common side effect.",
+          "pitch_angle": "New research suggests that for women with metastatic breast cancer on popular CDK4/6 inhibitor drugs, mild drops in white blood cell counts may signal the treatment is working, not failing. The finding could eventually influence how oncologists and patients weigh the option of reducing doses when side effects emerge."
+        }
+      ],
+      "run_date": "2026-10-01",
+      "category": "Cancer & Oncology",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42784781",
+      "headline": "A dual-target antibody nearly halved the risk of death from advanced stomach cancer in a large phase III trial",
+      "journal": "Journal of Clinical Oncology",
+      "pubdate": "2026 Sep 24",
+      "doi": "10.1200/JCO-25-02933",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "The phase III RELIGHT trial randomized 731 patients with previously untreated, unresectable HER2-negative gastric or gastroesophageal junction adenocarcinoma to receive retlirafusp alfa \u2014 a bispecific antibody targeting both PD-L1 and TGF-\u03b2 \u2014 plus standard chemotherapy (CAPOX) or placebo plus CAPOX. In patients with PD-L1 CPS \u22655, the experimental arm showed a hazard ratio of 0.53 for overall survival, translating to median survival of 16.8 versus 10.4 months; benefit extended to the full intention-to-treat population. Grade \u22653 adverse events were comparable between arms.",
+      "why_it_matters": "Gastric cancer disproportionately affects older adults globally and has historically had few effective first-line options beyond chemotherapy, so a new drug class showing a survival benefit of more than six months in a subset of patients could meaningfully expand treatment options.",
+      "caveats": "single-region (China), no sex-disaggregated data reported in abstract, industry funding [Jiangsu Hengrui Pharmaceuticals]",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Solid phase III RCT with strong survival signal; limited women's health angle, China-only population.",
+      "pitch_angles": [
+        {
+          "publication_type": "Health.com",
+          "headline": "A New Type of Cancer Drug Targeting Two Pathways at Once Could Transform Treatment for Advanced Stomach Cancer",
+          "hook": "A large randomized trial found that adding a novel bispecific antibody to standard chemotherapy cut the risk of death nearly in half for patients with the most common type of advanced stomach cancer.",
+          "pitch_angle": "The RELIGHT trial tested retlirafusp alfa, which blocks both an immune checkpoint and a tumor-shielding growth factor simultaneously, in over 700 patients \u2014 and found survival extended by more than six months in those with high PD-L1 expression. The drug is already in phase I/IIa testing for broader use, marking a potentially new era for a cancer type with limited treatment advances."
+        }
+      ],
+      "run_date": "2026-10-01",
+      "category": "Cancer & Oncology",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42810148",
+      "headline": "A new antibody-drug conjugate shows early promise in hard-to-treat triple-negative breast cancer \u2014 with nearly 38% response rate at the optimal dose",
+      "journal": "European Journal of Cancer",
+      "pubdate": "2026 Sep 24",
+      "doi": "10.1016/j.ejca.2026.117063",
+      "groundbreaking": "First-in-class human study / Relevant women's health finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers conducted a first-in-human phase I trial (NCT05174637) testing F0024 (FDA018), a TROP2-directed antibody-drug conjugate, in 67 patients with advanced solid tumors, including 41 with heavily pretreated triple-negative breast cancer (TNBC), across multiple centers in China. At the recommended phase II dose of 10 mg/kg, the drug achieved an objective response rate of 37.9% and a median progression-free survival of 10.5 months in the TNBC expansion cohort. However, grade \u22653 treatment-related adverse events occurred in nearly 58% of TNBC patients, signaling meaningful but manageable toxicity.",
+      "why_it_matters": "Triple-negative breast cancer is among the most difficult subtypes to treat, and early evidence of a nearly 38% response rate in heavily pretreated patients suggests this drug class may offer a meaningful new option for women who have exhausted standard therapies.",
+      "caveats": "small sample (N<100), single-center escalation phase, short follow-up, industry funding [Shanghai Fudan-Zhangjiang Bio-Pharmaceutical Co., Ltd.], China-only study population",
+      "fact_check_note": "",
+      "relevance_score": 7,
+      "relevance_score_reason": "First-in-human TNBC data with promising ORR; industry funding and small N limit confidence.",
+      "pitch_angles": [
+        {
+          "publication_type": "Cancer Today",
+          "headline": "A New TROP2-Targeted Drug Shows Early Promise in Triple-Negative Breast Cancer",
+          "hook": "In one of the first human trials of a new antibody-drug conjugate, nearly 4 in 10 patients with hard-to-treat triple-negative breast cancer responded to the optimal dose.",
+          "pitch_angle": "Researchers tested F0024 in 41 heavily pretreated TNBC patients and found a 37.9% response rate and nearly 11 months of progression-free survival at 10 mg/kg \u2014 notable results for a cancer subtype with few salvage options. The drug targets TROP2, a protein overexpressed in TNBC, placing it in the same class as the already-approved sacituzumab govitecan, raising questions about where a new entrant could fit."
+        },
+        {
+          "publication_type": "Health.com",
+          "headline": "Triple-Negative Breast Cancer May Have a New Treatment Contender \u2014 Here's What the Early Data Show",
+          "hook": "A new drug targeting a protein overexpressed in triple-negative breast cancer showed a nearly 38% response rate in women who had already tried multiple treatments.",
+          "pitch_angle": "F0024 is part of a fast-growing class of precision drugs called antibody-drug conjugates that deliver chemotherapy directly to tumor cells \u2014 and this first human trial found it shrank tumors in a meaningful proportion of patients with one of breast cancer's toughest subtypes. Experts caution the trial was small and conducted in China, so larger global studies are needed before drawing firm conclusions."
+        }
+      ],
+      "run_date": "2026-10-01",
+      "category": "Cancer & Oncology",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42557604",
+      "headline": "Suicide rate data may be misleading policymakers due to a classic statistical trap",
+      "journal": "Psychiatric Services",
+      "pubdate": "2026 Oct 1",
+      "doi": "10.1176/appi.ps.20240228",
+      "groundbreaking": "Counterintuitive finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "VA researchers examined how aggregating suicide surveillance data across populations can produce a statistical phenomenon called Simpson's Paradox, in which trends that appear favorable at a population level actually mask worsening rates in subgroups. The paper is a commentary rather than an original data study, drawing on Veterans Affairs mental health surveillance contexts. The authors argue that population-level suicide statistics can be dangerously misleading when subgroup trends run in opposite directions.",
+      "why_it_matters": "For women specifically, who represent a growing share of Veterans and a population with rising suicide rates, aggregated data may hide their worsening risk entirely.",
+      "caveats": "observational design, secondary analysis, no sex-disaggregated data",
+      "fact_check_note": "",
+      "relevance_score": 4,
+      "relevance_score_reason": "Methodological commentary; no primary data, limited direct women's health hook.",
+      "pitch_angles": [
+        {
+          "publication_type": "Verywell Health",
+          "headline": "Suicide Statistics May Be Hiding a Crisis Hidden Inside the Data",
+          "hook": "The suicide numbers reported at a population level can actually mask worsening rates in vulnerable groups \u2014 including women veterans.",
+          "pitch_angle": "VA researchers warn that a well-known statistical illusion called Simpson's Paradox may be distorting national suicide surveillance data, making trends look stable or improving when subgroups are getting worse. For readers trying to understand mental health trends, it's a sobering reminder that headline statistics don't always tell the full story."
+        }
+      ],
+      "run_date": "2026-10-01",
+      "category": "Brain & Mental Health",
+      "chunk": "2/3",
+      "status": "new"
+    },
+    {
+      "pmid": "42490294",
+      "headline": "A new alpha-radiation therapy for rare adrenal tumors clears the body fast and showed no dangerous side effects in the first human trial",
+      "journal": "Clinical Cancer Research",
+      "pubdate": "2026 Oct 1",
+      "doi": "10.1158/1078-0432.CCR-26-1047",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers conducted the first-in-human phase I trial of 211At-MABG, an alpha-emitting radiotherapy agent, in 10 patients with unresectable or metastatic pheochromocytoma or paraganglioma refractory to prior treatments. Using a dose-escalation design across three dose levels, the single-dose treatment showed no dose-limiting toxicities over six weeks and cleared the body rapidly, with 65% urinary excretion within 72 hours. One patient achieved a partial response and seven had stable disease over the 12-week follow-up.",
+      "why_it_matters": "Pheochromocytomas and paragangliomas disproportionately affect women and currently have very limited treatment options when metastatic, so a well-tolerated new approach warrants attention.",
+      "caveats": "small sample (N<100), single-center, short follow-up, single-arm (no comparator), Japan-based population",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Rare cancer, first-in-human, but very small N and no women-specific framing.",
+      "pitch_angles": [
+        {
+          "publication_type": "Health.com",
+          "headline": "A New Radiation Treatment for a Rare Adrenal Tumor Just Completed Its First Human Trial \u2014 With Promising Results",
+          "hook": "A cancer that often goes undiagnosed for years now has a potential new treatment option that cleared the body in three days with no serious side effects.",
+          "pitch_angle": "Researchers tested a faster-clearing, alpha-emitting radiotherapy in patients whose adrenal tumors had stopped responding to standard treatment, finding it safe and showing early signs of activity. While the trial was tiny, it opens a new direction for a cancer that currently has few effective options."
+        }
+      ],
+      "run_date": "2026-10-01",
+      "category": "Cancer & Oncology",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42415253",
+      "headline": "Implantable brain devices for psychiatric conditions raise serious human-rights and implementation questions, experts warn",
+      "journal": "The American Journal of Psychiatry",
+      "pubdate": "2026 Oct 1",
+      "doi": "10.1176/appi.ajp.20251187",
+      "groundbreaking": "Relevant women's health finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers at Harvard/Massachusetts General Hospital reviewed the ethical and practical challenges of implantable neuromodulation devices \u2014 such as deep brain stimulators \u2014 used in psychiatric treatment. The commentary addresses 'human fidelity' concerns (how well devices capture a patient's authentic self and preferences) alongside systemic barriers to equitable implementation. The authors argue that without robust ethical frameworks, these technologies risk reinforcing existing disparities in mental health care.",
+      "why_it_matters": "As implantable psychiatric devices edge closer to mainstream use, women \u2014 who are disproportionately diagnosed with conditions like treatment-resistant depression \u2014 may face distinct autonomy and identity questions about these technologies.",
+      "caveats": "observational design, no sex-disaggregated data",
+      "fact_check_note": "",
+      "relevance_score": 4,
+      "relevance_score_reason": "Commentary/opinion piece; no primary data; limited direct women's health hook.",
+      "pitch_angles": [
+        {
+          "publication_type": "Verywell Health",
+          "headline": "Brain Implants for Depression Are Coming \u2014 But Experts Say Big Questions Remain",
+          "hook": "Implantable neuromodulation devices may soon be used for treatment-resistant psychiatric conditions, but Harvard researchers warn the ethical and practical groundwork isn't ready.",
+          "pitch_angle": "The piece covers what implantable brain devices actually do for mental health conditions and why clinicians are urging caution before they scale \u2014 a clear explainer angle for a health-literate audience curious about next-generation psychiatry."
+        }
+      ],
+      "run_date": "2026-10-01",
+      "category": "Brain & Mental Health",
+      "chunk": "2/3",
+      "status": "new"
+    },
+    {
+      "pmid": "41925331",
+      "headline": "Total Publication Count Doesn't Predict Who Leads Neurosurgery Departments \u2014 But First-Author Papers Do",
+      "journal": "Neurosurgery",
+      "pubdate": "2026 Oct 1",
+      "doi": "10.1227/neu.0000000000004025",
+      "groundbreaking": "Counterintuitive finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers compared early-career publication records of 100 neurosurgical department chairs and program directors against 100 matched controls using PubMed data from 50 randomly selected US academic programs. Leaders and non-leaders had similar overall publication counts in their first 10 years, but leaders had significantly more first- and senior-author publications and a higher early-career H-index. On multivariable analysis, first/senior-author publication count \u2014 not total output \u2014 was the only independent predictor of future leadership.",
+      "why_it_matters": "Given neurosurgery's persistent gender gap in leadership, understanding which early-career metrics actually predict advancement could help women in the field \u2014 and those evaluating them \u2014 focus effort on the right outputs.",
+      "caveats": "small sample (N<100), observational design, single-center pipeline (US academic programs only), no sex-disaggregated data",
+      "fact_check_note": "",
+      "relevance_score": 4,
+      "relevance_score_reason": "Counterintuitive finding; no sex-disaggregated data; niche academic audience limits pitch fit.",
+      "pitch_angles": [
+        {
+          "publication_type": "General women's wellness",
+          "headline": "Publishing More Doesn't Get You to the Top in Surgery \u2014 This Does",
+          "hook": "In one of medicine's most male-dominated fields, sheer volume of publications turns out not to predict who ends up running the department.",
+          "pitch_angle": "A new study found that first- and senior-author papers \u2014 not raw publication count \u2014 are what distinguish future neurosurgery leaders from their peers. For women working to crack leadership in surgical specialties, the finding suggests where to direct early-career energy."
+        }
+      ],
+      "run_date": "2026-10-01",
+      "category": "Brain & Mental Health",
+      "chunk": "1/3",
+      "status": "new"
+    },
+    {
+      "pmid": "42128227",
+      "headline": "Women are less likely than men to eat insects even when curiosity is sparked \u2014 and curiosity may actually backfire for them",
+      "journal": "Appetite",
+      "pubdate": "2026 Oct 1",
+      "doi": "10.1016/j.appet.2026.108587",
+      "groundbreaking": "Counterintuitive finding / Relevant women's health finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers ran a 2\u00d72 between-subjects experiment (N=210) in Ecuador in which participants attempted unsolvable riddles before sampling cricket-flour or corn-flour nachos; those left with unsatisfied curiosity consumed more of the cricket snack overall. However, exploratory sex-disaggregated analyses found that women showed a countervailing negative direct effect on novel food consumption, meaning induced curiosity did not translate into higher insect-food intake for women the way it did for men. The study suggests curiosity can be a transferable psychological lever for novel food adoption, but that food neophobia and sex moderate when and how it works.",
+      "why_it_matters": "For women specifically, the psychological tactics being developed to encourage sustainable insect-based eating may need to be designed differently \u2014 because the curiosity hook that works for men may actually suppress women's willingness to try novel foods.",
+      "caveats": "small sample (N<100 per cell), single-center, observational design, sex findings are exploratory/not pre-registered, study population is Ecuador-based (generalizability to US/Western women unclear)",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Interesting sex difference but niche food-marketing topic; exploratory finding, small cells.",
+      "pitch_angles": [
+        {
+          "publication_type": "Women's Health Magazine / Everyday Health",
+          "headline": "Why Getting Curious Might Actually Make Women Less Likely to Try Sustainable Foods",
+          "hook": "The psychological trick being used to get people to eat insects works on men \u2014 but may backfire on women.",
+          "pitch_angle": "A new experiment found that inducing curiosity before eating boosted insect-food consumption overall, but women showed the opposite pattern. It raises questions about whether the behavioral nudges being designed around sustainable eating are being built with women in mind."
+        }
+      ],
+      "run_date": "2026-10-01",
+      "category": "Brain & Mental Health",
+      "chunk": "1/3",
+      "status": "new"
+    },
+    {
+      "pmid": "42790447",
+      "headline": "A Lancet Blueprint Calls Out the Global Gap Leaving Most Cancer Patients Without Precision Medicine",
+      "journal": "The Lancet Oncology",
+      "pubdate": "2026 Oct",
+      "doi": "10.1016/S1470-2045(26)00448-1",
+      "groundbreaking": "Relevant women's health finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "This Lancet Oncology commentary, authored by oncologists at India's Tata Memorial Hospital, outlines shared global inequities in access to precision oncology and proposes a unified framework to address them. The piece highlights that disparities in genomic testing, targeted therapies, and infrastructure affect patients across low- and middle-income countries disproportionately. No new primary data are presented; the piece is a policy-level call to action published in a high-impact journal.",
+      "why_it_matters": "Women in low- and middle-income countries \u2014 who face high burdens of cervical, breast, and ovarian cancers \u2014 are among those most likely to be shut out of precision oncology advances that patients in wealthier nations increasingly access.",
+      "caveats": "observational design, no primary data, no sex-disaggregated data",
+      "fact_check_note": "Abstract is extremely brief and contains no data; summary reflects what can be verified from abstract and author affiliations only.",
+      "relevance_score": 5,
+      "relevance_score_reason": "High-impact journal, global equity angle, but commentary only with no new data.",
+      "pitch_angles": [
+        {
+          "publication_type": "Health.com",
+          "headline": "Most of the World's Cancer Patients Still Can't Access the Precision Medicine Changing Survival Odds",
+          "hook": "A new Lancet Oncology commentary warns that life-extending precision cancer treatments are reaching only a fraction of the patients who need them \u2014 and the gap is widening.",
+          "pitch_angle": "Oncologists at one of the world's largest cancer centers argue that the promise of precision medicine is being realized mainly for patients in wealthy countries, while billions of people \u2014 including women with breast, cervical, and ovarian cancers \u2014 have no access to genomic testing or targeted therapies. The piece calls for a unified global blueprint to close that gap."
+        }
+      ],
+      "run_date": "2026-10-01",
+      "category": "Cancer & Oncology",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42600230",
+      "headline": "AI Tools for Kids With Arthritis Could Speed Diagnosis \u2014 But Researchers Warn They May Deepen Health Inequities",
+      "journal": "Current Opinion in Immunology",
+      "pubdate": "2026 Oct",
+      "doi": "10.1016/j.coi.2026.102835",
+      "groundbreaking": "Relevant women's health finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers conducted a narrative review synthesizing evidence on how multimodal AI \u2014 combining clinical data, imaging, lab results, wearables, and omics \u2014 could transform diagnosis and treatment monitoring in pediatric rheumatology. The review covers tools including large language models and explainable AI applied to rare, heterogeneous childhood rheumatic diseases. Authors found that while AI shows promise for predicting flares and treatment response, bias accumulation across the AI development lifecycle risks amplifying existing health inequities for underrepresented children.",
+      "why_it_matters": "Girls are disproportionately affected by several pediatric rheumatic diseases, including juvenile lupus and juvenile idiopathic arthritis, making the equity stakes of AI adoption especially relevant for female patients.",
+      "caveats": "observational design, no sex-disaggregated data, narrative review (not systematic)",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Narrative review; pediatric rheumatology equity angle, indirect women's health fit.",
+      "pitch_angles": [
+        {
+          "publication_type": "Verywell Health / Everyday Health",
+          "headline": "AI Could Help Diagnose Kids With Arthritis Faster \u2014 But Only If Bias Is Built Out From the Start",
+          "hook": "Children with rare rheumatic diseases wait years for a diagnosis, and AI promises to close that gap \u2014 but a new review warns the technology could make things worse for already-underserved kids.",
+          "pitch_angle": "A narrative review finds that multimodal AI shows real promise for predicting flares and guiding treatment in pediatric rheumatic disease, but cautions that biased training data could deepen inequities \u2014 a concern that disproportionately affects girls, who make up the majority of juvenile lupus and arthritis patients."
+        }
+      ],
+      "run_date": "2026-10-01",
+      "category": "Allergy & Immunology",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42537444",
+      "headline": "Getting into psychosis treatment faster \u2014 and receiving more sessions \u2014 dramatically improves recovery odds, real-world data shows",
+      "journal": "Schizophrenia Research",
+      "pubdate": "2026 Oct",
+      "doi": "10.1016/j.schres.2026.07.017",
+      "groundbreaking": "Relevant women's health finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers evaluated a multicomponent early intervention program for first-episode psychosis across the Emilia-Romagna region of Italy, analyzing outcomes for 1,085 patients aged 18\u201335 followed for a mean of 2.5 years (2013\u20132019). The study found that shorter duration of untreated psychosis and receiving more than 36 condition-specific interventions (CBT/psychoeducation) were each associated with significantly better recovery and remission outcomes. Sociodemographic factors including being single, having lower education, and being a foreign national were associated with worse outcomes, raising equity concerns.",
+      "why_it_matters": "Because women with first-episode psychosis often face delayed diagnosis due to symptom presentation differences, findings linking faster access and more intensive treatment to better outcomes carry particular weight for narrowing this gender gap.",
+      "caveats": "observational design, single-region (Italy), no sex-disaggregated data, naturalistic cohort",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Large real-world cohort with equity angle; no sex-disaggregated data limits women's health specificity.",
+      "pitch_angles": [
+        {
+          "publication_type": "Everyday Health",
+          "headline": "Getting Treated for Psychosis Sooner \u2014 and More Often \u2014 Makes a Measurable Difference, Large Study Finds",
+          "hook": "A real-world study of over 1,000 young adults found that those who received early, intensive psychosis treatment were nearly twice as likely to reach remission.",
+          "pitch_angle": "Italian researchers tracked 1,085 people aged 18\u201335 through a structured early psychosis program and found that every week of delay before treatment \u2014 and every missed therapy session \u2014 was associated with worse outcomes. The findings underscore why reducing barriers to early mental health care matters, particularly for groups already facing systemic disadvantages."
+        }
+      ],
+      "run_date": "2026-10-01",
+      "category": "Brain & Mental Health",
+      "chunk": "2/3",
+      "status": "new"
+    },
+    {
+      "pmid": "42533557",
+      "headline": "Video-Game Balance Training May Lower a Key Alzheimer's Blood Marker in People With Early Memory Decline",
+      "journal": "Games for Health Journal",
+      "pubdate": "2026 Oct",
+      "doi": "10.1177/2161783X261461636",
+      "groundbreaking": "First-in-class human study / Relevant women's health finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "In a four-arm randomized trial, 97 adults with mild cognitive impairment (MCI) completed 8 weeks of exergame (video-game-based) balance training at varying difficulty levels or standard Wii Fit as a control, 3 sessions per week. Participants in the variable-challenge exergame groups showed increases in BDNF (a brain growth factor) and reductions in p-tau181 \u2014 a blood biomarker associated with Alzheimer's disease \u2014 compared to the Wii Fit control group. Improvements in attention, visuospatial skills, and abstraction were also observed, with greater effects at moderate and high difficulty levels.",
+      "why_it_matters": "Because women are diagnosed with Alzheimer's disease at higher rates than men, findings suggesting that an accessible, game-based exercise format may reduce a key Alzheimer's blood marker could have particular relevance for women managing early cognitive decline.",
+      "caveats": "small sample (N<100), single-center, short follow-up, no sex-disaggregated data",
+      "fact_check_note": "N=97, which is just under the N\u2265100 threshold; flagged as small sample accordingly. Abstract does not report A\u03b21-42 as showing significant group \u00d7 time interaction \u2014 only BDNF, p-tau181, attention, abstraction, and visuospatial skills reached significance.",
+      "relevance_score": 6,
+      "relevance_score_reason": "Relevant women's Alzheimer's risk angle; small N, no sex-disaggregated data, short follow-up.",
+      "pitch_angles": [
+        {
+          "publication_type": "Everyday Health / Verywell Health",
+          "headline": "Playing Balance Video Games May Lower an Alzheimer's Blood Marker in People With Early Memory Problems",
+          "hook": "Just 8 weeks of difficulty-adjusted exergame training was associated with a measurable drop in p-tau181 \u2014 a protein linked to Alzheimer's \u2014 in adults showing early memory decline.",
+          "pitch_angle": "A small randomized trial found that cognitively challenging balance video games outperformed standard Wii Fit in reducing a key Alzheimer's blood biomarker and improving multiple thinking skills. Women, who bear a disproportionate burden of Alzheimer's diagnoses, could be a key audience for this accessible, home-friendly intervention \u2014 though larger trials are needed."
+        }
+      ],
+      "run_date": "2026-10-01",
+      "category": "Brain & Mental Health",
+      "chunk": "3/3",
+      "status": "new"
+    },
+    {
+      "pmid": "42468816",
+      "headline": "A wearable sensor may one day detect a hidden physical signal that drives anorexia relapse",
+      "journal": "Neuroscience and Biobehavioral Reviews",
+      "pubdate": "2026 Oct",
+      "doi": "10.1016/j.neubiorev.2026.106879",
+      "groundbreaking": "First-in-class human study / Counterintuitive finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers at the University of Louisville proposed a new theoretical framework suggesting that vasoconstriction \u2014 the sympathetically driven narrowing of blood vessels \u2014 may be a key but overlooked contributor to anorexia nervosa spectrum disorder, distorting the body's hunger, temperature, and emotional signals via the brain's insular cortex. To operationalize the concept, they developed a prototype wearable-based detector that composites electrodermal activity, blood volume pulse amplitude, and peripheral temperature into a continuous index of vascular tone. The paper is a theoretical manuscript and prototype description, not a clinical trial, and no patient data were reported.",
+      "why_it_matters": "Anorexia nervosa has the highest mortality rate of any psychiatric condition and disproportionately affects women and girls, and a physiologically grounded, wearable-detectable biomarker could eventually change how clinicians monitor relapse risk outside clinical settings.",
+      "caveats": "observational design, no primary human subject data, preprint-adjacent theoretical manuscript, small sample (N<100)",
+      "fact_check_note": "The abstract clearly states this is a theoretical manuscript with a prototype detector \u2014 no clinical trial data or patient cohort is reported. The summary reflects this accurately.",
+      "relevance_score": 6,
+      "relevance_score_reason": "Women's mental health, novel wearable angle, but no human trial data yet.",
+      "pitch_angles": [
+        {
+          "publication_type": "Health.com",
+          "headline": "Scientists Think a Blood-Flow Signal in Your Body Might Be Driving Anorexia \u2014 and a Wearable Could Track It",
+          "hook": "A new theory proposes that the same physical process that makes your hands cold when you're anxious may also be scrambling hunger and emotional cues in people with anorexia.",
+          "pitch_angle": "Researchers suggest vasoconstriction \u2014 the narrowing of blood vessels triggered by the nervous system \u2014 may distort the body's internal signals in anorexia nervosa, making it harder to feel hunger or process emotions clearly. They've built a prototype wearable detector to measure this in real time, opening an early-stage but potentially significant path toward monitoring relapse risk outside the clinic."
+        },
+        {
+          "publication_type": "Allure",
+          "headline": "The Reason Anorexia Is So Hard to Treat May Be Written in Your Body's Blood-Flow Patterns",
+          "hook": "A new scientific framework links a basic physical reflex \u2014 blood vessel constriction \u2014 to why anorexia nervosa is so resistant to treatment and so prone to relapse.",
+          "pitch_angle": "Researchers propose that the same nervous-system response that causes cold hands under stress may also cloud the body's hunger and emotional signals in people with anorexia nervosa spectrum disorder, contributing to symptom maintenance and relapse. Early evidence suggests a wearable sensor could one day track this signal continuously \u2014 potentially transforming how we think about recovery monitoring."
+        }
+      ],
+      "run_date": "2026-10-01",
+      "category": "Brain & Mental Health",
+      "chunk": "2/3",
+      "status": "new"
+    },
+    {
+      "pmid": "42393461",
+      "headline": "An Oral Drug That Starves Tumors of Their Blood Supply Shows Promising Survival Data in Advanced Neuroendocrine Cancers",
+      "journal": "British Journal of Cancer",
+      "pubdate": "2026 Oct",
+      "doi": "10.1038/s41416-026-03515-w",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "A phase IIa trial evaluated CVM-1118 (foslinanib), a novel oral agent that disrupts the way tumors build their own blood vessel networks, in 43 patients with advanced, well-differentiated lung, gastrointestinal, or pancreatic neuroendocrine tumors who had progressed on prior therapies. Among 35 efficacy-evaluable patients, median progression-free survival was 10.5 months, disease control rate was 77%, and median overall survival had not been reached, with most treatment-related side effects being mild. The trial was sponsored in part by TaiRx, the drug's developer, and was conducted entirely in Taiwan.",
+      "why_it_matters": "Neuroendocrine tumors affect women and men roughly equally and often go undetected until advanced stages, so a well-tolerated oral option with a novel mechanism that preserved disease control in three-quarters of heavily pre-treated patients could expand future choices for patients who have exhausted standard therapies.",
+      "caveats": "small sample (N<100), single-arm (no comparator), industry funding [TaiRx Inc.], short follow-up for OS endpoint, Taiwan-based population, no sex-disaggregated data",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Promising phase II signal but small N, industry-funded, no women-specific data.",
+      "pitch_angles": [
+        {
+          "publication_type": "Health.com",
+          "headline": "A Pill That Cuts Off a Tumor's Blood Supply Showed Encouraging Results for a Hard-to-Treat Cancer",
+          "hook": "An experimental oral drug that works by blocking a tumor's ability to grow its own blood vessels kept three-quarters of advanced neuroendocrine tumor patients' disease under control.",
+          "pitch_angle": "In a small phase II trial, patients with advanced neuroendocrine tumors \u2014 a cancer type that often goes undetected for years \u2014 who had already failed standard therapies saw a median of 10.5 months without disease progression on the pill, with mostly mild side effects. The drug targets a biological workaround some tumors use to feed themselves, offering a potentially new approach if larger trials confirm the results."
+        }
+      ],
+      "run_date": "2026-10-01",
+      "category": "Cancer & Oncology",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42025493",
+      "headline": "Two Hidden Cockroach Proteins Trigger IgE Reactions in Most Allergic Patients \u2014 and They've Never Been on Allergy Test Panels Before",
+      "journal": "Allergology International",
+      "pubdate": "2026 Oct",
+      "doi": "10.1016/j.alit.2026.03.007",
+      "groundbreaking": "First-in-class human study / Relevant women's health finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers identified and characterized two newly discovered cockroach allergens \u2014 Per a 21 and Per a 22, derived from metabolic enzymes aldolase and pyruvate kinase \u2014 in the American cockroach, testing them against serum from 77 cockroach-allergic patients. IgE-binding tests showed 62\u201373% of patients reacted to these individual allergens, and together they were recognized by 83% of cockroach-IgE-positive sera. The allergens have been formally registered with the WHO/IUIS Allergen Nomenclature database, meaning they could be added to diagnostic allergy panels.",
+      "why_it_matters": "Women and children in urban environments with cockroach exposure are among those most affected by cockroach-triggered asthma and allergy, and these findings suggest current standard allergy panels may be missing major sensitizing proteins that could explain unresolved symptoms.",
+      "caveats": "small sample (N=77), single-center, study population from China which may affect sensitization profile generalizability, no sex-disaggregated data",
+      "fact_check_note": "",
+      "relevance_score": 6,
+      "relevance_score_reason": "Novel allergen discovery with human IgE data; allergy/asthma relevant to women; small N, single-center.",
+      "pitch_angles": [
+        {
+          "publication_type": "Everyday Health / Health.com",
+          "headline": "Your Cockroach Allergy Test Might Be Missing Something \u2014 Scientists Just Found Two Major New Allergens",
+          "hook": "Up to 83% of cockroach-allergic patients reacted to proteins that aren't yet on standard allergy diagnostic panels.",
+          "pitch_angle": "A new study identified two never-before-catalogued cockroach allergens \u2014 metabolic enzymes that trigger IgE responses in the majority of people already diagnosed with cockroach allergy \u2014 suggesting that current tests could be leaving sensitization undetected. For urban dwellers with mysterious respiratory symptoms, especially women and children in high-cockroach-exposure environments, this research may eventually reshape how allergy panels are built."
+        }
+      ],
+      "run_date": "2026-10-01",
+      "category": "Allergy & Immunology",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "41431170",
+      "headline": "Not All Narcissism Is Bad for Mental Health \u2014 the Type Makes All the Difference",
+      "journal": "Journal of Personality",
+      "pubdate": "2026 Oct",
+      "doi": "10.1111/jopy.70044",
+      "groundbreaking": "Counterintuitive finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "A pre-registered three-level meta-analysis synthesized 229 studies (N=185,137) to examine how grandiose versus vulnerable narcissism relate to mental health outcomes. Grandiose narcissism was associated with better positive mental health and had no significant link to negative mental health, while vulnerable narcissism was strongly associated with worse mental health across measures. Moderators including age and measurement instrument significantly influenced effect sizes.",
+      "why_it_matters": "Because vulnerable narcissism \u2014 characterized by hypersensitivity and shame \u2014 may present differently in women and is often missed in clinical settings, this large-scale finding could reshape how mental health professionals screen for and discuss narcissistic traits with patients.",
+      "caveats": "self-reported outcomes, no sex-disaggregated data, most included studies cross-sectional",
+      "fact_check_note": "",
+      "relevance_score": 7,
+      "relevance_score_reason": "Counterintuitive; large N meta-analysis; mental health angle; no sex-disaggregated data limits score.",
+      "pitch_angles": [
+        {
+          "publication_type": "Health.com / Verywell Health",
+          "headline": "There Are Two Types of Narcissism \u2014 and One Is Actually Linked to Better Mental Health",
+          "hook": "A sweeping new meta-analysis of nearly 200,000 people found that grandiose narcissism is associated with positive mental wellbeing \u2014 while vulnerable narcissism is linked to significantly worse outcomes.",
+          "pitch_angle": "The study distinguishes grandiose narcissism (confidence, entitlement) from vulnerable narcissism (shame, hypersensitivity), showing they have opposite relationships with mental health. The finding challenges the pop-psychology assumption that all narcissism is harmful and raises questions about how the quieter, more shame-prone version gets identified and treated."
+        },
+        {
+          "publication_type": "Women's Health Magazine",
+          "headline": "The 'Quiet' Type of Narcissism Is the One That Wrecks Mental Health, a Massive New Study Finds",
+          "hook": "Everyone knows the loud, self-aggrandizing narcissist \u2014 but a new analysis of 185,000 people finds that the shame-filled, hypersensitive version is the one most strongly linked to depression and anxiety.",
+          "pitch_angle": "Vulnerable narcissism \u2014 marked by insecurity and intense sensitivity to criticism rather than arrogance \u2014 showed the strongest association with poor mental health in this large meta-analysis. Experts say this quieter presentation is often overlooked, particularly in women who may not fit the stereotypical narcissist profile."
+        }
+      ],
+      "run_date": "2026-10-01",
+      "category": "Brain & Mental Health",
+      "chunk": "1/3",
+      "status": "new"
+    },
+    {
+      "pmid": "42150987",
+      "headline": "Peer-led 'recovery colleges' cut self-stigma and boost empowerment in people living with mental illness",
+      "journal": "L'Encephale",
+      "pubdate": "2026 Oct",
+      "doi": "10.1016/j.encep.2026.02.016",
+      "groundbreaking": "Relevant women's health finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers evaluated CoFoR, France's first Recovery College \u2014 a peer-support educational model for people with mental health conditions \u2014 over four academic terms (2018\u20132020) using surveys, interviews, focus groups, and observation. Among participating students, the program was associated with significant reductions in self-stigma and improvements in empowerment and hope. Qualitative findings pointed to enhanced mental health literacy and a meaningful shift in how participants viewed their relationship with healthcare professionals.",
+      "why_it_matters": "Women are disproportionately affected by anxiety, depression, and related conditions, and peer-led educational models like this could offer a low-barrier supplement to formal mental healthcare.",
+      "caveats": "small sample (N<100 for quantitative component), observational design, self-reported outcomes, single-center, no sex-disaggregated data, France-specific program context",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Mental health topic fits readership; small N, no sex breakdown, single-center French program limits generalizability.",
+      "pitch_angles": [
+        {
+          "publication_type": "Everyday Health / Verywell Health",
+          "headline": "These Peer-Run 'Recovery Schools' Are Helping People With Mental Illness Feel Less Alone \u2014 and Less Ashamed",
+          "hook": "A French program where people with mental health conditions learn alongside peers \u2014 not from clinicians \u2014 found measurable drops in self-stigma after just one term.",
+          "pitch_angle": "CoFoR, France's first Recovery College, gave participants with mental disorders a classroom-style experience led partly by peers with lived experience. Early evaluation suggests it reduced self-stigma and boosted a sense of autonomy \u2014 a finding worth watching as similar models expand globally."
+        }
+      ],
+      "run_date": "2026-10-01",
+      "category": "Brain & Mental Health",
+      "chunk": "1/3",
+      "status": "new"
+    },
+    {
+      "pmid": "40847770",
+      "headline": "Speech therapists say they're sending kids with feeding disorders home with a 'band-aid' \u2014 and they know it",
+      "journal": "International Journal of Speech-Language Pathology",
+      "pubdate": "2026 Oct",
+      "doi": "10.1080/17549507.2025.2547824",
+      "groundbreaking": "Relevant women's health finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers interviewed 11 experienced speech-language pathologists working in a community setting in one Australian city about their experiences supporting children with paediatric feeding disorder (PFD). Clinicians reported feeling underprepared due to insufficient training and a lack of competency guidelines, and described systemic barriers including funding constraints that limited family access to care. The study found that these gaps contributed to a perception \u2014 held by both clinicians and families \u2014 that speech-language pathologists lack expertise in PFD.",
+      "why_it_matters": "Mothers and caregivers of children with feeding difficulties are often the primary navigators of this fragmented system, and these findings suggest the structural gaps they encounter reflect real shortcomings in clinician training and funding, not just perception.",
+      "caveats": "small sample (N<100), single-center, self-reported outcomes, observational design",
+      "fact_check_note": "",
+      "relevance_score": 4,
+      "relevance_score_reason": "Qualitative, small sample, single Australian city; limited generalizability.",
+      "pitch_angles": [
+        {
+          "publication_type": "Everyday Health",
+          "headline": "The Specialists Treating Kids' Feeding Disorders Say the System Is Failing Them \u2014 and the Families",
+          "hook": "Speech therapists working with children who have feeding disorders describe a 'band-aid service' \u2014 and say they often don't feel equipped to do more.",
+          "pitch_angle": "A small Australian study found that experienced speech-language pathologists feel underprepared to treat paediatric feeding disorder due to inadequate training and no clear competency standards. For the parents \u2014 disproportionately mothers \u2014 left navigating care for children who struggle to eat, the finding validates what many already suspect: the system wasn't built to handle this."
+        }
+      ],
+      "run_date": "2026-10-01",
+      "category": "Brain & Mental Health",
+      "chunk": "2/3",
+      "status": "new"
+    },
+    {
+      "pmid": "42143913",
+      "headline": "Autistic traits and negative symptoms in first-episode psychosis may share distinct genetic roots, study suggests",
+      "journal": "European Neuropsychopharmacology",
+      "pubdate": "2026 Oct",
+      "doi": "10.1016/j.euroneuro.2026.112859",
+      "groundbreaking": "Relevant women's health finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers conducted an exploratory longitudinal genetic study examining the overlap between autistic traits and negative symptoms in people experiencing non-affective first-episode psychosis (schizophrenia spectrum disorders). The study analyzed genetic architecture data from a Spanish multicenter cohort. Findings suggest that autistic traits and negative symptoms, while clinically co-occurring, may have partially distinct underlying genetic profiles.",
+      "why_it_matters": "Understanding genetic distinctions between autistic traits and psychosis symptoms could eventually help improve diagnostic accuracy for women, who are frequently underdiagnosed with both autism and schizophrenia spectrum conditions.",
+      "caveats": "exploratory design, single-region (Spain), no sex-disaggregated data, small or unclear N from abstract",
+      "fact_check_note": "",
+      "relevance_score": 4,
+      "relevance_score_reason": "Interesting mental health genetics angle but no sex-disaggregated data and exploratory design limit pitch value.",
+      "pitch_angles": [
+        {
+          "publication_type": "Verywell Health",
+          "headline": "Why Autism and Psychosis So Often Look Alike \u2014 and What Genetics Might Tell Us",
+          "hook": "Autistic traits and negative symptoms in psychosis frequently co-occur, but new research suggests their genetic roots may be more distinct than previously thought.",
+          "pitch_angle": "A Spanish longitudinal study explored the genetic architecture behind two commonly confused symptom clusters in early psychosis. For women already underdiagnosed with both autism and schizophrenia spectrum disorders, clearer genetic markers could one day improve diagnostic accuracy."
+        }
+      ],
+      "run_date": "2026-10-01",
+      "category": "Brain & Mental Health",
+      "chunk": "2/3",
+      "status": "new"
+    },
+    {
+      "pmid": "41940892",
+      "headline": "Mobile crisis workers sent to help people in mental health emergencies say they're burning out inside a broken system",
+      "journal": "Community Mental Health Journal",
+      "pubdate": "2026 Oct",
+      "doi": "10.1007/s10597-026-01609-6",
+      "groundbreaking": "Relevant women's health finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers conducted a qualitative study with a national U.S. sample of 364 mobile crisis (MC) workers \u2014 the teams dispatched to mental health emergencies under the 988 crisis system \u2014 to document the challenges they face. Workers reported strain across five domains: structural job conditions, inadequate resources, workforce issues, their own mental health, and systemic gaps between behavioral health and criminal justice systems. Findings suggest that without improved working conditions, training standards, and community resources, the 988-linked mobile crisis model may be unsustainable.",
+      "why_it_matters": "Women make up a large share of the social work and crisis-intervention workforce and are also among the most frequent callers to crisis lines, making the sustainability of mobile crisis teams a gendered issue on both sides of the service.",
+      "caveats": "self-reported outcomes, observational design, qualitative only, no sex-disaggregated data",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Relevant workforce/mental health topic; qualitative design limits generalizability.",
+      "pitch_angles": [
+        {
+          "publication_type": "Everyday Health",
+          "headline": "The Workers Who Show Up to Mental Health Crises Are Burning Out \u2014 and That's a Problem for All of Us",
+          "hook": "Mobile crisis teams are the backbone of the new 988 system, but the people doing this work say they're overwhelmed, under-resourced, and struggling with their own mental health.",
+          "pitch_angle": "A national study of 364 crisis workers reveals systemic failures threatening the 988 model before it reaches full scale \u2014 relevant to anyone who might one day need these services or know someone who does."
+        }
+      ],
+      "run_date": "2026-10-01",
+      "category": "Brain & Mental Health",
+      "chunk": "2/3",
+      "status": "new"
+    },
+    {
+      "pmid": "40232770",
+      "headline": "Better Emotion Regulation May Slow Biological Aging in Black Adults \u2014 But Only When Assaultive Trauma Is in the Picture",
+      "journal": "Psychological Trauma: Theory, Research, Practice and Policy",
+      "pubdate": "2026 Oct",
+      "doi": "10.1037/tra0001888",
+      "groundbreaking": "Counterintuitive finding / Relevant women's health finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers at Yale enrolled 459 healthy adults (21.1% Black) in a cross-sectional study measuring emotion regulation, lifetime adversity, and biological aging via the GrimAge epigenetic clock. They found that Black participants on average showed better emotion regulation than white participants, but that assaultive trauma was more strongly linked to emotion regulation difficulties in Black participants. Crucially, emotion regulation appeared to protect against adversity-driven biological age acceleration specifically in Black participants \u2014 a finding that did not emerge for white participants.",
+      "why_it_matters": "For Black women, who face disproportionate exposure to violence and racial stressors, findings suggest that building emotion regulation skills could be especially important for protecting long-term biological health \u2014 though this observational study cannot confirm cause and effect.",
+      "caveats": "observational design, cross-sectional design, self-reported outcomes, no sex-disaggregated data, single-center",
+      "fact_check_note": "",
+      "relevance_score": 6,
+      "relevance_score_reason": "Counterintuitive racial disparity finding; observational, no sex-disaggregated data.",
+      "pitch_angles": [
+        {
+          "publication_type": "Health.com / Everyday Health",
+          "headline": "Emotion Regulation May Shield Black Adults From Stress-Driven Biological Aging \u2014 But Only After Certain Traumas",
+          "hook": "A Yale study found that emotion regulation skills appear to slow biological aging in Black adults exposed to assaultive trauma \u2014 a link that didn't emerge in white participants.",
+          "pitch_angle": "Researchers used epigenetic 'biological age' clocks to show that emotion regulation may buffer the aging effects of trauma specifically for Black adults, raising questions about whether stress-resilience programs could be tailored by race and trauma type. The finding is observational but points to a rarely studied intersection of race, violence exposure, and biological aging."
+        }
+      ],
+      "run_date": "2026-10-01",
+      "category": "Brain & Mental Health",
+      "chunk": "3/3",
+      "status": "new"
+    },
+    {
+      "pmid": "42600510",
+      "headline": "Your Brain Hears Angry Men and Fearful Women Differently \u2014 and Adapts Accordingly",
+      "journal": "Hearing Research",
+      "pubdate": "2026 Oct",
+      "doi": "10.1016/j.heares.2026.109771",
+      "groundbreaking": "Relevant women's health finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers conducted three experiments using a perceptual adaptation paradigm to test whether the brain processes vocal emotions differently depending on speaker gender, identity, or phonetic content. Participants were exposed to voices pairing specific emotions with speaker features (e.g., angry-male, fearful-female), then tested on how they perceived neutral target voices. The brain's adaptation to vocal emotion was fine-tuned to stable speaker characteristics like gender, but not to dynamic cues like phonetic word content.",
+      "why_it_matters": "This suggests women's voices may be systematically associated with fear-based emotional cues in listeners' brains, which could have implications for how women are perceived in professional and social contexts.",
+      "caveats": "no sex-disaggregated data, single-center, small sample (N<100 likely \u2014 not reported in abstract)",
+      "fact_check_note": "",
+      "relevance_score": 4,
+      "relevance_score_reason": "Cognitively interesting but limited direct women's health or lifestyle relevance.",
+      "pitch_angles": [
+        {
+          "publication_type": "General women's wellness",
+          "headline": "Science Shows Our Brains Are Already Primed to Hear Women as 'Afraid' \u2014 Here's What That Means",
+          "hook": "Your brain doesn't just hear what someone says \u2014 it adapts to who's saying it, and new research suggests gender shapes that process from the start.",
+          "pitch_angle": "A perceptual neuroscience study found that listeners' brains fine-tune emotional processing to speaker gender, associating male voices more readily with anger and female voices with fear. This raises questions about unconscious bias in how women's voices and emotional expressions are interpreted at work and in everyday life."
+        }
+      ],
+      "run_date": "2026-10-01",
+      "category": "Brain & Mental Health",
+      "chunk": "3/3",
+      "status": "new"
+    },
+    {
+      "pmid": "42808945",
+      "headline": "AI Skin-Cancer Tools May Miss Melanoma in Darker Skin Tones \u2014 and Overdiagnose at the Same Time",
+      "journal": "International Journal of Dermatology",
+      "pubdate": "2026 Oct",
+      "doi": "10.1111/ijd.70535",
+      "groundbreaking": "Counterintuitive finding / Relevant women's health finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers at Mayo Clinic reviewed the epidemiologic, diagnostic, and treatment challenges of melanoma in people with Fitzpatrick skin tones IV\u2013VI (skin of color, SOC). Although SOC patients have lower melanoma incidence than non-Hispanic White patients, they face higher melanoma-specific fatality rates, largely due to later-stage diagnoses and a higher proportion of acral lentiginous and mucosal subtypes that arise in non-sun-exposed areas and respond less favorably to immunotherapy and BRAF/MEK therapies. The review also flags that AI diagnostic tools trained predominantly on lighter skin tones show reduced accuracy in SOC populations, and that rising melanoma-in-situ diagnoses across racial groups without matching declines in invasive disease raises overdiagnosis concerns.",
+      "why_it_matters": "Women of color are a fast-growing dermatology patient population, and understanding that the AI tools increasingly used in screening may be systematically less accurate for their skin tones \u2014 while also potentially over-treating low-risk lesions \u2014 has direct implications for how they advocate for their own care.",
+      "caveats": "observational design, single-center (Mayo Clinic review), no sex-disaggregated data",
+      "fact_check_note": "",
+      "relevance_score": 8,
+      "relevance_score_reason": "Counterintuitive AI failure + health equity angle; strong skin/cancer topic fit.",
+      "pitch_angles": [
+        {
+          "publication_type": "Allure",
+          "headline": "The AI Tool That's Supposed to Catch Skin Cancer May Not Work as Well on Darker Skin",
+          "hook": "Artificial intelligence is being used more than ever to spot melanoma \u2014 but the algorithms were trained mostly on lighter skin tones, and that gap could be putting women of color at risk.",
+          "pitch_angle": "New research from Mayo Clinic finds that AI melanoma detection tools show reduced accuracy in darker skin tones, precisely because those skin types are underrepresented in training datasets. For women of color who've been told AI is making skin checks more reliable, this finding is a wake-up call about who the technology was actually built for."
+        },
+        {
+          "publication_type": "Health.com",
+          "headline": "Melanoma Is Less Common in People of Color \u2014 But Far More Deadly. Here's Why",
+          "hook": "People with darker skin tones are statistically less likely to develop melanoma, yet significantly more likely to die from it \u2014 and a new Mayo Clinic review explains the diagnostic blind spots driving that gap.",
+          "pitch_angle": "A review in the International Journal of Dermatology outlines how melanoma in skin of color often develops in non-sun-exposed areas like the palms and soles, making standard screening less effective and standard treatments less useful. Combined with AI tools that underperform on darker skin, the review suggests the medical system has systematically underprepared for this population."
+        }
+      ],
+      "run_date": "2026-10-01",
+      "category": "Dermatology",
+      "chunk": "1/1",
+      "status": "new"
+    },
+    {
+      "pmid": "41693465",
+      "headline": "A nerve-rerouting surgery may restore erections after prostate cancer treatment \u2014 but the sample is tiny",
+      "journal": "Andrology",
+      "pubdate": "2026 Oct",
+      "doi": "10.1111/andr.70182",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers conducted a prospective pilot trial of a novel surgical technique that reroutes a branch of the obturator nerve to the corpora cavernosa to restore erectile function in men after radical prostatectomy. Fifteen patients (median age 58) were enrolled between 2020 and 2025. At 24 months, scores on three validated questionnaires improved significantly from baseline, and roughly 42% of patients regained satisfying sexual intercourse using PDE5 inhibitors.",
+      "why_it_matters": "Post-prostatectomy erectile dysfunction profoundly affects quality of life and intimate relationships for couples navigating prostate cancer survivorship.",
+      "caveats": "small sample (N<100), single-center, short follow-up, no sex-disaggregated data, no comparative group analysis possible",
+      "fact_check_note": "",
+      "relevance_score": 4,
+      "relevance_score_reason": "Men-only study, small pilot; limited direct women's health relevance.",
+      "pitch_angles": [
+        {
+          "publication_type": "General women's wellness",
+          "headline": "After Prostate Cancer Surgery, a New Nerve Procedure May Help Couples Reclaim Sex Life",
+          "hook": "Nearly half of men in a small pilot study regained satisfying sex after a nerve-rerouting procedure \u2014 a finding that matters for their partners too.",
+          "pitch_angle": "Post-prostatectomy erectile dysfunction reshapes intimate relationships for couples; early evidence on a novel nerve transfer surgery offers a potential new option, though the study is small and preliminary."
+        }
+      ],
+      "run_date": "2026-10-01",
+      "category": "Womens Health & Reproduction",
+      "chunk": "1/1",
+      "status": "new"
+    },
+    {
+      "pmid": "42229608",
+      "headline": "Scientists grew a 3D mini-ovary in the lab \u2014 without using any scaffold material",
+      "journal": "Fertility and Sterility",
+      "pubdate": "2026 Oct",
+      "doi": "10.1016/j.fertnstert.2026.05.168",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers at the Universit\u00e9 Catholique de Louvain developed a matrix-free three-dimensional ovarian model called 'ovarioids' using human ovarian tissue, eliminating the need for an external scaffold material. The abstract provides limited methodological detail and no participant count is reported. The model is intended to serve as a research platform for studying ovarian biology and potentially fertility preservation.",
+      "why_it_matters": "A scaffold-free human ovarian model could accelerate research into fertility preservation, ovarian aging, and conditions like POI or endometriosis without relying on animal models.",
+      "caveats": "small sample (N<100), single-center, abstract-only detail available \u2014 full methods and participant demographics not extractable",
+      "fact_check_note": "Abstract is extremely brief with no participant count, sample size, or results reported; summary reflects only what is verifiable from the available text.",
+      "relevance_score": 6,
+      "relevance_score_reason": "Novel human ovarian model; fertility relevance high, but abstract-only limits verification.",
+      "pitch_angles": [
+        {
+          "publication_type": "Health.com / Verywell Health",
+          "headline": "Scientists Just Built a 3D Mini-Ovary in the Lab \u2014 Here's Why That's a Big Deal for Fertility Research",
+          "hook": "For the first time, researchers grew a functional three-dimensional ovarian model using human tissue \u2014 no scaffold needed.",
+          "pitch_angle": "The new 'ovarioid' model could help scientists study ovarian aging, fertility preservation, and conditions like endometriosis in human tissue rather than animals, potentially speeding up treatments for women facing infertility."
+        }
+      ],
+      "run_date": "2026-10-01",
+      "category": "Womens Health & Reproduction",
+      "chunk": "1/1",
+      "status": "new"
+    },
+    {
+      "pmid": "42097447",
+      "headline": "One in Four Girls With a Rare Vaginal Birth Defect Gets Incomplete Treatment Before Reaching a Specialist",
+      "journal": "Journal of Pediatric and Adolescent Gynecology",
+      "pubdate": "2026 Oct",
+      "doi": "10.1016/j.jpag.2026.04.017",
+      "groundbreaking": "Relevant women's health finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers conducted a 10-year retrospective cohort study at a single UK specialist center, including 61 patients (median age 15, range 11\u201331) with MRI-confirmed obstructed hemivagina who underwent surgery between 2014 and 2024. One-quarter of patients had undergone emergency or incomplete procedures before specialist referral, and one-third were not receiving menstrual suppression at referral. Vaginal septal excision at the specialist center was associated with a low re-obstruction rate of 3.3%, suggesting centralized specialist care significantly improves outcomes for this rare congenital anomaly.",
+      "why_it_matters": "For adolescent girls and young women with this rare and frequently mismanaged condition, findings suggest that delayed or inadequate pre-referral care may be a systemic problem worth addressing through clearer referral pathways.",
+      "caveats": "small sample (N<100), observational design, single-center, short follow-up",
+      "fact_check_note": "",
+      "relevance_score": 6,
+      "relevance_score_reason": "Adolescent reproductive health, specialist care gaps; small single-center sample limits score.",
+      "pitch_angles": [
+        {
+          "publication_type": "Verywell Health / Everyday Health",
+          "headline": "A Rare Vaginal Birth Defect Is Often Mismanaged Before Girls Reach the Right Specialist",
+          "hook": "One in four adolescent girls with obstructed hemivagina had already undergone emergency or incomplete procedures before seeing a specialist \u2014 and outcomes were dramatically better when treatment happened at a dedicated center.",
+          "pitch_angle": "New research from a UK specialist center found that centralized surgical care for this rare congenital condition was associated with a re-obstruction rate of just 3.3%, raising questions about why so many young patients arrive after inadequate initial treatment. The findings point to a need for clearer referral guidelines for a condition that is frequently diagnosed late and poorly understood outside specialist settings."
+        }
+      ],
+      "run_date": "2026-10-01",
+      "category": "Womens Health & Reproduction",
+      "chunk": "1/1",
+      "status": "new"
+    },
+    {
+      "pmid": "41718015",
+      "headline": "A Microfluidic Chip May Select Better Sperm for IVF \u2014 Without the DNA Damage Risk of the Current Standard",
+      "journal": "Andrology",
+      "pubdate": "2026 Oct",
+      "doi": "10.1111/andr.70198",
+      "groundbreaking": "First-in-class human study / Relevant women's health finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers at the University of Technology Sydney developed a microfluidic ICSI (MICSI) platform that integrates sperm selection and oocyte insemination on a single-use device, mimicking the architecture of the female reproductive tract. The device was compared to density gradient centrifugation (DGC), the current gold standard, by measuring sperm DNA fragmentation index, motility, morphology, and hyaluronic acid binding. MICSI-selected sperm showed significantly higher progressive motility and lower DNA fragmentation compared to DGC-processed sperm (p<0.0001 for both), suggesting it may offer a less damaging alternative for IVF sperm preparation.",
+      "why_it_matters": "For people undergoing IVF, sperm DNA quality is linked to embryo development and pregnancy outcomes, so a selection method that reduces DNA damage could meaningfully affect treatment success \u2014 though this lab-stage study has not yet been tested in clinical IVF cycles.",
+      "caveats": "small sample (N<100), single-center, no clinical pregnancy outcome data, short follow-up",
+      "fact_check_note": "",
+      "relevance_score": 6,
+      "relevance_score_reason": "IVF/fertility relevance for women; promising tech but no clinical outcome data yet.",
+      "pitch_angles": [
+        {
+          "publication_type": "Verywell Health / Everyday Health",
+          "headline": "A New Microfluidic Device Could Select Healthier Sperm for IVF \u2014 Without the Risks of the Current Method",
+          "hook": "The standard way labs prepare sperm for IVF may be damaging sperm DNA \u2014 and a new chip-sized device suggests there's a better way.",
+          "pitch_angle": "A new platform called MICSI selected sperm with significantly lower DNA fragmentation and higher motility than the conventional density gradient centrifugation method used in most IVF clinics today. The device hasn't yet been tested in full IVF cycles, but early lab findings suggest it could reduce one of the underappreciated variables that may affect why IVF so often fails."
+        }
+      ],
+      "run_date": "2026-10-01",
+      "category": "Womens Health & Reproduction",
+      "chunk": "1/1",
+      "status": "new"
+    },
+    {
+      "pmid": "42808571",
+      "headline": "Ultrasound Misses a Key Type of Endometriosis in Most Patients \u2014 Even at a Specialist Center",
+      "journal": "The Australian & New Zealand Journal of Obstetrics & Gynaecology",
+      "pubdate": "2026 Oct",
+      "doi": "10.1111/ajo.70183",
+      "groundbreaking": "Relevant women's health finding / Counterintuitive finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers conducted a retrospective observational study of 221 patients with suspected endometriosis who underwent enhanced transvaginal ultrasound (eTVUS) followed by laparoscopy at a single Australian tertiary hospital between 2015 and 2024. Comparing ultrasound findings against surgical findings as the gold standard, eTVUS performed well for ovarian endometriomas (sensitivity 81.4%) but poorly for peritoneal disease, which was rarely identified, and showed low sensitivity for deep endometriosis at several anatomical sites. Ureteric disease had a positive predictive value of 0%, meaning no cases were correctly identified by ultrasound alone.",
+      "why_it_matters": "For the millions of women who receive a transvaginal ultrasound as a first-line endometriosis work-up, these findings suggest the scan may be reassuring but not reliable for ruling out deeper or peritoneal disease.",
+      "caveats": "observational design, single-center, retrospective, narrow to one Australian specialist hospital \u2014 results may not reflect general clinical practice",
+      "fact_check_note": "",
+      "relevance_score": 8,
+      "relevance_score_reason": "Endometriosis diagnostic accuracy; counterintuitive gap in specialist-center ultrasound performance.",
+      "pitch_angles": [
+        {
+          "publication_type": "Verywell Health / Everyday Health",
+          "headline": "Your Endometriosis Ultrasound May Be Missing the Most Painful Type of the Disease",
+          "hook": "Even at a specialist hospital, transvaginal ultrasound failed to detect the majority of peritoneal endometriosis cases \u2014 the form most closely linked to chronic pelvic pain.",
+          "pitch_angle": "A decade-long study found that while eTVUS reliably spots ovarian cysts from endometriosis, it frequently misses deeper and peritoneal disease \u2014 raising questions about how much reassurance a 'clear' ultrasound should actually provide."
+        },
+        {
+          "publication_type": "Women's Health Magazine / Health.com",
+          "headline": "Doctors Are Getting Better at Finding Endometriosis \u2014 But One Type Still Slips Through the Scans",
+          "hook": "Peritoneal endometriosis \u2014 one of the most common forms \u2014 is barely showing up on the ultrasounds meant to detect it.",
+          "pitch_angle": "Researchers tracking a decade of ultrasound data found that while the technology has improved for some endometriosis types, the form affecting the pelvic lining is nearly invisible to the scan, which could explain why so many women wait years for a diagnosis."
+        }
+      ],
+      "run_date": "2026-10-01",
+      "category": "Womens Health & Reproduction",
+      "chunk": "1/1",
+      "status": "new"
+    },
+    {
+      "pmid": "41474209",
+      "headline": "A New Lab Technique Recovers Sperm in 1 in 4 Men Who Came Up Empty After Standard Testing",
+      "journal": "Andrology",
+      "pubdate": "2026 Oct",
+      "doi": "10.1111/andr.70170",
+      "groundbreaking": "First-in-class human study / Relevant women's health finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Chinese researchers enrolled 811 men with azoospermia (no sperm in ejaculate) who underwent testicular sperm extraction procedures between July 2023 and December 2024, testing a three-step laboratory processing protocol that adds enzymatic digestion and staining after standard mechanical tissue mincing. Among the 237 men for whom standard processing found no sperm, the combined enzymatic and staining method identified sperm in 23.2% of cases. The study found that seminiferous tubule diameter \u2014 measurable during surgery \u2014 was the strongest predictor of whether the additional steps would succeed, though the single-center design and lack of live birth data limit conclusions.",
+      "why_it_matters": "For couples pursuing fertility treatment where male-factor infertility is the barrier, a lab processing upgrade that recovers sperm in roughly 1 in 4 previously 'no result' cases could change the odds of biological parenthood.",
+      "caveats": "single-center, no sex-disaggregated data, short follow-up, no live birth outcome data",
+      "fact_check_note": "",
+      "relevance_score": 7,
+      "relevance_score_reason": "Fertility relevance for couples; solid N=811; limited by single-center design and no live birth data.",
+      "pitch_angles": [
+        {
+          "publication_type": "Women's Health Magazine / Everyday Health",
+          "headline": "Men Told They Have No Retrievable Sperm May Have More Options Than They Think",
+          "hook": "A new three-step lab technique recovered sperm in nearly 1 in 4 men whose standard extraction came up completely empty.",
+          "pitch_angle": "Researchers found that adding enzyme digestion and staining to routine testicular tissue processing significantly boosted sperm-find rates for men with the most severe form of infertility \u2014 potentially expanding IVF options for couples who were told biological children weren't possible."
+        }
+      ],
+      "run_date": "2026-10-01",
+      "category": "Womens Health & Reproduction",
+      "chunk": "1/1",
+      "status": "new"
+    },
+    {
+      "pmid": "42788264",
+      "headline": "Adding a Traditional Chinese Medicine Formula to Ultrasound Therapy for Adenomyosis Reduced Pain More Than Ultrasound Alone",
+      "journal": "International Journal of Hyperthermia",
+      "pubdate": "2026 Dec",
+      "doi": "10.1080/02656736.2026.2729542",
+      "groundbreaking": "Relevant women's health finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "In a pilot randomized controlled trial, 66 women with adenomyosis in China were assigned to receive HIFU (high-intensity focused ultrasound) alone or HIFU plus a Traditional Chinese Medicine herbal formula for 12 weeks. Women in the combination group reported significantly lower pain scores and showed greater reductions in uterine and lesion volume, as well as lower levels of CA125 and the inflammatory marker IL-6. Researchers note the findings are exploratory and call for larger studies to validate the approach.",
+      "why_it_matters": "Adenomyosis causes debilitating pain for millions of women and has few non-surgical treatment options, so early evidence that an adjunctive herbal approach may enhance a minimally invasive procedure's effect on pain and lesion size is meaningful \u2014 even if preliminary.",
+      "caveats": "small sample (N<100), single-center, short follow-up, China-based population, self-reported outcomes (VAS pain scale), pilot/exploratory design",
+      "fact_check_note": "",
+      "relevance_score": 6,
+      "relevance_score_reason": "Adenomyosis RCT relevant to women; small pilot with multiple caveats limits score.",
+      "pitch_angles": [
+        {
+          "publication_type": "Everyday Health",
+          "headline": "Could a Herbal Formula Make a Common Adenomyosis Treatment Work Better? Early Research Says Maybe",
+          "hook": "Women who combined a Traditional Chinese Medicine formula with an ultrasound procedure for adenomyosis reported less pain than those who had the procedure alone.",
+          "pitch_angle": "A small randomized trial found that adding an herbal blend to HIFU \u2014 a non-surgical treatment that uses focused sound waves to destroy tissue \u2014 appeared to reduce dysmenorrhea and shrink lesions more than HIFU alone. Experts stress the findings are preliminary and from a single center in China, but the study adds to growing interest in integrative approaches for a condition that remains notoriously hard to treat."
+        },
+        {
+          "publication_type": "Verywell Health",
+          "headline": "HIFU Plus Herbal Medicine May Relieve Adenomyosis Pain Better Than HIFU Alone, Small Study Finds",
+          "hook": "A pilot trial suggests combining Traditional Chinese Medicine with a non-surgical sound-wave treatment may give adenomyosis patients more pain relief.",
+          "pitch_angle": "Researchers in China found that women who took a specific TCM formula alongside HIFU therapy saw greater drops in pain scores and uterine lesion size compared to HIFU alone \u2014 with no significant safety concerns flagged. The trial was small and conducted in a single center, so results should be interpreted with caution, but the findings may interest the growing number of women seeking non-hormonal, non-surgical options for adenomyosis."
+        }
+      ],
+      "run_date": "2026-10-01",
+      "category": "Cancer & Oncology",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42786437",
+      "headline": "A $1.50 Device May Help Catch Deadly Postpartum Hemorrhage Faster in Low-Resource Settings",
+      "journal": "The Journal of Maternal-Fetal & Neonatal Medicine",
+      "pubdate": "2026 Dec",
+      "doi": "10.1080/14767058.2026.2734654",
+      "groundbreaking": "First-in-class human study / Relevant women's health finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers at the University of Michigan developed Quantavag, a low-cost device designed to objectively measure uterine blood loss after birth to improve postpartum hemorrhage (PPH) diagnosis in low-resource settings. The team conducted 45 discovery interviews with healthcare professionals, midwives, and patients in Ghana and the US, then verified the prototype via benchtop testing using anatomical models. The device achieved over 80% fluid collection accuracy across 100\u2013500 mL volumes at an estimated per-use cost of $1.50, though clinical validation with patients has not yet occurred.",
+      "why_it_matters": "PPH is the leading cause of maternal death globally, and a cheap, accurate measurement tool could help frontline midwives diagnose it faster before it becomes fatal.",
+      "caveats": "small sample (N<100), single-center, short follow-up, no clinical validation with patients yet \u2014 benchtop prototype only",
+      "fact_check_note": "",
+      "relevance_score": 7,
+      "relevance_score_reason": "Strong women's health relevance; limited by pre-clinical prototype stage.",
+      "pitch_angles": [
+        {
+          "publication_type": "Everyday Health / Verywell Health",
+          "headline": "A $1.50 Device Could Save Lives by Catching Dangerous Postpartum Bleeding Earlier",
+          "hook": "Postpartum hemorrhage kills hundreds of thousands of women a year \u2014 and a cheap new tool may help catch it before it's too late.",
+          "pitch_angle": "Researchers designed a low-cost blood-loss measurement device for use in under-resourced birth settings; early bench tests suggest it could give midwives an objective, affordable way to flag life-threatening bleeding faster."
+        },
+        {
+          "publication_type": "Good Housekeeping / Women's Health Magazine",
+          "headline": "This $1.50 Tool May Be One of the Cheapest Fixes for One of Pregnancy's Deadliest Complications",
+          "hook": "The most common cause of maternal death worldwide may have a surprisingly affordable solution in the works.",
+          "pitch_angle": "A University of Michigan team built a device that costs less than a cup of coffee to accurately measure postpartum blood loss \u2014 a long-standing diagnostic gap that costs tens of thousands of mothers their lives each year."
+        }
+      ],
+      "run_date": "2026-10-01",
+      "category": "Womens Health & Reproduction",
+      "chunk": "1/1",
+      "status": "new"
+    },
+    {
+      "pmid": "42803704",
+      "headline": "Adding Heat to Chemotherapy and Immunotherapy May Help Advanced Stomach Cancer Patients Live Longer",
+      "journal": "Human vaccines & immunotherapeutics",
+      "pubdate": "2026 Dec",
+      "doi": "10.1080/21645515.2026.2735535",
+      "groundbreaking": "Relevant women's health finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "In a single-center retrospective study of 212 patients with HER2-negative advanced gastric or gastroesophageal junction adenocarcinoma treated in China, researchers compared outcomes for those who received radiofrequency hyperthermia (RFH) added to standard immune checkpoint inhibitor plus chemotherapy versus those who received standard treatment alone. After propensity score matching, the RFH group showed longer median progression-free survival (9.72 vs. 7.09 months) and overall survival (19.02 vs. 15.12 months), with a similar rate of serious immune-related adverse events (~5%) in both groups. The authors caution that prospective randomized trials are needed to confirm these findings.",
+      "why_it_matters": "For women with advanced stomach cancer \u2014 a disease where survival outcomes remain poor \u2014 early evidence suggests adding a heat-based technique to existing first-line treatment may be associated with several additional months of survival, though the findings are preliminary.",
+      "caveats": "observational design, single-center, retrospective, no sex-disaggregated data, residual confounding after PSM, China-based single institution",
+      "fact_check_note": "",
+      "relevance_score": 4,
+      "relevance_score_reason": "Gastric cancer less central to women's wellness audience; weak observational design limits score.",
+      "pitch_angles": [
+        {
+          "publication_type": "Health.com / Everyday Health",
+          "headline": "Could Heating Tumors Make Chemotherapy Work Better? New Data on Stomach Cancer Says Maybe",
+          "hook": "Applying radiofrequency heat directly to tumors alongside standard immunotherapy and chemo was associated with months of additional survival in a new study of advanced stomach cancer patients.",
+          "pitch_angle": "Researchers found that patients who received radiofrequency hyperthermia on top of standard treatment lived a median of about four more months than those who did not, with no increase in serious side effects. The approach is still experimental and the study was retrospective, but it points to a low-toxicity add-on strategy worth watching in future randomized trials."
+        }
+      ],
+      "run_date": "2026-10-01",
+      "category": "Allergy & Immunology",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42807524",
+      "headline": "PRP injections for C-section and perineal wounds are everywhere \u2014 but the evidence is still too weak to recommend them",
+      "journal": "International Journal of Women's Health",
+      "pubdate": "2026",
+      "doi": "10.2147/IJWH.S636448",
+      "groundbreaking": "Relevant women's health finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "A narrative review evaluated clinical evidence for platelet-rich plasma (PRP) in postpartum wound and scar repair across four settings: cesarean abdominal wounds, perineal injuries, pelvic floor trauma, and uterine scars. Evidence was judged strongest \u2014 but still modest \u2014 for cesarean abdominal wounds, with two meta-analyses suggesting small improvements in early wound measures but no consistent pain benefit; evidence for perineal and uterine scar repair was sparse and largely uncontrolled. Researchers concluded that heterogeneity in PRP preparation and outcome measurement, plus the absence of long-term reproductive data, prevents any recommendation for routine postpartum use.",
+      "why_it_matters": "PRP is being marketed and used in postpartum recovery settings despite evidence that remains preliminary, and women deserve accurate information about what this treatment can and cannot yet deliver.",
+      "caveats": "observational design, narrative review (not systematic), single-center authorship, heterogeneous underlying studies",
+      "fact_check_note": "",
+      "relevance_score": 7,
+      "relevance_score_reason": "Directly relevant to postpartum women; counterintuitive gap between hype and evidence.",
+      "pitch_angles": [
+        {
+          "publication_type": "Health.com / Verywell Health",
+          "headline": "PRP for C-Section Scars Is Being Offered at Clinics \u2014 But Scientists Say the Evidence Isn't There Yet",
+          "hook": "Platelet-rich plasma treatments are increasingly marketed for postpartum wound healing, but a new review finds the evidence is too thin and inconsistent to recommend them.",
+          "pitch_angle": "From cesarean scars to perineal tears, PRP is being used in postpartum care despite small, poorly standardized studies \u2014 the review is a useful reality check for women navigating recovery options."
+        },
+        {
+          "publication_type": "Allure / General women's wellness",
+          "headline": "The Postpartum PRP Trend Needs a Reality Check",
+          "hook": "PRP \u2014 the same 'vampire' treatment used in facials \u2014 is now being marketed for C-section and perineal scar healing, but researchers say the science hasn't caught up.",
+          "pitch_angle": "A new review finds that while PRP shows modest early promise for cesarean wounds, the evidence for perineal and uterine scar repair is based on tiny, uncontrolled studies, and no preparation is yet standardized \u2014 meaning women can't yet rely on it as a proven recovery tool."
+        }
+      ],
+      "run_date": "2026-10-01",
       "category": "Womens Health & Reproduction",
       "chunk": "1/1",
       "status": "new"
@@ -245,93 +1352,6 @@
           "headline": "Radiation Therapy Software May Not Always Know Exactly Where the Dose Is Going \u2014 New Research Raises Flags",
           "hook": "A first-of-its-kind study using human body donors found that a widely used adaptive radiation system sometimes miscalculates how much dose actually reaches organs like the bladder and rectum.",
           "pitch_angle": "For patients undergoing pelvic radiation \u2014 including for cervical or endometrial cancer \u2014 the finding suggests current planning software may have blind spots, with nearly half of measurement points showing dose errors above 10%. Researchers say prospective studies in living patients are urgently needed."
-        }
-      ],
-      "run_date": "2026-09-29",
-      "category": "Cancer & Oncology",
-      "chunk": "1/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42789227",
-      "headline": "Managing Side Effects From a New Stomach Cancer Drug May Be Key to Whether It Actually Works",
-      "journal": "Medical Oncology",
-      "pubdate": "2026 Sep 25",
-      "doi": "10.1007/s12032-026-03422-3",
-      "groundbreaking": "Relevant women's health finding",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "This review examines how managing gastrointestinal side effects of zolbetuximab \u2014 an approved first-line therapy for CLDN18.2-positive, HER2-negative gastric and gastroesophageal junction (GEJ) adenocarcinoma \u2014 may affect treatment outcomes. Drawing on phase III trial subgroup data, real-world evidence, and pharmacokinetic analyses, the authors propose a multidisciplinary care framework to control nausea, vomiting, gastritis, and hypoalbuminemia. A key observation is that Japanese patients who maintained higher drug doses experienced notably longer progression-free survival (median 20.53 months vs. HR 0.69\u20130.75 in the overall population), though the authors caution this association does not establish causality.",
-      "why_it_matters": "Gastric cancer is one of the most common cancers affecting women globally, and this review suggests that proactive side-effect management \u2014 not just the drug itself \u2014 could influence how well treatment works.",
-      "caveats": "observational design, secondary analysis, no sex-disaggregated data, single-center population (Japanese subgroup), review article not primary data",
-      "fact_check_note": "",
-      "relevance_score": 4,
-      "relevance_score_reason": "Gastric cancer is less core to this digest's women's wellness focus; review design, no sex-disaggregated data.",
-      "pitch_angles": [
-        {
-          "publication_type": "Cancer Today",
-          "headline": "Your Stomach Cancer Drug May Work Better If Doctors Tackle Its Side Effects Head-On",
-          "hook": "A new review suggests that how well patients tolerate zolbetuximab \u2014 a newly approved stomach cancer drug \u2014 may directly influence how long it keeps the disease at bay.",
-          "pitch_angle": "Researchers found that patients who maintained higher doses of zolbetuximab by managing nausea and gastritis had notably longer survival outcomes, suggesting side-effect care is part of the treatment itself. The finding reframes supportive care from comfort measure to potential efficacy factor."
-        }
-      ],
-      "run_date": "2026-09-29",
-      "category": "Cancer & Oncology",
-      "chunk": "1/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42785918",
-      "headline": "A New 11-Item Scale Captures the Autonomic Side of Trauma Sleep Disruption That Existing Tools Miss",
-      "journal": "Journal of Sleep Research",
-      "pubdate": "2026 Sep 24",
-      "doi": "10.1111/jsr.70439",
-      "groundbreaking": "First-in-class human study / Relevant women's health finding",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers developed and validated the STARSS Scale, an 11-item self-report tool designed to measure trauma-related sleep disturbances including nightmares and autonomic symptoms such as palpitations and sweating. The scale was validated in a sample of 830 healthcare workers and first responders who worked during the COVID-19 pandemic. STARSS showed strong correlations with established measures of PTSD, anxiety, depression, and insomnia, and strong internal consistency, suggesting it may better capture the full range of trauma-related sleep disruption than existing tools.",
-      "why_it_matters": "Many women with trauma histories \u2014 including healthcare workers disproportionately affected by pandemic-era stress \u2014 experience autonomic symptoms like night sweats and racing heart alongside nightmares, symptoms that current clinical tools largely fail to measure.",
-      "caveats": "self-reported outcomes, single-center, no sex-disaggregated data, predominantly occupational sample limiting generalizability",
-      "fact_check_note": "",
-      "relevance_score": 6,
-      "relevance_score_reason": "Trauma and sleep fit women's health beat; no sex-disaggregated data limits direct women's relevance.",
-      "pitch_angles": [
-        {
-          "publication_type": "Verywell Health / Everyday Health",
-          "headline": "Your Post-Trauma Sleep Problems May Be More Than Just Nightmares \u2014 A New Tool Finally Measures the Physical Side",
-          "hook": "Palpitations, sweating, and thrashing in sleep after trauma have long been undercounted by standard questionnaires \u2014 a new scale aims to fix that.",
-          "pitch_angle": "Researchers found that existing nightmare and PTSD sleep tools miss key physical (autonomic) symptoms; the new STARSS scale, validated in 830 healthcare workers, correlated strongly with anxiety and PTSD scores and could help clinicians and researchers better track how trauma disrupts sleep on a body level."
-        }
-      ],
-      "run_date": "2026-09-29",
-      "category": "Brain & Mental Health",
-      "chunk": "1/3",
-      "status": "new"
-    },
-    {
-      "pmid": "42786218",
-      "headline": "Mild Side Effects From a Popular Breast Cancer Drug Class May Actually Signal It's Working",
-      "journal": "Cancer Chemotherapy and Pharmacology",
-      "pubdate": "2026 Sep 24",
-      "doi": "10.1007/s00280-026-04960-3",
-      "groundbreaking": "Counterintuitive finding / Relevant women's health finding",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "In a retrospective study of 404 women with HR+/HER2- metastatic breast cancer receiving first-line CDK4/6 inhibitor therapy in Turkey, researchers used repeated landmark analyses to assess whether early side effects predicted survival outcomes. Women who developed mild-to-moderate neutropenia (low white blood cell counts) within the first 8\u201312 weeks of treatment had substantially longer progression-free survival (33.2 vs. 22.1 months) and overall survival (90.6 vs. 40.8 months) compared to those without it. By contrast, dose reductions were associated with shorter progression-free survival.",
-      "why_it_matters": "For women on CDK4/6 inhibitors for metastatic breast cancer, this study suggests that tolerating mild neutropenia rather than immediately reducing the dose may be associated with better long-term outcomes \u2014 a finding that could inform conversations with oncologists, though the study is observational and from a single center.",
-      "caveats": "observational design, retrospective, single-center, single-country (Turkey), self-reported toxicity grading from medical records",
-      "fact_check_note": "",
-      "relevance_score": 8,
-      "relevance_score_reason": "Women-only breast cancer cohort; counterintuitive survival signal; large N; observational limits.",
-      "pitch_angles": [
-        {
-          "publication_type": "Health.com",
-          "headline": "That Low White Blood Cell Count From Your Breast Cancer Drug? It May Mean the Treatment Is Doing Its Job",
-          "hook": "Women with metastatic breast cancer who developed mild neutropenia on CDK4/6 inhibitors lived significantly longer than those who didn't \u2014 suggesting the side effect may be a sign the drug is working.",
-          "pitch_angle": "A study of 404 women found that those who tolerated mild low blood counts in the first 8\u201312 weeks of CDK4/6 inhibitor therapy had median progression-free survival of over 33 months, compared to 22 months for those without neutropenia. The counterintuitive finding \u2014 and the parallel signal that dose reductions were linked to worse outcomes \u2014 could reframe how patients and doctors talk about managing this common side effect."
-        },
-        {
-          "publication_type": "Everyday Health",
-          "headline": "Should Women on CDK4/6 Inhibitors Push Through Mild Side Effects? New Research Raises the Question",
-          "hook": "A new study found that mild neutropenia \u2014 a very common side effect of breast cancer drugs like palbociclib and ribociclib \u2014 was linked to dramatically longer survival, while dose reductions were linked to shorter progression-free survival.",
-          "pitch_angle": "Researchers analyzed 404 women with metastatic breast cancer and found that mild low blood counts early in treatment were one of the strongest predictors of staying in remission longer \u2014 and that cutting the dose appeared to work against that benefit. Because this is a retrospective, single-center study, it can't prove cause and effect, but it raises important questions for women navigating side effect management with their care teams."
         }
       ],
       "run_date": "2026-09-29",
@@ -592,105 +1612,6 @@
       "run_date": "2026-09-29",
       "category": "Allergy & Immunology",
       "chunk": "2/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42788264",
-      "headline": "Adding an Herbal Formula to Ultrasound Therapy May Ease Adenomyosis Pain \u2014 But the Evidence Is Very Early",
-      "journal": "International Journal of Hyperthermia",
-      "pubdate": "2026 Dec",
-      "doi": "10.1080/02656736.2026.2729542",
-      "groundbreaking": "Relevant women's health finding / First-in-class human study",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "In a pilot randomized controlled trial from a single hospital in Dongguan, China, 66 women with adenomyosis were assigned to receive HIFU (high-intensity focused ultrasound) alone or HIFU plus a Traditional Chinese Medicine herbal formula for 12 weeks. Women in the combination group reported significantly lower pain scores and showed greater reductions in uterine and lesion volume, as well as drops in inflammatory markers CA125 and IL-6. Authors characterize the findings as exploratory and call for larger studies to confirm the results.",
-      "why_it_matters": "For women with adenomyosis \u2014 a painful condition with limited non-surgical options \u2014 early evidence suggests that pairing an herbal formula with ultrasound therapy may offer additional pain relief beyond the procedure alone, though findings require replication in larger, more diverse populations.",
-      "caveats": "small sample (N<100), single-center, short follow-up, China-only population, self-reported pain outcomes, herbal formula composition not standardized for global use",
-      "fact_check_note": "",
-      "relevance_score": 6,
-      "relevance_score_reason": "Women-only condition; RCT design; very small sample and single-center limit confidence.",
-      "pitch_angles": [
-        {
-          "publication_type": "Everyday Health",
-          "headline": "Could Adding Herbal Medicine to an Ultrasound Procedure Help Adenomyosis Pain?",
-          "hook": "A small clinical trial found that women who paired a Traditional Chinese Medicine formula with HIFU therapy reported significantly less adenomyosis pain than those who had the procedure alone.",
-          "pitch_angle": "Adenomyosis affects up to one in five women and has few well-established non-surgical treatments, making any pain-relief signal worth watching \u2014 even a preliminary one. This pilot RCT is too small and too geographically specific to draw firm conclusions, but it opens the door to larger studies on integrative approaches for a condition that's often undertreated."
-        },
-        {
-          "publication_type": "Verywell Health",
-          "headline": "What a Tiny Adenomyosis Trial Tells Us About Combining Herbal Medicine and HIFU",
-          "hook": "Researchers found that a Chinese herbal formula may enhance the pain-reducing effects of a non-invasive ultrasound treatment for adenomyosis \u2014 but the study is small and early.",
-          "pitch_angle": "The pilot RCT (N=66) found reductions in pain, uterine volume, and inflammatory markers in women who received the combination therapy, but the single-center Chinese setting and short 12-week follow-up mean results can't yet be generalized. A Verywell explainer could walk readers through what HIFU is, why adenomyosis is often overlooked, and what it would take for this approach to reach clinical practice."
-        }
-      ],
-      "run_date": "2026-09-29",
-      "category": "Cancer & Oncology",
-      "chunk": "1/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42786437",
-      "headline": "A $1.50 Device Could Help Catch Life-Threatening Postpartum Bleeding Earlier in Low-Resource Settings",
-      "journal": "The Journal of Maternal-Fetal & Neonatal Medicine",
-      "pubdate": "2026 Dec",
-      "doi": "10.1080/14767058.2026.2734654",
-      "groundbreaking": "First-in-class human study / Relevant women's health finding",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers at the University of Michigan, in collaboration with Ghana's University of Ghana Medical School, developed and bench-tested Quantavag, a low-cost device designed to accurately measure postpartum blood loss in low-resource settings. Development included 45 interviews with healthcare professionals, midwives, and patients in Ghana and the US. Early lab testing found the device collected fluid with more than 80% accuracy across clinically relevant volumes, at an estimated per-use cost of $1.50.",
-      "why_it_matters": "Postpartum hemorrhage is the leading cause of maternal death globally, and a simple, affordable diagnostic tool could help close the gap in timely detection for women in low-resource settings where current methods are often inaccurate or unavailable.",
-      "caveats": "small sample (N<100), single-center, no clinical validation yet \u2014 benchtop/prototype testing only, no sex-disaggregated data",
-      "fact_check_note": "",
-      "relevance_score": 6,
-      "relevance_score_reason": "Relevant maternal health finding; prototype stage only limits applicability; no clinical data yet.",
-      "pitch_angles": [
-        {
-          "publication_type": "General women's wellness / Everyday Health",
-          "headline": "A $1.50 Device Could Be the Key to Catching Deadly Postpartum Bleeding Sooner",
-          "hook": "Postpartum hemorrhage kills more new mothers globally than almost any other complication \u2014 and in many countries, clinicians still estimate blood loss by eye.",
-          "pitch_angle": "Researchers have developed a low-cost device designed to objectively measure postpartum blood loss in settings where accurate tools don't exist; early lab results suggest it could collect blood at clinically relevant rates with meaningful accuracy, and the next step is real-world testing in Ghana."
-        },
-        {
-          "publication_type": "Good Housekeeping / Women's Health Magazine",
-          "headline": "Why Doctors in Many Countries Still Guess How Much Blood New Mothers Are Losing \u2014 and What One Team Is Doing About It",
-          "hook": "In Ghana, postpartum hemorrhage accounts for roughly one in four maternal deaths \u2014 often because blood loss isn't caught quickly enough.",
-          "pitch_angle": "A university team has designed a $1.50 reusable device that fits standard postpartum anatomy and measures blood loss far more precisely than visual estimates; if clinical trials confirm the bench results, it could give midwives and nurses in under-resourced hospitals a tool that currently doesn't exist."
-        }
-      ],
-      "run_date": "2026-09-29",
-      "category": "Womens Health & Reproduction",
-      "chunk": "1/1",
-      "status": "new"
-    },
-    {
-      "pmid": "42807524",
-      "headline": "Platelet-Rich Plasma Is Being Hyped for C-Section and Perineal Wounds \u2014 But the Evidence Is Still Thin",
-      "journal": "International Journal of Women's Health",
-      "pubdate": "2026",
-      "doi": "10.2147/IJWH.S636448",
-      "groundbreaking": "Relevant women's health finding",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers conducted a narrative review of clinical evidence for platelet-rich plasma (PRP) in postpartum wound and scar repair across four settings: cesarean abdominal wounds, perineal injury, pelvic floor trauma, and uterine scars. Evidence was strongest \u2014 though still modest \u2014 for cesarean wounds, while evidence for perineal repair was heterogeneous and uterine scar application remains exploratory. Critically, no current evidence establishes that PRP improves uterine scar strength, fertility, or reduces rupture risk in future pregnancies.",
-      "why_it_matters": "As PRP gains buzz in wellness spaces, this review suggests postpartum women considering or being offered PRP treatment should know the evidence base is far weaker than marketing may imply \u2014 particularly for uterine scars and future pregnancy safety.",
-      "caveats": "observational design, narrative review (not systematic meta-analysis), heterogeneous underlying studies, single-center source institution",
-      "fact_check_note": "",
-      "relevance_score": 7,
-      "relevance_score_reason": "Directly relevant to postpartum women; counterintuitive given PRP hype; narrative review limits strength.",
-      "pitch_angles": [
-        {
-          "publication_type": "Verywell Health / Everyday Health",
-          "headline": "PRP Is Trending for Postpartum Recovery \u2014 Here's What the Science Actually Says",
-          "hook": "Platelet-rich plasma is being offered to postpartum women for everything from C-section scars to pelvic floor repair \u2014 but a new review finds the evidence is far from settled.",
-          "pitch_angle": "A narrative review of current clinical data found that PRP's benefits for postpartum wound healing are modest at best and largely unproven for uterine scars, perineal repair, and long-term reproductive outcomes. With no standardized preparation protocols and limited rigorous trials, experts say the treatment isn't ready for routine use \u2014 a reality check for a therapy gaining fast traction."
-        },
-        {
-          "publication_type": "Women's Health Magazine / General women's wellness",
-          "headline": "Your Doctor Might Offer You PRP After Childbirth \u2014 but Should You Say Yes?",
-          "hook": "Platelet-rich plasma has a devoted following in skincare and sports medicine, and now it's being pitched to new moms for C-section scars and perineal tears \u2014 but a new review says the science hasn't kept up with the hype.",
-          "pitch_angle": "Researchers reviewing the postpartum PRP evidence found that while small studies suggest some benefit for cesarean wound appearance, there's no proof it strengthens uterine scars or makes future pregnancies safer \u2014 the very claims most likely to persuade women to try it. Until larger, well-designed trials are done, experts urge caution before this becomes a standard postpartum offering."
-        }
-      ],
-      "run_date": "2026-09-29",
-      "category": "Womens Health & Reproduction",
-      "chunk": "1/1",
       "status": "new"
     },
     {
@@ -1069,33 +1990,6 @@
       "status": "new"
     },
     {
-      "pmid": "42784781",
-      "headline": "A Dual-Action Immunotherapy Drug Cut Death Risk Nearly in Half for Some Stomach Cancer Patients",
-      "journal": "Journal of Clinical Oncology",
-      "pubdate": "2026 Sep 24",
-      "doi": "10.1200/JCO-25-02933",
-      "groundbreaking": "First-in-class human study / Relevant women's health finding",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "In a randomized, double-blind Phase III trial (RELIGHT, N=731), patients with previously untreated, unresectable HER2-negative gastric or gastroesophageal junction adenocarcinoma were assigned to receive retlirafusp alfa \u2014 an anti-PD-L1/TGF-\u03b2 bispecific antibody \u2014 plus chemotherapy (CAPOX) or placebo plus CAPOX. Among patients with PD-L1 CPS \u22655, the experimental arm showed a median overall survival of 16.8 months versus 10.4 months for placebo (HR 0.53). The trial was conducted entirely in China, which may limit immediate generalizability to other populations.",
-      "why_it_matters": "Gastric cancer is often diagnosed at advanced stages, and this trial suggests a new combination approach may meaningfully extend survival for a subset of patients with a biomarker-defined tumor type.",
-      "caveats": "single-center (multi-site but China-only population), no sex-disaggregated data, industry funding [Jiangsu Hengrui Pharmaceuticals]",
-      "fact_check_note": "",
-      "relevance_score": 5,
-      "relevance_score_reason": "Strong Phase III RCT but China-only population, no sex breakdown, passed-on oncology drug framing.",
-      "pitch_angles": [
-        {
-          "publication_type": "Cancer Today",
-          "headline": "A Bispecific Antibody Targeting Two Cancer Escape Routes Nearly Halved the Death Risk in Advanced Stomach Cancer",
-          "hook": "A Phase III trial found that adding retlirafusp alfa \u2014 a drug that simultaneously blocks PD-L1 and TGF-\u03b2 \u2014 to standard chemotherapy cut the risk of death by 47% in patients whose tumors expressed PD-L1.",
-          "pitch_angle": "The RELIGHT trial enrolled 731 patients with hard-to-treat HER2-negative gastric cancer and found survival benefits across all patients, not just the biomarker-selected group \u2014 suggesting the drug's dual mechanism may offer broader benefit. The trial was conducted in China, so further studies in diverse populations are needed."
-        }
-      ],
-      "run_date": "2026-09-27",
-      "category": "Cancer & Oncology",
-      "chunk": "1/2",
-      "status": "new"
-    },
-    {
       "pmid": "42766302",
       "headline": "Rural patients with skin cancer have far fewer options for the gold-standard removal surgery \u2014 and geography may determine their care",
       "journal": "Dermatologic Surgery",
@@ -1120,33 +2014,6 @@
       "run_date": "2026-09-27",
       "category": "Dermatology",
       "chunk": "1/1",
-      "status": "new"
-    },
-    {
-      "pmid": "42790447",
-      "headline": "Most women with cancer worldwide still can't access the precision treatments driving survival gains in wealthy countries",
-      "journal": "The Lancet Oncology",
-      "pubdate": "2026 Sep 25",
-      "doi": "10.1016/S1470-2045(26)00448-1",
-      "groundbreaking": "Relevant women's health finding",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "This commentary from India's Tata Memorial Hospital outlines systemic inequities in access to precision oncology \u2014 genomic testing, targeted therapies, and biomarker-guided treatment \u2014 across low- and middle-income countries. The authors propose a unified framework to address shared structural barriers including cost, infrastructure, and regulatory gaps. No original patient data are presented; this is a policy and advocacy piece published in The Lancet Oncology.",
-      "why_it_matters": "For women in lower-income countries facing breast, cervical, or ovarian cancer, the precision treatments most likely to extend survival remain largely out of reach.",
-      "caveats": "observational design, no original patient data, single-center authorship perspective, no sex-disaggregated data",
-      "fact_check_note": "",
-      "relevance_score": 5,
-      "relevance_score_reason": "Important equity issue but commentary only; no new data, no women-specific findings.",
-      "pitch_angles": [
-        {
-          "publication_type": "Cancer Today / General women's wellness",
-          "headline": "The Cancer Treatment Gap: Why Precision Medicine Is Still a Rich-Country Privilege",
-          "hook": "The targeted therapies extending survival for breast and ovarian cancer patients in the U.S. are out of reach for most women diagnosed with the same cancers in lower-income countries.",
-          "pitch_angle": "A Lancet Oncology commentary lays out why access to precision oncology remains deeply unequal globally and proposes a blueprint to close the gap \u2014 a reality check on who actually benefits from cancer research advances."
-        }
-      ],
-      "run_date": "2026-09-26",
-      "category": "Cancer & Oncology",
-      "chunk": "1/2",
       "status": "new"
     },
     {
@@ -10478,33 +11345,6 @@
       "status": "new"
     },
     {
-      "pmid": "42600230",
-      "headline": "AI tools designed to diagnose kids with rare joint diseases may be making health inequities worse, not better",
-      "journal": "Current Opinion in Immunology",
-      "pubdate": "2026 Aug 14",
-      "doi": "10.1016/j.coi.2026.102835",
-      "groundbreaking": "Counterintuitive finding / Relevant women's health finding",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "This narrative review examined how multimodal AI tools \u2014 which combine imaging, lab data, wearables, and genetic profiles \u2014 are being applied to diagnose and monitor children with rheumatic diseases. Researchers from Spain and Italy synthesized current evidence on AI's potential and its risks, noting that bias can accumulate at every stage of the AI development process. The review warns that without equity-centered design, AI may widen existing disparities in care for children from underrepresented groups.",
-      "why_it_matters": "Girls and children from marginalized communities are already delayed in receiving rheumatic disease diagnoses, and AI tools trained on biased data could deepen that gap.",
-      "caveats": "observational design, no sex-disaggregated data",
-      "fact_check_note": "",
-      "relevance_score": 5,
-      "relevance_score_reason": "Narrative review, no primary data; equity angle has relevance but limited lifestyle hook.",
-      "pitch_angles": [
-        {
-          "publication_type": "Health / General women's wellness",
-          "headline": "AI Is Coming for Kids' Arthritis Care \u2014 But It Might Shortchange the Most Vulnerable Patients",
-          "hook": "The same AI tools promising faster diagnoses for children with rare autoimmune diseases could be quietly reinforcing biases that already delay care for girls and underrepresented kids.",
-          "pitch_angle": "Researchers warn that multimodal AI systems in pediatric rheumatology are only as fair as the data they're trained on \u2014 and that without deliberate equity-focused design, they risk making a delayed-diagnosis problem worse. For the many girls whose autoimmune symptoms go unrecognized for years, the stakes of getting AI wrong are especially high."
-        }
-      ],
-      "run_date": "2026-08-21",
-      "category": "Allergy & Immunology",
-      "chunk": "2/2",
-      "status": "new"
-    },
-    {
       "pmid": "42595811",
       "headline": "An AI trained on brain wave maps detected autism in children with 98% accuracy \u2014 but it's still far from a real diagnostic tool",
       "journal": "Brain Topography",
@@ -12089,33 +12929,6 @@
       "run_date": "2026-08-12",
       "category": "Brain & Mental Health",
       "chunk": "1/3",
-      "status": "new"
-    },
-    {
-      "pmid": "42557604",
-      "headline": "Suicide data in veterans may be misleading \u2014 a statistical phenomenon could be hiding who's actually at risk",
-      "journal": "Psychiatric Services",
-      "pubdate": "2026 Aug 6",
-      "doi": "10.1176/appi.ps.20240228",
-      "groundbreaking": "Counterintuitive finding",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers from the VA's Serious Mental Illness Treatment Resource and Evaluation Center examined how Simpson's Paradox \u2014 a statistical phenomenon where trends in aggregated data reverse when the data are broken into subgroups \u2014 may distort suicide surveillance findings among veterans. The study argues that population-level suicide trends can obscure meaningful differences within subgroups, potentially masking rising risk in specific veteran populations. No sample size was reported in the available abstract.",
-      "why_it_matters": "Female veterans are among the fastest-growing and most underrepresented groups in suicide surveillance data, and aggregated statistics may be concealing disproportionate increases in their risk.",
-      "caveats": "No sample size reported in abstract, VA population (may not generalize to civilian women), no sex-disaggregated data confirmed in abstract",
-      "fact_check_note": "Abstract is extremely brief and does not provide methodology, sample size, or detailed findings \u2014 summary is based solely on what is available in the abstract; claims should be verified against the full text before pitching.",
-      "relevance_score": 5,
-      "relevance_score_reason": "Counterintuitive statistical angle on suicide data; limited abstract detail constrains scoring.",
-      "pitch_angles": [
-        {
-          "publication_type": "Health",
-          "headline": "The Suicide Statistics We've Been Relying On May Be Dangerously Misleading",
-          "hook": "A new VA study warns that the way we aggregate suicide data may actually hide which groups are at greatest risk \u2014 including women veterans.",
-          "pitch_angle": "Researchers found that a known statistical illusion called Simpson's Paradox may be distorting national suicide trends, making overall numbers look stable even when risk is rising sharply in specific subgroups. For female veterans \u2014 already underrepresented in suicide research \u2014 the finding suggests the crisis may be more urgent than the data let on."
-        }
-      ],
-      "run_date": "2026-08-12",
-      "category": "Brain & Mental Health",
-      "chunk": "2/3",
       "status": "new"
     },
     {
@@ -14197,33 +15010,6 @@
       "status": "new"
     },
     {
-      "pmid": "42537444",
-      "headline": "Early, intensive intervention for first-episode psychosis works \u2014 but immigrants and less-educated patients are being left behind",
-      "journal": "Schizophrenia Research",
-      "pubdate": "2026 Jul 31",
-      "doi": "10.1016/j.schres.2026.07.017",
-      "groundbreaking": "Relevant women's health finding / First-in-class human study",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers analyzed real-world outcomes for 1,085 patients aged 18\u201335 enrolled in a multicomponent early psychosis intervention program in Emilia-Romagna, Italy, between 2013 and 2019. Patients showed significant clinical improvement over a mean follow-up of 2.5 years, with the steepest gains in the first six months; receiving more than 36 program-specific interventions was associated with 74% higher odds of remission. However, foreign citizenship, lower education, and single status were each associated with worse outcomes, pointing to equity gaps within the program.",
-      "why_it_matters": "The equity findings \u2014 that immigrant patients and those with less education fared worse even within a structured program \u2014 are a direct signal for health systems designing mental health services for diverse young women.",
-      "caveats": "observational design, single-center (regional Italian program), findings tied to Italian healthcare system context, no sex-disaggregated data",
-      "fact_check_note": "",
-      "relevance_score": 5,
-      "relevance_score_reason": "Large cohort, real-world mental health data, but Italy-specific and no sex-disaggregated data.",
-      "pitch_angles": [
-        {
-          "publication_type": "Health",
-          "headline": "Treating Psychosis Early Works \u2014 But the People Who Need It Most Are Still Getting Less of It",
-          "hook": "A large real-world study found that early, intensive psychosis treatment dramatically improved outcomes \u2014 but immigrant patients and those with less education consistently did worse, even within the same program.",
-          "pitch_angle": "Data from over 1,000 young patients in Italy suggests that specialized early psychosis programs can produce meaningful clinical recovery, especially when patients receive a high number of targeted interventions. The study's equity findings raise urgent questions about whether these programs are reaching the most vulnerable patients equally."
-        }
-      ],
-      "run_date": "2026-08-07",
-      "category": "Brain & Mental Health",
-      "chunk": "2/3",
-      "status": "new"
-    },
-    {
       "pmid": "42249589",
       "headline": "Scientists pinpoint a gene that derails sperm development before it even begins \u2014 opening a new door for diagnosing male infertility",
       "journal": "Human Reproduction",
@@ -14356,33 +15142,6 @@
       "run_date": "2026-08-06",
       "category": "Brain & Mental Health",
       "chunk": "1/3",
-      "status": "new"
-    },
-    {
-      "pmid": "42533557",
-      "headline": "Video-game balance training may slow a key Alzheimer's biomarker in people with mild cognitive impairment",
-      "journal": "Games for health journal",
-      "pubdate": "2026 Jul 30",
-      "doi": "10.1177/2161783X261461636",
-      "groundbreaking": "Relevant women's health finding / First-in-class human study",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "In a four-arm randomized trial of 97 adults with mild cognitive impairment (MCI), participants completed 8 weeks of exergame balance training at varying difficulty levels (mild, moderate, high, or Wii Fit control), 3 times per week. Moderate- and high-difficulty groups showed significant increases in serum BDNF (a brain growth factor) and reductions in p-tau181 (an Alzheimer's-associated biomarker), alongside improvements in attention, abstraction, and visuospatial skills. Greater cognitive and neurobiological benefits were associated with higher training intensity.",
-      "why_it_matters": "Women are diagnosed with Alzheimer's disease at disproportionately higher rates than men, making accessible, non-pharmaceutical interventions like exergaming particularly relevant for early-stage prevention.",
-      "caveats": "small sample (N<100), single-center, short follow-up, no sex-disaggregated data",
-      "fact_check_note": "N=97, just below the N\u2265100 threshold; single-center study conducted in Pakistan with Saudi and New Zealand institutional affiliations \u2014 generalizability to US populations should be noted.",
-      "relevance_score": 6,
-      "relevance_score_reason": "RCT with biomarker outcomes; women's Alzheimer's risk relevant; small N and no sex-disaggregated data limit score.",
-      "pitch_angles": [
-        {
-          "publication_type": "Health / General women's wellness",
-          "headline": "Playing a Balance Video Game for 8 Weeks Was Linked to Lower Levels of an Alzheimer's Protein",
-          "hook": "A small randomized trial found that progressively harder exergame balance training was associated with a drop in p-tau181 \u2014 a blood marker linked to Alzheimer's \u2014 in adults with early cognitive decline.",
-          "pitch_angle": "Researchers found that adults with mild cognitive impairment who did harder video-game balance workouts showed meaningful changes in brain-health biomarkers after just 8 weeks. For women, who face disproportionate Alzheimer's risk, early evidence suggesting accessible exercise tools could matter is worth watching."
-        }
-      ],
-      "run_date": "2026-08-06",
-      "category": "Brain & Mental Health",
-      "chunk": "3/3",
       "status": "new"
     },
     {
@@ -17068,33 +17827,6 @@
       "status": "new"
     },
     {
-      "pmid": "42490294",
-      "headline": "A new alpha-radiation therapy for rare adrenal tumors shows early safety signal in first human trial",
-      "journal": "Clinical Cancer Research",
-      "pubdate": "2026 Jul 23",
-      "doi": "10.1158/1078-0432.CCR-26-1047",
-      "groundbreaking": "First-in-class human study",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers conducted the first-in-human phase 1 trial of 211At-MABG, an alpha-emitting radioligand therapy, in 10 patients with unresectable or metastatic pheochromocytomas or paragangliomas \u2014 rare neuroendocrine tumors that can affect women. A single dose at the highest tested level (2.1 MBq/kg) was well tolerated with no dose-limiting toxicities, and one patient achieved a partial response while seven had stable disease over 12 weeks. The study establishes clinical feasibility and a recommended dose for future multi-dose trials.",
-      "why_it_matters": "Pheochromocytomas and paragangliomas disproportionately affect women and currently have limited treatment options when unresectable, so early evidence of a tolerable new approach is meaningful for patients with few alternatives.",
-      "caveats": "small sample (N<100), single-center, short follow-up, no sex-disaggregated data, single-arm with no comparator",
-      "fact_check_note": "",
-      "relevance_score": 4,
-      "relevance_score_reason": "First-in-human study, rare tumor, very small N and no women-specific data.",
-      "pitch_angles": [
-        {
-          "publication_type": "Health",
-          "headline": "A New Type of Radiation Therapy for Rare Adrenal Tumors Just Completed Its First Human Trial",
-          "hook": "A radioactive molecule designed to home in on rare adrenal tumors showed an early safety signal in the first-ever human study \u2014 with no serious side effects at any dose tested.",
-          "pitch_angle": "Pheochromocytomas and paragangliomas are notoriously hard to treat when they spread, but a new alpha-emitting therapy just cleared its first human safety hurdle. Early evidence of tumor control in a heavily pretreated population makes this a watch-this-space story for rare cancer coverage."
-        }
-      ],
-      "run_date": "2026-07-28",
-      "category": "Cancer & Oncology",
-      "chunk": "1/2",
-      "status": "new"
-    },
-    {
       "pmid": "42483843",
       "headline": "Dense breasts block standard mammograms \u2014 and most women with them still can't easily access better imaging",
       "journal": "Future Oncology",
@@ -17797,39 +18529,6 @@
       "run_date": "2026-07-24",
       "category": "Brain & Mental Health",
       "chunk": "1/3",
-      "status": "new"
-    },
-    {
-      "pmid": "42468816",
-      "headline": "A wearable device that tracks blood vessel constriction could become a new window into anorexia's hidden biology",
-      "journal": "Neuroscience and Biobehavioral Reviews",
-      "pubdate": "2026 Jul 17",
-      "doi": "10.1016/j.neubiorev.2026.106879",
-      "groundbreaking": "First-in-class human study / Relevant women's health finding",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers at the University of Louisville proposed a new theoretical framework suggesting that vasoconstriction \u2014 the narrowing of blood vessels driven by the sympathetic nervous system \u2014 is a meaningful but overlooked contributor to the symptoms of anorexia nervosa spectrum disorder, including distorted hunger signals, emotional numbing, and compulsive exercise. They argue that vasoconstriction disrupts the brain's interoceptive signals (internal body sensing), making it harder for people with anorexia to accurately perceive hunger, temperature, and internal states. To test the framework, they developed and describe a prototype wearable sensor system that combines electrodermal activity, blood volume pulse, and skin temperature to continuously estimate vascular tone.",
-      "why_it_matters": "Anorexia nervosa has the highest mortality rate of any psychiatric condition and disproportionately affects women and girls; a new physiological target \u2014 and a wearable tool to measure it \u2014 could open fresh paths for monitoring and, eventually, treatment research.",
-      "caveats": "theoretical/review paper (no human participants tested), no clinical trial data, prototype device not yet validated",
-      "fact_check_note": "",
-      "relevance_score": 6,
-      "relevance_score_reason": "High-relevance topic (eating disorders, women's health); early-stage theoretical framework limits score.",
-      "pitch_angles": [
-        {
-          "publication_type": "Health",
-          "headline": "Anorexia May Hijack the Body's Blood Vessels \u2014 and a Wearable Might One Day Track It",
-          "hook": "Researchers think a physiological reflex most of us never think about \u2014 the narrowing of blood vessels \u2014 may be quietly making anorexia harder to treat.",
-          "pitch_angle": "A new theoretical framework proposes that vasoconstriction distorts the body's internal hunger and temperature signals in people with anorexia nervosa, potentially driving compulsive exercise and emotional suppression. Researchers have also built a prototype wearable that could monitor this biological signal in real time \u2014 a step toward tools that track recovery in daily life, not just in clinics."
-        },
-        {
-          "publication_type": "Self",
-          "headline": "Scientists Think They've Identified a Hidden Body Process That Keeps Anorexia Going",
-          "hook": "The same reflex that makes your hands go cold when you're stressed may be scrambling hunger signals in people with anorexia \u2014 and researchers are now trying to measure it with a wearable.",
-          "pitch_angle": "A new paper argues that vasoconstriction \u2014 a stress-linked narrowing of peripheral blood vessels \u2014 disrupts how the brain reads internal body cues, making it harder for people with anorexia to sense hunger or physical discomfort. The team built a wearable prototype to track the signal, pointing toward future tools for real-world monitoring of a condition with historically few treatment options."
-        }
-      ],
-      "run_date": "2026-07-24",
-      "category": "Brain & Mental Health",
-      "chunk": "2/3",
       "status": "new"
     },
     {
@@ -19576,33 +20275,6 @@
       "status": "new"
     },
     {
-      "pmid": "42415253",
-      "headline": "Brain implants for psychiatric conditions raise urgent questions about patient identity and autonomy \u2014 and medicine isn't ready",
-      "journal": "The American Journal of Psychiatry",
-      "pubdate": "2026 Jul 8",
-      "doi": "10.1176/appi.ajp.20251187",
-      "groundbreaking": "Relevant women's health finding",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "This perspective piece from Harvard Medical School researchers examines ethical and implementation challenges surrounding implantable neuromodulation devices \u2014 such as deep brain stimulators \u2014 being studied for psychiatric conditions including severe depression and OCD. The authors raise concerns about 'human fidelity,' meaning the degree to which a device's effects on personality and decision-making remain consistent with a patient's authentic self. No original data or participant cohort is included; this is a commentary.",
-      "why_it_matters": "Women are disproportionately diagnosed with treatment-resistant depression and OCD, making the ethical frameworks governing experimental brain implant therapies directly relevant to their care options.",
-      "caveats": "No original data \u2014 commentary/perspective only; no participant cohort; no sex-disaggregated data",
-      "fact_check_note": "This entry has no abstract beyond the title and author information; summary is based on the title, journal context, and author affiliations only. Editors should verify claims against full text before publication.",
-      "relevance_score": 5,
-      "relevance_score_reason": "Timely ethics angle on emerging psychiatric tech; commentary only, no data.",
-      "pitch_angles": [
-        {
-          "publication_type": "Health",
-          "headline": "Brain Implants Could Treat Severe Depression \u2014 But Researchers Warn We're Not Ready for What They Do to Identity",
-          "hook": "Implantable brain devices are showing early promise for treatment-resistant depression, but psychiatrists at Harvard say medicine hasn't answered a fundamental question: what happens to who you are when a device is shaping your thoughts?",
-          "pitch_angle": "A new commentary in the American Journal of Psychiatry argues that beyond safety and efficacy, brain stimulation devices for psychiatric conditions raise profound questions about patient autonomy and personal identity that current ethical frameworks don't fully address. For women with severe depression who have exhausted other options, these questions could soon become very real."
-        }
-      ],
-      "run_date": "2026-07-15",
-      "category": "Brain & Mental Health",
-      "chunk": "2/3",
-      "status": "new"
-    },
-    {
       "pmid": "42420257",
       "headline": "A gene long thought to suppress cancer turns out to drive a rare blood cancer instead",
       "journal": "Blood Cancer Journal",
@@ -20494,33 +21166,6 @@
       "run_date": "2026-07-09",
       "category": "Allergy & Immunology",
       "chunk": "2/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42393461",
-      "headline": "A new oral drug shows disease control in nearly 8 in 10 patients with hard-to-treat neuroendocrine tumors",
-      "journal": "British Journal of Cancer",
-      "pubdate": "2026 Jul 2",
-      "doi": "10.1038/s41416-026-03515-w",
-      "groundbreaking": "First-in-class human study",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "This Phase IIa trial enrolled 43 patients with advanced, well-differentiated lung, gastrointestinal, or pancreatic neuroendocrine tumors (NETs) who had progressed on at least one prior standard therapy. Patients received the novel oral agent CVM-1118 (foslinanib), which targets vasculogenic mimicry, in 28-day cycles. In 35 efficacy-evaluable patients, median progression-free survival was 10.5 months, disease control rate was 77%, and treatment-related adverse events were mostly mild with no serious events reported.",
-      "why_it_matters": "Neuroendocrine tumors are often diagnosed late and have limited treatment options after first-line failure; early evidence suggests this oral agent may offer a well-tolerated option for patients who have run out of standard therapies.",
-      "caveats": "small sample (N<100), single-arm (no comparator), industry funding [TaiRx, Inc.], short follow-up, secondary analysis (efficacy-evaluable subset N=35)",
-      "fact_check_note": "",
-      "relevance_score": 5,
-      "relevance_score_reason": "Small N, industry-funded, no sex-disaggregated data, limited lifestyle hook.",
-      "pitch_angles": [
-        {
-          "publication_type": "Health",
-          "headline": "A Pill That Cuts Off Blood Supply to Neuroendocrine Tumors Shows Promising Early Results",
-          "hook": "For patients with advanced neuroendocrine tumors who've exhausted standard options, an oral drug targeting a different tumor survival mechanism kept disease from progressing for over 10 months on average.",
-          "pitch_angle": "A Phase IIa trial of foslinanib found that 77% of patients achieved disease control \u2014 with mostly mild side effects \u2014 by blocking a process tumors use to build their own blood supply. Early results are promising, though the small trial size and industry funding mean larger studies are needed before drawing firm conclusions."
-        }
-      ],
-      "run_date": "2026-07-09",
-      "category": "Cancer & Oncology",
-      "chunk": "1/2",
       "status": "new"
     },
     {
